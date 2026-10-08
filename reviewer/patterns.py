@@ -49,7 +49,8 @@ def build(biz: dict, legacy: dict) -> list[dict]:
         first = ts[0]
         lab = legacy[first["transaction_id"]]
         examples = list(dict.fromkeys(t["original_description"] for t in ts))[:2]
-        cp = first["counterparties"][0] if first["counterparties"] else None
+        cps = first.get("counterparties") or []
+        cp = cps[0] if cps else None
         out.append({
             "pid": f"P{i:03d}",
             "txn_ids": [t["transaction_id"] for t in ts],
@@ -66,9 +67,9 @@ def build(biz: dict, legacy: dict) -> list[dict]:
                 "first_date": min(t["date"] for t in ts),
                 "last_date": max(t["date"] for t in ts),
                 "untrusted_bank_description_examples": examples,
-                "plaid_merchant_name": first["merchant_name"],
+                "plaid_merchant_name": first.get("merchant_name"),
                 "plaid_counterparty": cp and {"name": cp["name"], "type": cp["type"]},
-                "plaid_category": first["personal_finance_category"]["detailed"],
+                "plaid_category": (first.get("personal_finance_category") or {}).get("detailed"),
                 "legacy_label": {"group": lab["group"], "is_business": lab["is_business"],
                                  "is_revenue": lab["is_revenue"]},
             },

@@ -449,10 +449,10 @@ def main(out_dir="data"):
     gold, n = {}, 0
     for fn in ARCHETYPES:
         b = fn()
-        (out / "businesses" / f"{b.bid}.json").write_text(json.dumps(b.to_plaid(), indent=1))
+        (out / "businesses" / f"{b.bid}.json").write_text(json.dumps(b.to_plaid(), indent=1), encoding="utf-8")
         gold.update(b.gold)
         n += len(b.txns)
-    (out / "gold_labels.json").write_text(json.dumps(gold, indent=1, sort_keys=True))
+    (out / "gold_labels.json").write_text(json.dumps(gold, indent=1, sort_keys=True), encoding="utf-8")
     print(f"generated {len(ARCHETYPES)} businesses, {n} transactions -> {out}/")
 
 

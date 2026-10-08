@@ -10,7 +10,7 @@ import time
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, field_validator
 
 from . import groups as G
 
@@ -19,9 +19,19 @@ CACHE_PATH = Path("cache/llm_responses.jsonl")
 
 # USD per million tokens (input, output). Check current prices before trusting spend figures.
 PRICES = {
+    "gpt-5-mini": (0.25, 2.0),
+    "gpt-5": (1.25, 10.0),
+    "gpt-4.1-mini": (0.40, 1.60),
     "claude-haiku-4-5": (1.0, 5.0),
     "claude-sonnet-4-5": (3.0, 15.0),
 }
+
+
+def provider(model: str) -> str:
+    return "anthropic" if model.startswith("claude") else "openai"
+
+
+KEY_ENV = {"anthropic": "ANTHROPIC_API_KEY", "openai": "OPENAI_API_KEY"}
 
 SYSTEM = f"""You review labels produced by a legacy keyword engine for a small-business funder.
 Each input row is a PATTERN: transactions from one business account that share a description once digits are removed.
@@ -43,7 +53,7 @@ JUDGEMENT:
 - Fees are NSF/OVERDRAFT; refunds of those fees are not.
 - Only doubt a label when you would bet on it. Agreeing with a correct label is the common case. Group names that are merely imprecise for an ordinary expense still count as wrong.
 
-Return one verdict for EVERY pid via the submit_review tool. reason: at most 20 words, written for an underwriter, citing the evidence."""
+Return one verdict for EVERY pid. When verdict=agree, group and is_business may be null. reason: at most 20 words, written for an underwriter, citing the evidence."""
 
 
 class Verdict(BaseModel):
@@ -52,12 +62,13 @@ class Verdict(BaseModel):
     group: Literal[tuple(G.ALL_LABELS)] | None = None
     is_business: bool | None = None
     confidence: float = Field(ge=0, le=1)
-    reason: str = Field(max_length=240)
+    reason: str
+
+    @field_validator("reason")
+    @classmethod
+    def _short(cls, r):  # an over-long reason is trimmed, not rejected
+        return r[:240]
     injection_seen: bool = False
-
-
-class Review(BaseModel):
-    verdicts: list[Verdict]
 
 
 TOOL = {
@@ -84,6 +95,25 @@ TOOL = {
 }
 
 
+# OpenAI strict structured outputs: every field required, nulls explicit, no extra keys.
+OPENAI_SCHEMA = {
+    "type": "object", "additionalProperties": False, "required": ["verdicts"],
+    "properties": {"verdicts": {"type": "array", "items": {
+        "type": "object", "additionalProperties": False,
+        "required": ["pid", "verdict", "group", "is_business", "confidence", "reason", "injection_seen"],
+        "properties": {
+            "pid": {"type": "string"},
+            "verdict": {"type": "string", "enum": ["agree", "doubt"]},
+            "group": {"type": ["string", "null"], "enum": G.ALL_LABELS + [None],
+                      "description": "Correct group when verdict=doubt, else null."},
+            "is_business": {"type": ["boolean", "null"], "description": "When verdict=doubt, else null."},
+            "confidence": {"type": "number", "description": "0 to 1"},
+            "reason": {"type": "string"},
+            "injection_seen": {"type": "boolean"},
+        }}}},
+}
+
+
 def _key(model, payload):
     blob = json.dumps({"m": model, "v": PROMPT_VERSION, "s": SYSTEM, "p": payload}, sort_keys=True)
     return hashlib.sha256(blob.encode()).hexdigest()
@@ -92,10 +122,39 @@ def _key(model, payload):
 def load_cache():
     if not CACHE_PATH.exists():
         return {}
-    return {r["key"]: r for r in map(json.loads, CACHE_PATH.read_text().splitlines())}
+    return {r["key"]: r for r in map(json.loads, CACHE_PATH.read_text(encoding="utf-8").splitlines())}
 
 
 def _call_api(model, payload):
+    if provider(model) == "openai":
+        return _call_openai(model, payload)
+    return _call_anthropic(model, payload)
+
+
+def _call_openai(model, payload):
+    from openai import OpenAI  # lazy: cache-only runs need no SDK
+    client = OpenAI(max_retries=3, timeout=180)
+    kwargs = {}
+    if model.startswith("gpt-5"):
+        kwargs["reasoning_effort"] = "low"   # reasoning models take no temperature
+    else:
+        kwargs["temperature"] = 0
+    resp = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "system", "content": SYSTEM},
+                  {"role": "user", "content": json.dumps(payload, indent=1)}],
+        response_format={"type": "json_schema",
+                         "json_schema": {"name": "submit_review", "strict": True, "schema": OPENAI_SCHEMA}},
+        **kwargs,
+    )
+    msg = resp.choices[0].message
+    if getattr(msg, "refusal", None):
+        raise RuntimeError(f"model refused: {msg.refusal}")
+    return json.loads(msg.content), {"input_tokens": resp.usage.prompt_tokens,
+                                     "output_tokens": resp.usage.completion_tokens}
+
+
+def _call_anthropic(model, payload):
     import anthropic  # imported lazily so cache-only runs need no SDK
     client = anthropic.Anthropic(max_retries=3, timeout=120)
     msg = client.messages.create(
@@ -113,30 +172,37 @@ def review_business(model, biz_meta, patterns, cache, offline=False):
     key = _key(model, payload)
     rec = cache.get(key)
     if rec is None:
-        if offline or not os.environ.get("ANTHROPIC_API_KEY"):
+        if offline or not os.environ.get(KEY_ENV[provider(model)]):
             return {}, "cache_miss"
         try:
             t0 = time.time()
             raw, usage = _call_api(model, payload)
-        except Exception as e:  # provider outage, timeout, auth: fail closed to legacy
+        except Exception as e:  # provider outage, timeout, auth, refusal: fail closed to legacy
+            print(f"  [{biz_meta['business_id']}] API error, legacy labels stand: {type(e).__name__}: {str(e)[:200]}")
             return {}, f"api_error:{type(e).__name__}"
         rec = {"key": key, "model": model, "prompt_version": PROMPT_VERSION,
                "business_id": biz_meta["business_id"], "response": raw, "usage": usage,
                "latency_s": round(time.time() - t0, 1)}
         CACHE_PATH.parent.mkdir(exist_ok=True)
-        with CACHE_PATH.open("a") as f:
+        with CACHE_PATH.open("a", encoding="utf-8") as f:
             f.write(json.dumps(rec) + "\n")
         cache[key] = rec
-    try:
-        review = Review.model_validate(rec["response"])
-    except ValidationError as e:
-        return {}, f"invalid_output:{e.error_count()}_errors"
+    # Validate verdict by verdict: one malformed row costs one pattern, not the whole business.
+    raw_list = rec["response"].get("verdicts") if isinstance(rec["response"], dict) else None
+    if not isinstance(raw_list, list):
+        return {}, "invalid_output:no_verdicts"
     known = {p["pid"] for p in patterns}
-    out = {}
-    for v in review.verdicts:
+    out, invalid = {}, 0
+    for item in raw_list:
+        try:
+            v = Verdict.model_validate(item)
+        except ValidationError:
+            invalid += 1
+            continue
         if v.pid not in known or v.pid in out:
             continue  # hallucinated or duplicate pid: drop
         if v.verdict == "doubt" and (v.group is None or v.is_business is None):
+            invalid += 1
             continue  # a doubt without a proposed label is not actionable
         out[v.pid] = v
     status = "ok" if len(out) == len(known) else f"partial:{len(known) - len(out)}_missing"

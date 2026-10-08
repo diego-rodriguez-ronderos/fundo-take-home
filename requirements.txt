@@ -1,2 +1,3 @@
+openai>=1.60
 anthropic>=0.40
 pydantic>=2.6

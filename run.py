@@ -1,8 +1,8 @@
 """One command: legacy labels -> LLM review (cache first) -> gate -> evaluation -> report.
 
-  python run.py                     # cache only if no ANTHROPIC_API_KEY, else fills cache misses
+  python run.py                     # uses cache; calls the API only for misses and only if a key is set
   python run.py --offline           # never call the API; fail loudly on a cache miss
-  python run.py --model claude-sonnet-4-5
+  python run.py --model gpt-5        # any OpenAI or Anthropic (claude-*) model
 """
 import argparse
 import csv
@@ -14,7 +14,7 @@ from reviewer import gate, llm, patterns, sensitivity
 from reviewer import groups as G
 from reviewer import keywords as K
 
-DEFAULT_MODEL = "claude-haiku-4-5"
+DEFAULT_MODEL = "gpt-5-mini"
 
 
 def sig(d, lab):
@@ -33,8 +33,8 @@ def main():
     out = Path(a.out) / a.model
     out.mkdir(parents=True, exist_ok=True)
     gold_path = Path(a.data) / "gold_labels.json"
-    gold = json.loads(gold_path.read_text()) if gold_path.exists() else None  # absent on new data
-    businesses = [json.loads(p.read_text()) for p in sorted(Path(a.data, "businesses").glob("*.json"))]
+    gold = json.loads(gold_path.read_text(encoding="utf-8")) if gold_path.exists() else None  # absent on new data
+    businesses = [load_business(p) for p in sorted(Path(a.data, "businesses").glob("*.json"))]
     cache = llm.load_cache()
 
     rows, per_biz, statuses = [], [], {}
@@ -100,8 +100,17 @@ def main():
         sens = sensitivity.run(businesses, gold)
         write_csv(Path(a.out) / "sensitivity.csv", sens)
         report += "\n## Sensitivity (simulated on gold labels)\n\n" + md_table(sens)
-    (out / "report.md").write_text(report)
+    (out / "report.md").write_text(report, encoding="utf-8")
     print(report)
+
+
+def load_business(path):
+    """Accepts our files or a raw Plaid /transactions/get response (no "business" block)."""
+    b = json.loads(path.read_text(encoding="utf-8"))
+    b.setdefault("business", {"business_id": path.stem, "name": "unknown", "industry": "unknown"})
+    for t in b["transactions"]:
+        t["original_description"] = t.get("original_description") or t.get("name") or ""
+    return b
 
 
 def dedupe_patterns(rows):
@@ -183,9 +192,9 @@ def md_table(rows):
 
 def write_csv(path, rows):
     if not rows:
-        path.write_text("")
+        path.write_text("", encoding="utf-8")
         return
-    with path.open("w", newline="") as f:
+    with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)

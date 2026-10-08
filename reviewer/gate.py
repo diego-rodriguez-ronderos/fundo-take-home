@@ -25,12 +25,14 @@ def decide(pattern, verdict):
     new_rev = G.is_revenue(d, verdict.group, verdict.is_business)
     material = feature_signature(d, old["group"], old["is_business"]) != \
         feature_signature(d, verdict.group, verdict.is_business)
+    if pattern["injection_alert"]:
+        # Instruction-like text in a counterparty memo is itself a fraud signal. A human decides,
+        # whichever direction the change goes; the model's verdict is shown, not applied.
+        return "queued", "counterparty text contains instructions; human decides"
     if not material:
         return "applied_silent", "no feature changes"
     loosening = (new_rev and not old["is_revenue"]) or \
         (old["group"] in RISK_GROUPS and verdict.group not in RISK_GROUPS)
-    if pattern["injection_alert"] and loosening:
-        return "queued", "counterparty text contains instructions; safer-looking change needs a human"
     bar = LOOSEN_BAR if loosening else TIGHTEN_BAR
     if verdict.confidence >= bar:
         return "applied", f"{'loosening' if loosening else 'tightening'} >= {bar}"
