@@ -13,6 +13,9 @@ gpt-4.1-mini through the API (these are part of the product, not development hel
 | `reviewer/gate.py` | Claude, rules changed after reading results | Unit tests for injection and confidence bars; rule 3 added after the v3 cash/check failure |
 | `reviewer/credit.py` | Claude | Offer recomputed by hand for B02 (NSF decline) and B10 (61-day window) |
 | `reviewer/sensitivity.py` | Claude | Per-dollar sensitivities checked against the formula (0.40 revenue, 0.32 funder) |
+| `reviewer/budget.py`, `sweep.py` | Claude, from my spec (quality first, then cost; hard worst-case cap under $10) | Token bound checked against all 42 cached calls (3.12-3.19 chars/token vs bound 2.0); sweep result re-checked on held-out |
+| `reviewer/rules.py`, `learn.py` | Claude, from my constraints (no memorized answers, meaning changes over time, no store that grows with volume) | Unit tests for exact match, scope, conflicts, events, expiry, audit; measured on renewal and held-out sets |
+| `reviewer/consistency.py` | Claude | Run over every cached verdict; two false positives found (Levy's possessive, "refund of overdraft") and fixed |
 | `run.py` | Claude | `--offline` reproduction from cache on Linux and Windows |
 | `SOLUTION.md`, `README.md` | Claude, edited by me | Every number traced to `out/` or `out_holdout/` reports |
 
@@ -22,5 +25,8 @@ What was wrong in AI output and got caught:
 - Hard-negative set initially missed cash and check deposits, the exact cases the model then got wrong.
 - Prompt v4 was tuned on the development set; development scores are optimistic. Held-out set added.
 - Windows run of the sensitivity simulation was too slow at 300 trials; reduced to 100.
+- First money brake capped cash-flow share; the sweep showed a $72 NSF fee moving $38,361 of offer. Replaced by an offer-impact cap.
+- First threshold sweep picked "auto-apply everything" because 0 errors were observed on 29 patterns; added the rule-of-three evidence bound.
+- First rules learner turned "Forward Financing credits were NSF returns" into a rule; NSF/OD are now learned only from bank fee text.
 
 Prompt history: `docs/runs/v3_gpt-4.1-mini_report.md` (before) and `out/*/report.md` (v4).

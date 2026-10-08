@@ -1,0 +1,4434 @@
+{
+ "business": {
+  "business_id": "B05",
+  "name": "Ridgeline Builders LLC",
+  "industry": "Construction",
+  "owner_name": "Tom Becker",
+  "bank": "Hill Country Credit Union",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "3460",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_18e3d0a4fa8e4c31",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:09573219",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:09573219",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_72265509c6e703c2",
+   "amount": 9799.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "GUSTO DES:NET 100226 ID:34645402 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 100226 ID:34645402 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_8d0d08440aeff1a2",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_adf29996693256ee",
+   "amount": 202.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "AMAZON MKTPL*1367AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1367AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b4d723abcba90f99",
+   "amount": 191.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-04",
+   "authorized_date": "2026-10-04",
+   "pending": false,
+   "name": "H-E-B #940 AUSTIN TX",
+   "original_description": "H-E-B #940 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3b41e8927b7f607c",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-05",
+   "authorized_date": "2026-10-05",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:43887751",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:43887751",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_2bea09ef920db677",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:74662703",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:74662703",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e35fcf3f89bfbe11",
+   "amount": 4770.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "HOME DEPOT PRO #7567 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #7567 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_646e09f34215a15a",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-07",
+   "authorized_date": "2026-10-07",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:95414359",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:95414359",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_604dc2052d5978b9",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_d25f7050a5a3fc3d",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:21552517",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:21552517",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_54e36b799a379e76",
+   "amount": 8599.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "GUSTO DES:NET 100926 ID:68452540 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 100926 ID:68452540 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_cfab2abc9bd2d512",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:37486753",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:37486753",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_c109f1e5baa57078",
+   "amount": -24726.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-10",
+   "authorized_date": "2026-10-10",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:6486786414 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:6486786414 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e83160981936fd42",
+   "amount": 2850.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-10",
+   "authorized_date": "2026-10-10",
+   "pending": false,
+   "name": "CATERPILLAR FINANCIAL DES:PAYMENT ID:6076743091",
+   "original_description": "CATERPILLAR FINANCIAL DES:PAYMENT ID:6076743091",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Caterpillar Financial",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_179d965b770dea8e",
+   "amount": 322.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-11",
+   "authorized_date": "2026-10-11",
+   "pending": false,
+   "name": "AMAZON MKTPL*8348AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*8348AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_156292f7e3b406dd",
+   "amount": -2622.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #1705 82089012",
+   "original_description": "REMOTE DEPOSIT CHECK #1705 82089012",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3d9e4ee9facf6f77",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:25348125",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:25348125",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_7728856ed2f67aa1",
+   "amount": 420.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 2313941235",
+   "original_description": "AUSTIN ENERGY WEB PMT 2313941235",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_8c327802cca4726a",
+   "amount": -13865.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:4332028802 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:4332028802 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_20dce61b325e4926",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:85702211",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:85702211",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3ea3e8a9d844eafd",
+   "amount": 2084.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "HOME DEPOT PRO #8566 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #8566 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_de3c903191e0200f",
+   "amount": -7570.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #1262 08380484",
+   "original_description": "REMOTE DEPOSIT CHECK #1262 08380484",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_00ef7e36b34a7300",
+   "amount": -295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 69202372",
+   "original_description": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 69202372",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_82ddcfb4af06d851",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:26420276",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:26420276",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_4ded5a3f00806fe2",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:50821744",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:50821744",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_ec02c015818d1370",
+   "amount": 2443.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:9328306457 INDN:TOM BECKER CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:9328306457 INDN:TOM BECKER CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_1f3aa2838b6f4149",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:91513790",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:91513790",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_56f8da91863c338f",
+   "amount": 10021.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "GUSTO DES:NET 101626 ID:71999693 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 101626 ID:71999693 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_073d3a0048fd63d7",
+   "amount": -4034.39,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-18",
+   "authorized_date": "2026-10-18",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #9742 43300005",
+   "original_description": "REMOTE DEPOSIT CHECK #9742 43300005",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_7f70883a2d42ebaa",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-19",
+   "authorized_date": "2026-10-19",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:51772072",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:51772072",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_15c69375f1b89cfb",
+   "amount": 5063.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "HOME DEPOT PRO #7560 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #7560 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3dac788da329e07f",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:15618562",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:15618562",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_5b9dcab877ec5697",
+   "amount": 1121.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W1739",
+   "original_description": "AMEX EPAYMENT ACH PMT W1739",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_d154101ab1dc9241",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-21",
+   "authorized_date": "2026-10-21",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:48032857",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:48032857",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_cbcf4dd1993218b9",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:50168983",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:50168983",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b44c6850f56bc21c",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:07730709",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:07730709",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e6e718210652606a",
+   "amount": 8740.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "GUSTO DES:NET 102326 ID:66643012 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 102326 ID:66643012 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a387d83ba6a892fc",
+   "amount": -295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-25",
+   "authorized_date": "2026-10-25",
+   "pending": false,
+   "name": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 64979900",
+   "original_description": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 64979900",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3b54b1007a07b276",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:59995594",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:59995594",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_781edf480f0896d3",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:75870489",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:75870489",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_abcae684780fccf5",
+   "amount": 2201.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "HOME DEPOT PRO #7432 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #7432 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_ce44ae13df321620",
+   "amount": 142.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "H-E-B #265 AUSTIN TX",
+   "original_description": "H-E-B #265 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b868af4542a95de5",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:72739741",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:72739741",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a45cfb4dc2125f66",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:99600040",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:99600040",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_321105b42b14c9e9",
+   "amount": 9252.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "GUSTO DES:NET 103026 ID:78899077 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 103026 ID:78899077 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3f15f03fc6ed10f7",
+   "amount": -4304.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #6494 53356588",
+   "original_description": "REMOTE DEPOSIT CHECK #6494 53356588",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_c978cad389cb807e",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:33656527",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:33656527",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a44d489bc1d0143c",
+   "amount": -6611.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-31",
+   "authorized_date": "2026-10-31",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #8770 25087040",
+   "original_description": "REMOTE DEPOSIT CHECK #8770 25087040",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_6f5f08a7e86bd736",
+   "amount": 2400,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ACH DEBIT 6320 LANDMARK PROPERTIES RENT 1126",
+   "original_description": "ACH DEBIT 6320 LANDMARK PROPERTIES RENT 1126",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_0c932f9cc16d28fb",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:37902915",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:37902915",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_444f2fdd76ff9224",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e6d9b31036250e15",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:65373131",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:65373131",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e8013dbdcc9c3db7",
+   "amount": 3618.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "HOME DEPOT PRO #1510 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #1510 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_f4cd3bddf01db63a",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:15346819",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:15346819",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_9d2cea6f4d982dd6",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:50883474",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:50883474",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b44438f15dbb7a35",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:58687066",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:58687066",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_ea3a3324cc9a80f5",
+   "amount": 9138.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "GUSTO DES:NET 110626 ID:77069026 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 110626 ID:77069026 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b392aa89e8f356a8",
+   "amount": -2509.65,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #5439 44189636",
+   "original_description": "REMOTE DEPOSIT CHECK #5439 44189636",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_de02f5dad763ca7d",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_c80df7a4b315d32a",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:19557370",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:19557370",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_049319fe2ba4acef",
+   "amount": 2850.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "CATERPILLAR FINANCIAL DES:PAYMENT ID:8053041893",
+   "original_description": "CATERPILLAR FINANCIAL DES:PAYMENT ID:8053041893",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Caterpillar Financial",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_65a147424a52de20",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:57188401",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:57188401",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e30c02c6a4529b4f",
+   "amount": 4673.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "HOME DEPOT PRO #4684 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #4684 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_dde976b12eb1c4bc",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:07006157",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:07006157",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_695d51752e8ad956",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:18132342",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:18132342",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_8c40d73fdeac48f6",
+   "amount": 375.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 6077592085",
+   "original_description": "AUSTIN ENERGY WEB PMT 6077592085",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_6e1e37cf1b10921e",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:23043286",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:23043286",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_8307b26091fe9d7a",
+   "amount": 9093.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "GUSTO DES:NET 111326 ID:49360304 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 111326 ID:49360304 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_88642de09359e8ad",
+   "amount": -7396.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #9798 83805043",
+   "original_description": "REMOTE DEPOSIT CHECK #9798 83805043",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_96a9da49e7c4d98a",
+   "amount": -23881.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:8200981838 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:8200981838 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_095e694cde87ee11",
+   "amount": -4507.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-14",
+   "authorized_date": "2026-11-14",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #6283 70261429",
+   "original_description": "REMOTE DEPOSIT CHECK #6283 70261429",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3a3250f79348b01c",
+   "amount": 1101.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8346741729 INDN:TOM BECKER CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8346741729 INDN:TOM BECKER CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_cb295b37f2219200",
+   "amount": 380.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "AMAZON MKTPL*0099AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*0099AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_d322c055a3f31754",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-16",
+   "authorized_date": "2026-11-16",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:47168200",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:47168200",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_114ae86858ce8885",
+   "amount": 198.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "H-E-B #002 AUSTIN TX",
+   "original_description": "H-E-B #002 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_58594762f2fdb0c1",
+   "amount": -3551.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #4567 04658085",
+   "original_description": "REMOTE DEPOSIT CHECK #4567 04658085",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_6d3ba7571168bcaa",
+   "amount": 2734.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "HOME DEPOT PRO #2450 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #2450 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_c7ac723b7233e777",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:52866953",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:52866953",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_9d96d2de35d14408",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:34653552",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:34653552",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a7b374dc0f0d2eb4",
+   "amount": -8470.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #6474 35310319",
+   "original_description": "REMOTE DEPOSIT CHECK #6474 35310319",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3c4ade6b83446b8a",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:11622782",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:11622782",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_58a7e1267d2324a0",
+   "amount": 62.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "H-E-B #941 AUSTIN TX",
+   "original_description": "H-E-B #941 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_23625c6420c092f8",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:88393076",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:88393076",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_5e7ead7790278879",
+   "amount": -21366.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:0668976014 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:0668976014 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_d1eae69fc9aa9d80",
+   "amount": 8833.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "GUSTO DES:NET 112026 ID:44461800 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 112026 ID:44461800 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_fb0fdc33f07f8fa1",
+   "amount": 398.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W3336",
+   "original_description": "AMEX EPAYMENT ACH PMT W3336",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_88f707d79d6a2911",
+   "amount": 211.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-22",
+   "authorized_date": "2026-11-22",
+   "pending": false,
+   "name": "AMAZON MKTPL*6643AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6643AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_f9776b4a3d13eda4",
+   "amount": -6717.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-22",
+   "authorized_date": "2026-11-22",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #8069 94089017",
+   "original_description": "REMOTE DEPOSIT CHECK #8069 94089017",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_aabca1ce79297001",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:11212571",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:11212571",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_430d3ff7e46abc31",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:20772932",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:20772932",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_8f6ee079696d7734",
+   "amount": 4484.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "HOME DEPOT PRO #1356 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #1356 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_162777f79c557fd2",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:44994189",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:44994189",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_ca0b06778af73b93",
+   "amount": -8178.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #4697 20503558",
+   "original_description": "REMOTE DEPOSIT CHECK #4697 20503558",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_ce7c86668b1c1519",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:00563537",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:00563537",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_07689fea1d429863",
+   "amount": -16705.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:6760132953 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:6760132953 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_419b747d331c66f7",
+   "amount": 9108.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "GUSTO DES:NET 112726 ID:29143414 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 112726 ID:29143414 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_6f84a5ce6154e31e",
+   "amount": -295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 08973551",
+   "original_description": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 08973551",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b3da84e63e47d36a",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:16638898",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:16638898",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_ad8e0932e953a8d9",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:64230134",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:64230134",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_0c81b9fb5b3bc5b6",
+   "amount": 3721.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "HOME DEPOT PRO #5787 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #5787 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_13e548738bc35d23",
+   "amount": 2400,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ACH DEBIT 0252 LANDMARK PROPERTIES RENT 1226",
+   "original_description": "ACH DEBIT 0252 LANDMARK PROPERTIES RENT 1226",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_6cf1c3ad7028e2a2",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:38441899",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:38441899",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_1e79c47d1bc2f536",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:18771712",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:18771712",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_27c8d6d4d30cd9ea",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b8f4a795b8b06191",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:54674845",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:54674845",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_3bf13ce9a2f4b048",
+   "amount": 10387.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 120426 ID:53048739 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 120426 ID:53048739 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_710ec9f3eacb4ced",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:11924066",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:11924066",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_cb876b6aeef512dc",
+   "amount": -12735.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-05",
+   "authorized_date": "2026-12-05",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:8192375435 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:8192375435 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_857ce5d318b71c73",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:26787218",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:26787218",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_7da3c1b7e840a10f",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b28d22457d77f6e5",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:31149871",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:31149871",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_d03a056819f9892c",
+   "amount": 1605.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "HOME DEPOT PRO #8448 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #8448 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a4a079b147fa09c6",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:65006527",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:65006527",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_33904c5290c76dda",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:62927383",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:62927383",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_df997881944bbd71",
+   "amount": 2850.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "CATERPILLAR FINANCIAL DES:PAYMENT ID:6777155756",
+   "original_description": "CATERPILLAR FINANCIAL DES:PAYMENT ID:6777155756",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Caterpillar Financial",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_2e713a306cac789d",
+   "amount": 8885.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 121126 ID:37440410 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 121126 ID:37440410 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_846ae1692f8c2ec6",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:75259310",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:75259310",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_966540610a67cda4",
+   "amount": -295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 37793710",
+   "original_description": "ACH RETURN R01 INSUFF FUNDS FORWARD FINANCING 37793710",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b35ccdcad84348bf",
+   "amount": 413.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 3096892006",
+   "original_description": "AUSTIN ENERGY WEB PMT 3096892006",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_15e97c595bb24de6",
+   "amount": 288.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "AMAZON MKTPL*6879AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6879AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_5e0bb7f8dbdb5aa7",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:62480018",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:62480018",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_0cd3b0f60c1a85a1",
+   "amount": 1298.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8523748788 INDN:TOM BECKER CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8523748788 INDN:TOM BECKER CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_28fbd50aec7e243b",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:19917171",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:19917171",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_9acea0e867f2498b",
+   "amount": 4262.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "HOME DEPOT PRO #7254 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #7254 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_bd05e1aef22108ca",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:23311522",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:23311522",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_064f9f9bebe501c9",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:00347153",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:00347153",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_12b82c3ea53f6c2b",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:07098275",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:07098275",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_33a6170b3026ccc5",
+   "amount": 9964.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 121826 ID:30681891 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 121826 ID:30681891 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_b793f45ac023076f",
+   "amount": 137.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "H-E-B #085 AUSTIN TX",
+   "original_description": "H-E-B #085 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_8217b9272fdc6c7b",
+   "amount": 626.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W7396",
+   "original_description": "AMEX EPAYMENT ACH PMT W7396",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a90d5edee4fedcb1",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:70324597",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:70324597",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_aa617536380740e4",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:42505253",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:42505253",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_f5862ae161548790",
+   "amount": 3122.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "HOME DEPOT PRO #7576 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #7576 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_54a637428b8a4801",
+   "amount": -6696.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #0469 56891086",
+   "original_description": "REMOTE DEPOSIT CHECK #0469 56891086",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_925f2584e99a852d",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:91409977",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:91409977",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_7f58194e3d614c7e",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:34311097",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:34311097",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_a0f0ee9400b5a281",
+   "amount": -3784.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "REMOTE DEPOSIT CHECK #3418 11621867",
+   "original_description": "REMOTE DEPOSIT CHECK #3418 11621867",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_be52922162b59f35",
+   "amount": 9771.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 122526 ID:84610432 INDN:RIDGELINE BUILDERS LLC",
+   "original_description": "GUSTO DES:NET 122526 ID:84610432 INDN:RIDGELINE BUILDERS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_d4b86d92acdbd736",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:59076002",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:59076002",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_04115fb39e369fe5",
+   "amount": 176.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-27",
+   "authorized_date": "2026-12-27",
+   "pending": false,
+   "name": "AMAZON MKTPL*2975AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2975AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_1af874f3de46772a",
+   "amount": -13320.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "CITY OF ROUND ROCK DES:VENDOR PMT ID:2405362857 INDN:RIDGELI",
+   "original_description": "CITY OF ROUND ROCK DES:VENDOR PMT ID:2405362857 INDN:RIDGELINE BUILDERS",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "City of Round Rock",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_e09556ad38d216da",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:98140882",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:98140882",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_002ee21bf8ae3463",
+   "amount": 1820.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "HOME DEPOT PRO #0725 ROUND ROCK TX",
+   "original_description": "HOME DEPOT PRO #0725 ROUND ROCK TX",
+   "merchant_name": "The Home Depot",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "The Home Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_fef9ea5ebfa26df1",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:04290139",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:04290139",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_c15d7ff984e2",
+   "transaction_id": "txn_6080d7ead71f0bc5",
+   "amount": 295.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "FORWARD FINANCING DES:ACH DEBIT ID:79031289",
+   "original_description": "FORWARD FINANCING DES:ACH DEBIT ID:79031289",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Forward Financing",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 146,
+ "request_id": "synthetic-B05"
+}

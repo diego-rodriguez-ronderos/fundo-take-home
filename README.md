@@ -30,6 +30,14 @@ python run.py --offline --data data_holdout --out out_holdout --no-sensitivity
 
 Compare models from cache: add `--model gpt-4.1-mini` to either command.
 
+Threshold choice and worst-case spend, and learned rules (both offline, no API calls):
+
+```bash
+python -m reviewer.sweep             # out/threshold_sweep.md: quality first, then cost; worst case
+python -m reviewer.learn             # rules/learned_rules.json + out/rules_report.md (renewal, held-out)
+python run.py --offline --rules rules/learned_rules.json   # keyword engine + learned rules, then review
+```
+
 ## Run against the API
 
 ```bash
@@ -45,7 +53,8 @@ creates new keys; old entries stay for comparison.
 ## Other commands
 
 ```bash
-python -m reviewer.generate          # rebuild data/ and data_holdout/ (deterministic, same files)
+python -m reviewer.generate          # rebuild data/, data_holdout/, data_renewal/ (deterministic)
+REVIEWER_BUDGET_USD=5 python run.py  # hard spend cap; a call whose worst case does not fit is never made
 python -m unittest discover -s tests # offline tests of the code side of the boundary
 python run.py --data path/to/dir     # your own Plaid /transactions/get JSON files in dir/businesses/
 ```
@@ -61,7 +70,13 @@ reviewer/generate.py   synthetic Plaid data + gold labels
 reviewer/keywords.py   legacy engine, deliberately imperfect
 reviewer/patterns.py   transactions -> patterns, cadence, injection detector
 reviewer/llm.py        prompt, structured output, validation, cache
-reviewer/gate.py       what a model verdict is allowed to change
+reviewer/gate.py       what a model verdict is allowed to change (offer-impact cap, decision flips)
+reviewer/pipeline.py   one business: verdicts -> gate -> label sets (shared by run and sweep)
+reviewer/consistency.py reason vs verdict check
+reviewer/budget.py     worst-case cost per call and per application; spend guard
+reviewer/sweep.py      threshold choice: quality constraint, then cost under budget
+reviewer/rules.py      learned counterparty rules: scope, conflicts, expiry, shadow audit
+reviewer/learn.py      learn rules from confirmed corrections; measure on renewal and held-out
 reviewer/credit.py     features and the offer rule
 reviewer/sensitivity.py mislabel simulation
 ```

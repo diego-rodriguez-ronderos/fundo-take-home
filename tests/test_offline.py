@@ -6,7 +6,9 @@ import json
 import unittest
 from pathlib import Path
 
-from reviewer import gate, keywords as K, llm, patterns
+from datetime import date
+
+from reviewer import consistency, gate, keywords as K, llm, patterns, rules
 from reviewer import groups as G
 from reviewer import credit as C
 
@@ -57,8 +59,15 @@ class Gate(unittest.TestCase):
 
     def test_tightening_applies_over_bar(self):
         p = self.pats["SBAD TREAS 3"]
-        self.assertEqual(gate.decide(p, self.v(p["pid"], G.NOT_REVENUE, 0.85))[0], "applied")
-        self.assertEqual(gate.decide(p, self.v(p["pid"], G.NOT_REVENUE, 0.70))[0], "queued")
+        small = (64000.0, 63800.0)
+        self.assertEqual(gate.decide(p, self.v(p["pid"], G.NOT_REVENUE, 0.97), small)[0], "applied")
+        self.assertEqual(gate.decide(p, self.v(p["pid"], G.NOT_REVENUE, 0.90), small)[0], "queued")
+
+    def test_big_offer_move_or_decision_flip_queued(self):
+        p = self.pats["SBAD TREAS 3"]
+        v = self.v(p["pid"], G.NOT_REVENUE, 0.99)
+        self.assertEqual(gate.decide(p, v, (141268.0, 81268.0))[0], "queued")
+        self.assertEqual(gate.decide(p, v, (38361.0, 0.0))[0], "queued")
 
 
 class Validation(unittest.TestCase):
@@ -77,6 +86,49 @@ class Validation(unittest.TestCase):
         out, status = llm.review_business("fake", b["business"], pats, cache, offline=True)
         self.assertEqual(list(out), [pats[0]["pid"]])
         self.assertTrue(status.startswith("partial"))
+
+
+class Rules(unittest.TestCase):
+    def conf(self, bid, key, group, d="credit", cp=True):
+        return {"business_id": bid, "key": key, "direction": d, "group": group, "is_business": True,
+                "key_from_counterparty": cp}
+
+    def test_exact_match_and_scope(self):
+        rs, _ = rules.learn([self.conf("B01", "SQUARE CAPITAL", G.ACTIVE_ADVANCE)])
+        idx = rules.index(rs)
+        sq = {"amount": -900.0, "original_description": "SQUARE INC DES:SQ1", "counterparties": [{"name": "Square"}]}
+        cap = {"amount": -9000.0, "original_description": "X", "counterparties": [{"name": "Square Capital"}]}
+        self.assertEqual(rules.apply(sq, K.label(sq), "B01", idx)["group"], K.label(sq)["group"])
+        self.assertEqual(rules.apply(cap, K.label(cap), "B01", idx)["group"], G.ACTIVE_ADVANCE)
+        self.assertEqual(rules.apply(cap, K.label(cap), "B02", idx)["group"], K.label(cap)["group"])  # other merchant
+
+    def test_conflict_means_no_rule(self):
+        rs, skipped = rules.learn([self.conf("B01", "ACME", G.NONE), self.conf("B02", "ACME", G.ACTIVE_ADVANCE)])
+        self.assertEqual(rs, [])
+        self.assertEqual(skipped[0]["why"], "conflicting confirmed labels")
+
+    def test_global_needs_k_merchants(self):
+        rs, _ = rules.learn([self.conf("B01", "ACME", G.NONE), self.conf("B02", "ACME", G.NONE)])
+        self.assertEqual([r["scope"] for r in rs], ["global"])
+
+    def test_event_not_keyed_on_counterparty(self):
+        rs, skipped = rules.learn([self.conf("B05", "FORWARD FINANCING", G.NSF)])
+        self.assertEqual(rs, [])
+        rs, _ = rules.learn([self.conf("B02", "NON SUFFICIENT FUNDS", G.NSF, "debit", cp=False)])
+        self.assertEqual(len(rs), 1)
+
+    def test_audit_suspends_and_expiry(self):
+        rs, _ = rules.learn([self.conf("B01", "ACME", G.NONE)], today=date(2026, 1, 1))
+        key = (rs[0]["scope"], "ACME", "credit")
+        self.assertEqual(rules.audit(rs, {key: (10, 4)})[0]["status"], "suspended")
+        self.assertEqual(rules.index(rs, today=date(2026, 12, 31)), {})   # past review_by
+
+
+class Consistency(unittest.TestCase):
+    def test_contradiction_and_negation(self):
+        self.assertTrue(consistency.contradicts("CZR sportsbook debits are gambling, correctly labeled", G.NONE))
+        self.assertFalse(consistency.contradicts("Supplier purchases, not gambling", G.NONE))
+        self.assertFalse(consistency.contradicts("Levy's Hardware is a merchant", G.NONE))
 
 
 class ShortHistory(unittest.TestCase):

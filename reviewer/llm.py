@@ -12,6 +12,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
+from . import budget
 from . import groups as G
 
 PROMPT_VERSION = "v4"
@@ -140,64 +141,48 @@ def _call_api(model, payload):
 
 def _call_openai(model, payload):
     from openai import OpenAI  # lazy: cache-only runs need no SDK
-    client = OpenAI(max_retries=3, timeout=180)
+    client = OpenAI(max_retries=budget.MAX_RETRIES, timeout=180)
     kwargs = {}
     if model.startswith("gpt-5"):
         kwargs["reasoning_effort"] = "low"   # reasoning models take no temperature
     else:
         kwargs["temperature"] = 0
     resp = client.chat.completions.create(
-        model=model,
+        model=model, max_completion_tokens=budget.MAX_OUTPUT_TOKENS,
         messages=[{"role": "system", "content": SYSTEM},
                   {"role": "user", "content": json.dumps(payload, indent=1)}],
         response_format={"type": "json_schema",
                          "json_schema": {"name": "submit_review", "strict": True, "schema": OPENAI_SCHEMA}},
         **kwargs,
     )
-    msg = resp.choices[0].message
-    if getattr(msg, "refusal", None):
-        raise RuntimeError(f"model refused: {msg.refusal}")
-    return json.loads(msg.content), {"input_tokens": resp.usage.prompt_tokens,
-                                     "output_tokens": resp.usage.completion_tokens}
+    choice = resp.choices[0]
+    if getattr(choice.message, "refusal", None):
+        raise RuntimeError(f"model refused: {choice.message.refusal}")
+    if choice.finish_reason == "length":
+        raise RuntimeError("output truncated at max tokens")
+    return json.loads(choice.message.content), {"input_tokens": resp.usage.prompt_tokens,
+                                                "output_tokens": resp.usage.completion_tokens}
 
 
 def _call_anthropic(model, payload):
     import anthropic  # imported lazily so cache-only runs need no SDK
-    client = anthropic.Anthropic(max_retries=3, timeout=120)
+    client = anthropic.Anthropic(max_retries=budget.MAX_RETRIES, timeout=120)
     msg = client.messages.create(
-        model=model, max_tokens=8000, temperature=0, system=SYSTEM,
+        model=model, max_tokens=budget.MAX_OUTPUT_TOKENS, temperature=0, system=SYSTEM,
         tools=[TOOL], tool_choice={"type": "tool", "name": "submit_review"},
         messages=[{"role": "user", "content": json.dumps(payload, indent=1)}],
     )
+    if msg.stop_reason == "max_tokens":
+        raise RuntimeError("output truncated at max tokens")
     block = next(b for b in msg.content if b.type == "tool_use")
     return block.input, {"input_tokens": msg.usage.input_tokens, "output_tokens": msg.usage.output_tokens}
 
 
-def review_business(model, biz_meta, patterns, cache, offline=False):
-    """Returns ({pid: Verdict}, status). Any failure => no verdicts; legacy labels stand."""
-    payload = {"business": biz_meta, "patterns": [p["view"] for p in patterns]}
-    key = _key(model, payload)
-    rec = cache.get(key)
-    if rec is None:
-        if offline or not os.environ.get(KEY_ENV[provider(model)]):
-            return {}, "cache_miss"
-        try:
-            t0 = time.time()
-            raw, usage = _call_api(model, payload)
-        except Exception as e:  # provider outage, timeout, auth, refusal: fail closed to legacy
-            print(f"  [{biz_meta['business_id']}] API error, legacy labels stand: {type(e).__name__}: {str(e)[:200]}")
-            return {}, f"api_error:{type(e).__name__}"
-        rec = {"key": key, "model": model, "prompt_version": PROMPT_VERSION,
-               "business_id": biz_meta["business_id"], "response": raw, "usage": usage,
-               "latency_s": round(time.time() - t0, 1)}
-        CACHE_PATH.parent.mkdir(exist_ok=True)
-        with CACHE_PATH.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(rec) + "\n")
-        cache[key] = rec
-    # Validate verdict by verdict: one malformed row costs one pattern, not the whole business.
-    raw_list = rec["response"].get("verdicts") if isinstance(rec["response"], dict) else None
+def parse_verdicts(response, patterns):
+    """Validate verdict by verdict: one malformed row costs one pattern, not the whole business."""
+    raw_list = response.get("verdicts") if isinstance(response, dict) else None
     if not isinstance(raw_list, list):
-        return {}, "invalid_output:no_verdicts"
+        return {}, 0
     known = {p["pid"] for p in patterns}
     out, invalid = {}, 0
     for item in raw_list:
@@ -212,8 +197,48 @@ def review_business(model, biz_meta, patterns, cache, offline=False):
             invalid += 1
             continue  # a doubt without a proposed label is not actionable
         out[v.pid] = v
-    status = "ok" if len(out) == len(known) else f"partial:{len(known) - len(out)}_missing"
-    return out, status
+    return out, invalid
+
+
+def _review_chunk(model, biz_meta, patterns, cache, offline):
+    payload = {"business": biz_meta, "patterns": [p["view"] for p in patterns]}
+    key = _key(model, payload)
+    rec = cache.get(key)
+    if rec is None:
+        if offline or not os.environ.get(KEY_ENV[provider(model)]):
+            return {}, "cache_miss"
+        worst = budget.worst_case_call_usd(PRICES.get(model, (15.0, 75.0)), SYSTEM, payload)
+        remaining = budget.BUDGET_USD - spend(cache)
+        if worst > remaining:  # never start a call that could break the budget
+            print(f"  [{biz_meta['business_id']}] budget guard: worst case ${worst:.3f} > remaining ${remaining:.3f}")
+            return {}, "budget_guard"
+        try:
+            t0 = time.time()
+            raw, usage = _call_api(model, payload)
+        except Exception as e:  # outage, timeout, auth, refusal, truncation: fail closed to legacy
+            print(f"  [{biz_meta['business_id']}] API error, legacy labels stand: {type(e).__name__}: {str(e)[:200]}")
+            return {}, f"api_error:{type(e).__name__}"
+        rec = {"key": key, "model": model, "prompt_version": PROMPT_VERSION,
+               "business_id": biz_meta["business_id"], "response": raw, "usage": usage,
+               "worst_case_usd": round(worst, 4), "latency_s": round(time.time() - t0, 1)}
+        CACHE_PATH.parent.mkdir(exist_ok=True)
+        with CACHE_PATH.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(rec) + "\n")
+        cache[key] = rec
+    out, _ = parse_verdicts(rec["response"], patterns)
+    return out, "ok" if len(out) == len(patterns) else f"partial:{len(patterns) - len(out)}_missing"
+
+
+def review_business(model, biz_meta, patterns, cache, offline=False):
+    """Returns ({pid: Verdict}, status). Patterns go in chunks so no single prompt is unbounded.
+    Any failure leaves that chunk without verdicts; legacy labels stand."""
+    out, statuses = {}, []
+    n = budget.MAX_PATTERNS_PER_CALL
+    for i in range(0, len(patterns), n):
+        v, st = _review_chunk(model, biz_meta, patterns[i:i + n], cache, offline)
+        out.update(v)
+        statuses.append(st)
+    return out, statuses[0] if len(set(statuses)) == 1 else "|".join(statuses)
 
 
 def spend(cache):

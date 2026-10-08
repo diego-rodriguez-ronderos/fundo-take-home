@@ -1,0 +1,6433 @@
+{
+ "business": {
+  "business_id": "B08",
+  "name": "QuickStop Mart",
+  "industry": "Convenience store",
+  "owner_name": "Anil Patel",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "4979",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_72fc44d48e036e64",
+   "amount": 4006.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "GUSTO DES:NET 100226 ID:58596127 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 100226 ID:58596127 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a2505e644cd00254",
+   "amount": -1221.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6292082078 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6292082078 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_dffda4356b6f5fef",
+   "amount": -1071.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4968 10/02",
+   "original_description": "ATM CASH DEPOSIT 4968 10/02",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ac5f8dd534ba0041",
+   "amount": -1284.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6544 10/03",
+   "original_description": "ATM CASH DEPOSIT 6544 10/03",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c6f79e39185a714e",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0fccc5efca1c5ea4",
+   "amount": -1521.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-04",
+   "authorized_date": "2026-10-04",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8738 10/04",
+   "original_description": "ATM CASH DEPOSIT 8738 10/04",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6597479d6fa8d0d4",
+   "amount": -1132.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-05",
+   "authorized_date": "2026-10-05",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3323957184 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3323957184 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7953efce9db41749",
+   "amount": -1206.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-05",
+   "authorized_date": "2026-10-05",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9174 10/05",
+   "original_description": "ATM CASH DEPOSIT 9174 10/05",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1a48b0e9f697d485",
+   "amount": -1118.65,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5152 10/06",
+   "original_description": "ATM CASH DEPOSIT 5152 10/06",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d87bcdb35ead9f88",
+   "amount": -1175.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8993053344 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8993053344 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f340360d5407fcf1",
+   "amount": 3281.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:75091725",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:75091725",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_2942b385b9e64e2f",
+   "amount": -1595.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-07",
+   "authorized_date": "2026-10-07",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5737569635 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5737569635 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b63b109457cde840",
+   "amount": -1434.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-07",
+   "authorized_date": "2026-10-07",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2857 10/07",
+   "original_description": "ATM CASH DEPOSIT 2857 10/07",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1dabc8187e107745",
+   "amount": -1365.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2549842260 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2549842260 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_50d7472c066d9502",
+   "amount": 5667.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 92104790",
+   "original_description": "MCLANE CO DES:ACH DEBIT 92104790",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a0f80c97af139168",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f9e29d0efd7fa704",
+   "amount": -653.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0963 10/08",
+   "original_description": "ATM CASH DEPOSIT 0963 10/08",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_54be41e2ff8bfc55",
+   "amount": 3990.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "GUSTO DES:NET 100926 ID:02096725 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 100926 ID:02096725 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_86afc5b7771d6a94",
+   "amount": -1091.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4993073758 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4993073758 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b61512120936ab24",
+   "amount": -1064.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7862 10/09",
+   "original_description": "ATM CASH DEPOSIT 7862 10/09",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1a3562607cf336f5",
+   "amount": -666.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-10",
+   "authorized_date": "2026-10-10",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1649 10/10",
+   "original_description": "ATM CASH DEPOSIT 1649 10/10",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_537bb85ecde85136",
+   "amount": -1318.65,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-11",
+   "authorized_date": "2026-10-11",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0289 10/11",
+   "original_description": "ATM CASH DEPOSIT 0289 10/11",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_535d0db577f9c119",
+   "amount": -868.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0735570565 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0735570565 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c41cf9da79eda4bd",
+   "amount": 612.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 5423034689",
+   "original_description": "AUSTIN ENERGY WEB PMT 5423034689",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d91b0e8b62eb2c74",
+   "amount": -937.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9041 10/12",
+   "original_description": "ATM CASH DEPOSIT 9041 10/12",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_9535325238816e56",
+   "amount": 3001.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:64946147",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:64946147",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_e8bae717edf62a93",
+   "amount": -1450.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5378022101 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5378022101 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f50cc43c405143b7",
+   "amount": -1388.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7514 10/13",
+   "original_description": "ATM CASH DEPOSIT 7514 10/13",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_51cfd56d178255e1",
+   "amount": -1033.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7859389209 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7859389209 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c67b7a37d2af4710",
+   "amount": -681.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0007 10/14",
+   "original_description": "ATM CASH DEPOSIT 0007 10/14",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_08c7602fccf956a6",
+   "amount": 1655.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:0080691454 INDN:ANIL PATEL CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:0080691454 INDN:ANIL PATEL CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_28413c8f7f5a2ba4",
+   "amount": 3958.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 11672332",
+   "original_description": "MCLANE CO DES:ACH DEBIT 11672332",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_5ce9baf08ee6846a",
+   "amount": -1591.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1812 10/15",
+   "original_description": "ATM CASH DEPOSIT 1812 10/15",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a5539db6e1cca38d",
+   "amount": -1191.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2196860440 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2196860440 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1d5bccbef450c81a",
+   "amount": -1589.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7186921605 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7186921605 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_974ff301cf0dd2d4",
+   "amount": -726.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9744 10/16",
+   "original_description": "ATM CASH DEPOSIT 9744 10/16",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f0253a265a3e3dc0",
+   "amount": 4249.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "GUSTO DES:NET 101626 ID:77286209 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 101626 ID:77286209 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3b1d88b9a8ef542c",
+   "amount": -844.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-17",
+   "authorized_date": "2026-10-17",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2709 10/17",
+   "original_description": "ATM CASH DEPOSIT 2709 10/17",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_262bc981b76fde0d",
+   "amount": -612.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-18",
+   "authorized_date": "2026-10-18",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5850 10/18",
+   "original_description": "ATM CASH DEPOSIT 5850 10/18",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1383f478f687cdb7",
+   "amount": -1501.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-19",
+   "authorized_date": "2026-10-19",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1458849520 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1458849520 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8c32973cd68da660",
+   "amount": -752.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-19",
+   "authorized_date": "2026-10-19",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9858 10/19",
+   "original_description": "ATM CASH DEPOSIT 9858 10/19",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1299735c77cf0e25",
+   "amount": -1307.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4058 10/20",
+   "original_description": "ATM CASH DEPOSIT 4058 10/20",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8129f40ec4be4b94",
+   "amount": 1359.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8691",
+   "original_description": "AMEX EPAYMENT ACH PMT W8691",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ca3105808de6827d",
+   "amount": -1033.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5896560737 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5896560737 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ed96a5f653243460",
+   "amount": 4022.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:64895385",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:64895385",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_50fdf8d9156dc2ba",
+   "amount": -1055.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-21",
+   "authorized_date": "2026-10-21",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1637367688 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1637367688 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_feeecf152d3c1fed",
+   "amount": -757.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-21",
+   "authorized_date": "2026-10-21",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9171 10/21",
+   "original_description": "ATM CASH DEPOSIT 9171 10/21",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_32edf02b05537ad5",
+   "amount": 6110.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 12262824",
+   "original_description": "MCLANE CO DES:ACH DEBIT 12262824",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_769178f5643012c3",
+   "amount": -1763.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6539450211 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6539450211 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_dc2b134a9f26fd95",
+   "amount": -977.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7959 10/22",
+   "original_description": "ATM CASH DEPOSIT 7959 10/22",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_38977ed39b915e0c",
+   "amount": -1146.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0854 10/23",
+   "original_description": "ATM CASH DEPOSIT 0854 10/23",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3fc78614419fa5ac",
+   "amount": 3902.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "GUSTO DES:NET 102326 ID:75131433 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 102326 ID:75131433 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_4b7a705591be8d9f",
+   "amount": -1370.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8494681036 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8494681036 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_5e19543ccbab0c13",
+   "amount": 3.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "NON-CHASE ATM FEE",
+   "original_description": "NON-CHASE ATM FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_ATM_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_761790ac5151e210",
+   "amount": -1489.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-24",
+   "authorized_date": "2026-10-24",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3590 10/24",
+   "original_description": "ATM CASH DEPOSIT 3590 10/24",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b44346f842ba9739",
+   "amount": -1567.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-25",
+   "authorized_date": "2026-10-25",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8109 10/25",
+   "original_description": "ATM CASH DEPOSIT 8109 10/25",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c7631a23c976fc74",
+   "amount": -337.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-25",
+   "authorized_date": "2026-10-25",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:COMM PMT ID:59751793",
+   "original_description": "TX LOTTERY COMMISSION DES:COMM PMT ID:59751793",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_96919d3809e08e71",
+   "amount": 196.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "H-E-B #809 AUSTIN TX",
+   "original_description": "H-E-B #809 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d4838ec7bc0ac851",
+   "amount": -951.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9278857795 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9278857795 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_dae34202d9023768",
+   "amount": -1245.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6741 10/26",
+   "original_description": "ATM CASH DEPOSIT 6741 10/26",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_02458ef2dc5ecec2",
+   "amount": 3.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "NON-CHASE ATM FEE",
+   "original_description": "NON-CHASE ATM FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_ATM_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_74309625297dd989",
+   "amount": 3626.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:00242880",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:00242880",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8678c89d95c746e7",
+   "amount": -812.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7961127462 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7961127462 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f0b785be86ed4a9f",
+   "amount": -1325.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7993 10/27",
+   "original_description": "ATM CASH DEPOSIT 7993 10/27",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_188011cda4c3d62e",
+   "amount": -1063.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7925 10/28",
+   "original_description": "ATM CASH DEPOSIT 7925 10/28",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_4a9021b64ec1960f",
+   "amount": -803.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4229555286 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4229555286 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0d78cf93dbea9f84",
+   "amount": 3151.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 49139009",
+   "original_description": "MCLANE CO DES:ACH DEBIT 49139009",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6e8541d0de422427",
+   "amount": -1433.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1701325345 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1701325345 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a41c8d3adcff9a69",
+   "amount": -1115.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9490 10/29",
+   "original_description": "ATM CASH DEPOSIT 9490 10/29",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_310aa51fe3fbe474",
+   "amount": 3.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "NON-CHASE ATM FEE",
+   "original_description": "NON-CHASE ATM FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_ATM_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a7bfda128f30d2fd",
+   "amount": -1390.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5890483014 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5890483014 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a92350f5430c086f",
+   "amount": 3805.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "GUSTO DES:NET 103026 ID:97406750 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 103026 ID:97406750 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ed4b1849b528654e",
+   "amount": -1434.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5313 10/30",
+   "original_description": "ATM CASH DEPOSIT 5313 10/30",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0ce8a7bf202fc39e",
+   "amount": -1092.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-31",
+   "authorized_date": "2026-10-31",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5875 10/31",
+   "original_description": "ATM CASH DEPOSIT 5875 10/31",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_437106761772e6c4",
+   "amount": -1064.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5879 11/01",
+   "original_description": "ATM CASH DEPOSIT 5879 11/01",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ff53b8708d94bdc8",
+   "amount": 3900,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ACH DEBIT 8502 LANDMARK PROPERTIES RENT 1126",
+   "original_description": "ACH DEBIT 8502 LANDMARK PROPERTIES RENT 1126",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_171e1f4fc0878698",
+   "amount": -1245.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9349 11/02",
+   "original_description": "ATM CASH DEPOSIT 9349 11/02",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_30b470b75053c076",
+   "amount": -1322.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5668202766 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5668202766 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_363fa8108f381aa8",
+   "amount": -1028.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5926 11/03",
+   "original_description": "ATM CASH DEPOSIT 5926 11/03",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3a95d519192c6f07",
+   "amount": -924.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5486326413 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5486326413 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d766b2bbda039d48",
+   "amount": 3486.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:30351623",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:30351623",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_e2d64bb7d76645f4",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0957ea78ed02d356",
+   "amount": -1176.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9262294988 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9262294988 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_4e5608ed20725f96",
+   "amount": -1273.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3426 11/04",
+   "original_description": "ATM CASH DEPOSIT 3426 11/04",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8c85a4d17eefbc90",
+   "amount": 93.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "H-E-B #523 AUSTIN TX",
+   "original_description": "H-E-B #523 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_480ae56b0e41b5be",
+   "amount": -914.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4124 11/05",
+   "original_description": "ATM CASH DEPOSIT 4124 11/05",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_4822a33985a6b76d",
+   "amount": 4849.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 12535595",
+   "original_description": "MCLANE CO DES:ACH DEBIT 12535595",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_52da2e5230a4d084",
+   "amount": -1007.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8801452513 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8801452513 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_71301f47b83d6ebd",
+   "amount": 4495.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "GUSTO DES:NET 110626 ID:84680620 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 110626 ID:84680620 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a882d99c55954e1d",
+   "amount": -1487.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1891151435 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1891151435 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f24ea150c967794a",
+   "amount": -1179.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9325 11/06",
+   "original_description": "ATM CASH DEPOSIT 9325 11/06",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7ab993d9137ec87f",
+   "amount": -706.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-07",
+   "authorized_date": "2026-11-07",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4472 11/07",
+   "original_description": "ATM CASH DEPOSIT 4472 11/07",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_855dd5fe0bc1bc9f",
+   "amount": -1366.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6640 11/08",
+   "original_description": "ATM CASH DEPOSIT 6640 11/08",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_94a8423d6f6cb225",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0b1c7feb916294bb",
+   "amount": -1569.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8303 11/09",
+   "original_description": "ATM CASH DEPOSIT 8303 11/09",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_124058e105bbc68f",
+   "amount": 181.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "H-E-B #258 AUSTIN TX",
+   "original_description": "H-E-B #258 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a75bada0fe57335b",
+   "amount": -1457.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9495177334 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9495177334 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a37b2ba7f8421b6d",
+   "amount": -1344.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0755 11/10",
+   "original_description": "ATM CASH DEPOSIT 0755 11/10",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b3d4be7e90be5fdb",
+   "amount": -1521.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9998653399 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9998653399 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b73ec20ef2dff455",
+   "amount": 3754.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:22982515",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:22982515",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a81f1636a92bd017",
+   "amount": 3.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "NON-CHASE ATM FEE",
+   "original_description": "NON-CHASE ATM FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_ATM_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d5b163a2f6fd051d",
+   "amount": -848.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8126 11/11",
+   "original_description": "ATM CASH DEPOSIT 8126 11/11",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_e821076d0d5e6019",
+   "amount": -1010.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7350034958 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7350034958 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6a567164fc5da680",
+   "amount": 682.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 8440946298",
+   "original_description": "AUSTIN ENERGY WEB PMT 8440946298",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6d1cb023edad9490",
+   "amount": -1120.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5952899640 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5952899640 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b0d84e50a3a40b86",
+   "amount": 3238.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 79980233",
+   "original_description": "MCLANE CO DES:ACH DEBIT 79980233",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_cb5d15b4ad7199c2",
+   "amount": -733.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9511 11/12",
+   "original_description": "ATM CASH DEPOSIT 9511 11/12",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0dbb3b542b071ab9",
+   "amount": -1383.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4788545586 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4788545586 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_149e53fab5ac94d6",
+   "amount": -1232.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4484 11/13",
+   "original_description": "ATM CASH DEPOSIT 4484 11/13",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f62a81b117b266eb",
+   "amount": 4095.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "GUSTO DES:NET 111326 ID:18570456 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 111326 ID:18570456 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8d023b5834d127fd",
+   "amount": -603.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-14",
+   "authorized_date": "2026-11-14",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1424 11/14",
+   "original_description": "ATM CASH DEPOSIT 1424 11/14",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_bb0906592d8770ea",
+   "amount": -796.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6826 11/15",
+   "original_description": "ATM CASH DEPOSIT 6826 11/15",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d60ce0b8e61c34eb",
+   "amount": 1827.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6616015433 INDN:ANIL PATEL CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6616015433 INDN:ANIL PATEL CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1b91b8f43da46eee",
+   "amount": -977.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-16",
+   "authorized_date": "2026-11-16",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2818 11/16",
+   "original_description": "ATM CASH DEPOSIT 2818 11/16",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ecbce1a0ccd8f260",
+   "amount": -1180.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-16",
+   "authorized_date": "2026-11-16",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9173158141 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9173158141 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_642b489d1d96aa15",
+   "amount": 3041.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:32882030",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:32882030",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_79dbcf1a2bdfb0da",
+   "amount": -1572.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0173156563 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0173156563 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c3d8e687a7df1356",
+   "amount": -1232.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3446 11/17",
+   "original_description": "ATM CASH DEPOSIT 3446 11/17",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f25947ef654a1ef2",
+   "amount": -1648.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7124421173 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7124421173 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f3153b76b73722b6",
+   "amount": -709.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6677 11/18",
+   "original_description": "ATM CASH DEPOSIT 6677 11/18",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_44681ddaaa71e866",
+   "amount": -1063.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4927904330 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4927904330 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_68b5dec03a185467",
+   "amount": -622.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1976 11/19",
+   "original_description": "ATM CASH DEPOSIT 1976 11/19",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_83ef3127b3a2199d",
+   "amount": 4922.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 40179814",
+   "original_description": "MCLANE CO DES:ACH DEBIT 40179814",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_04236f0c0bc68e72",
+   "amount": -1061.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4652 11/20",
+   "original_description": "ATM CASH DEPOSIT 4652 11/20",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0c4ebd5da3070f13",
+   "amount": 253.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMAZON MKTPL*1621AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1621AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1248013a0044c8b8",
+   "amount": 91.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "H-E-B #865 AUSTIN TX",
+   "original_description": "H-E-B #865 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_91c4e17abf8e1846",
+   "amount": 4315.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "GUSTO DES:NET 112026 ID:31489578 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 112026 ID:31489578 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_989a41c1289f42f2",
+   "amount": -1138.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0522809177 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0522809177 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_98d5442ac4da1c9c",
+   "amount": 3.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "NON-CHASE ATM FEE",
+   "original_description": "NON-CHASE ATM FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_ATM_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_d3c3f28225fd0b34",
+   "amount": 803.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W3567",
+   "original_description": "AMEX EPAYMENT ACH PMT W3567",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1a1741eb390ca2d4",
+   "amount": -1282.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-21",
+   "authorized_date": "2026-11-21",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4829 11/21",
+   "original_description": "ATM CASH DEPOSIT 4829 11/21",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8eb3fdeadedb2f77",
+   "amount": -1482.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-22",
+   "authorized_date": "2026-11-22",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6356 11/22",
+   "original_description": "ATM CASH DEPOSIT 6356 11/22",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_84e66acb6a7bc403",
+   "amount": -838.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 9264 11/23",
+   "original_description": "ATM CASH DEPOSIT 9264 11/23",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b41df8fc9d9df5c6",
+   "amount": -1719.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6308639178 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6308639178 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_12d1a88fe5066f54",
+   "amount": -1156.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4282 11/24",
+   "original_description": "ATM CASH DEPOSIT 4282 11/24",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7d443923c17c2761",
+   "amount": -1407.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7105014515 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7105014515 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_bbdb6035a3b88656",
+   "amount": 2992.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:65218523",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:65218523",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3f084acdac374a9b",
+   "amount": -1455.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1762097456 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1762097456 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_68806142b8e4dc9e",
+   "amount": -530.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:COMM PMT ID:85619002",
+   "original_description": "TX LOTTERY COMMISSION DES:COMM PMT ID:85619002",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c2ebcee799b3a294",
+   "amount": -760.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3251 11/25",
+   "original_description": "ATM CASH DEPOSIT 3251 11/25",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_29526718c396c312",
+   "amount": -706.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6888 11/26",
+   "original_description": "ATM CASH DEPOSIT 6888 11/26",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_9fd904f383c0a3c9",
+   "amount": -1462.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3305964303 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3305964303 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_aca1ea6590251435",
+   "amount": 3385.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 12984965",
+   "original_description": "MCLANE CO DES:ACH DEBIT 12984965",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1345d4554e1b36ad",
+   "amount": 3964.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "GUSTO DES:NET 112726 ID:45698560 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 112726 ID:45698560 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_66b30a9973964a16",
+   "amount": -1235.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4569 11/27",
+   "original_description": "ATM CASH DEPOSIT 4569 11/27",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_e781b8a464856b71",
+   "amount": -814.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2023338793 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2023338793 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0d4e652177f89fac",
+   "amount": -1365.65,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-28",
+   "authorized_date": "2026-11-28",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1210 11/28",
+   "original_description": "ATM CASH DEPOSIT 1210 11/28",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1578ae49e91832b2",
+   "amount": -1502.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-29",
+   "authorized_date": "2026-11-29",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6757 11/29",
+   "original_description": "ATM CASH DEPOSIT 6757 11/29",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_2fe1bf0a512011f1",
+   "amount": 89.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-29",
+   "authorized_date": "2026-11-29",
+   "pending": false,
+   "name": "AMAZON MKTPL*9014AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9014AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_22c630bd4806e88b",
+   "amount": -606.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7388 11/30",
+   "original_description": "ATM CASH DEPOSIT 7388 11/30",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8d1aca109469e642",
+   "amount": -1378.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2083408308 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2083408308 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6008a936ae1839c2",
+   "amount": -1133.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1429 12/01",
+   "original_description": "ATM CASH DEPOSIT 1429 12/01",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a38c2ba4831fd805",
+   "amount": 3900,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ACH DEBIT 2011 LANDMARK PROPERTIES RENT 1226",
+   "original_description": "ACH DEBIT 2011 LANDMARK PROPERTIES RENT 1226",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ac43849e8069faf0",
+   "amount": -1189.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8850144180 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8850144180 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_c610d79e9c5ed9b3",
+   "amount": 2374.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:68224009",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:68224009",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_996c7d3281bc70bf",
+   "amount": -1642.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0942251243 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:0942251243 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_e48cb4c3f5bcdf71",
+   "amount": -1167.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3220 12/02",
+   "original_description": "ATM CASH DEPOSIT 3220 12/02",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3ed6b0ff9bcd07b9",
+   "amount": 3.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "NON-CHASE ATM FEE",
+   "original_description": "NON-CHASE ATM FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_ATM_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_48a04aad29294f8b",
+   "amount": -689.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2830 12/03",
+   "original_description": "ATM CASH DEPOSIT 2830 12/03",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_63cbbb7876ccffb4",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_a4c66d05c4a72211",
+   "amount": -1106.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4822925363 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4822925363 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_aa4ed7dc0489554d",
+   "amount": 5159.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 48157689",
+   "original_description": "MCLANE CO DES:ACH DEBIT 48157689",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_39a3e179d9eab41f",
+   "amount": 3790.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 120426 ID:84716169 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 120426 ID:84716169 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8e922c475c39994d",
+   "amount": -892.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3571687028 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3571687028 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_92f67ffd1cb8a326",
+   "amount": -1307.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7847 12/04",
+   "original_description": "ATM CASH DEPOSIT 7847 12/04",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b541ce53309421ae",
+   "amount": 257.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "AMAZON MKTPL*9572AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9572AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3443de65477267dc",
+   "amount": -922.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-05",
+   "authorized_date": "2026-12-05",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0166 12/05",
+   "original_description": "ATM CASH DEPOSIT 0166 12/05",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7d84dbf923acded6",
+   "amount": -835.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-06",
+   "authorized_date": "2026-12-06",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3991 12/06",
+   "original_description": "ATM CASH DEPOSIT 3991 12/06",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_44927b5e47a51ced",
+   "amount": -1499.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8381293757 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8381293757 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ae7cd4bca3781dd0",
+   "amount": -1053.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0048 12/07",
+   "original_description": "ATM CASH DEPOSIT 0048 12/07",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_491b7d8f3f95d16a",
+   "amount": 3603.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:20739735",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:20739735",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_aa2ed9e38f7f57b4",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ecb29408bfc8f81a",
+   "amount": -1250.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9919027683 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9919027683 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_fe320f28f708f8fa",
+   "amount": -858.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2967 12/08",
+   "original_description": "ATM CASH DEPOSIT 2967 12/08",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_2e87b9ae7bbe5d73",
+   "amount": -1000.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4718 12/09",
+   "original_description": "ATM CASH DEPOSIT 4718 12/09",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_5f4ce5e6058b86b3",
+   "amount": -1447.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7305732364 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:7305732364 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_17da88bacf8ce975",
+   "amount": -825.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0325 12/10",
+   "original_description": "ATM CASH DEPOSIT 0325 12/10",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1d23be34e4431716",
+   "amount": -1316.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4538436660 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4538436660 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_cc3aeb9275fd3804",
+   "amount": 3659.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 77233227",
+   "original_description": "MCLANE CO DES:ACH DEBIT 77233227",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f4c1e8d6e28dd3e0",
+   "amount": 150.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "AMAZON MKTPL*5091AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*5091AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_3f6497bc51e99181",
+   "amount": 3828.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 121126 ID:07469977 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 121126 ID:07469977 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_62622ea67942683d",
+   "amount": -691.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8820 12/11",
+   "original_description": "ATM CASH DEPOSIT 8820 12/11",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b53197a7a46ba422",
+   "amount": -998.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4107859544 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4107859544 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_06f2db5bd69915d9",
+   "amount": 896.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 4723162409",
+   "original_description": "AUSTIN ENERGY WEB PMT 4723162409",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_21f5ba8dace1ee11",
+   "amount": -1404.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3432 12/12",
+   "original_description": "ATM CASH DEPOSIT 3432 12/12",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6198cce8a1d2affd",
+   "amount": -873.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-13",
+   "authorized_date": "2026-12-13",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3346 12/13",
+   "original_description": "ATM CASH DEPOSIT 3346 12/13",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_311b347c098da883",
+   "amount": -1419.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3824 12/14",
+   "original_description": "ATM CASH DEPOSIT 3824 12/14",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_957ad94d3231d5fb",
+   "amount": 218.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "AMAZON MKTPL*4295AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*4295AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_f7a41b5f64ef9535",
+   "amount": -1702.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3945777394 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3945777394 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_001248b0ce4bb223",
+   "amount": 3567.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:59143834",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:59143834",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_194a428de161cf39",
+   "amount": 1644.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8087735713 INDN:ANIL PATEL CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8087735713 INDN:ANIL PATEL CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_875b21fd50368ebb",
+   "amount": -1500.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 6732 12/15",
+   "original_description": "ATM CASH DEPOSIT 6732 12/15",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b22685ad6ed3aad2",
+   "amount": -1288.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1480276604 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1480276604 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_551c26f2c647537d",
+   "amount": -1155.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0019 12/16",
+   "original_description": "ATM CASH DEPOSIT 0019 12/16",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ce33fa638f8465ce",
+   "amount": -1642.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4552608706 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4552608706 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0242c381cec69e98",
+   "amount": -1717.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6171542534 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:6171542534 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_0afe2ccdd8611383",
+   "amount": 3721.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 85052460",
+   "original_description": "MCLANE CO DES:ACH DEBIT 85052460",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7a7329327adb410e",
+   "amount": -1319.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 3873 12/17",
+   "original_description": "ATM CASH DEPOSIT 3873 12/17",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_016f98979e8fa675",
+   "amount": 4116.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 121826 ID:06449425 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 121826 ID:06449425 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_23e10c230d92b947",
+   "amount": -965.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7427 12/18",
+   "original_description": "ATM CASH DEPOSIT 7427 12/18",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_cef8dccd09df3d12",
+   "amount": -1676.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4574922454 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:4574922454 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_5d4434d4738a50cb",
+   "amount": -725.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-19",
+   "authorized_date": "2026-12-19",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1038 12/19",
+   "original_description": "ATM CASH DEPOSIT 1038 12/19",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_05f722af8b2a5757",
+   "amount": 961.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W4864",
+   "original_description": "AMEX EPAYMENT ACH PMT W4864",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1785e76bfaacf863",
+   "amount": -1392.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8134 12/20",
+   "original_description": "ATM CASH DEPOSIT 8134 12/20",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_bbda0ac0d83b19a7",
+   "amount": -1352.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9191626720 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9191626720 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_ef80c1de6d64f030",
+   "amount": -1081.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2992 12/21",
+   "original_description": "ATM CASH DEPOSIT 2992 12/21",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_2f0f33c5e9576ff6",
+   "amount": -966.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8932236782 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:8932236782 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_726f1aa2a2fcf64a",
+   "amount": -1001.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5892 12/22",
+   "original_description": "ATM CASH DEPOSIT 5892 12/22",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_febbc95e717afd54",
+   "amount": 2384.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:87754731",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:87754731",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_2bd93811b33c385c",
+   "amount": -1599.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 5555 12/23",
+   "original_description": "ATM CASH DEPOSIT 5555 12/23",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7051d5c2f8c65ea0",
+   "amount": -1205.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9664544092 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:9664544092 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_8b3fbb3be746920f",
+   "amount": 219.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "H-E-B #314 AUSTIN TX",
+   "original_description": "H-E-B #314 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_691ca3e2eb437c57",
+   "amount": -1319.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 8871 12/24",
+   "original_description": "ATM CASH DEPOSIT 8871 12/24",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_7fa7e535b0825c0c",
+   "amount": 3279.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "MCLANE CO DES:ACH DEBIT 63866295",
+   "original_description": "MCLANE CO DES:ACH DEBIT 63866295",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "McLane Company",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b613aa95659b0b05",
+   "amount": -1495.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3187468367 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3187468367 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_1db1a5894f52f5a6",
+   "amount": -1539.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1056 12/25",
+   "original_description": "ATM CASH DEPOSIT 1056 12/25",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_47fd45cb4a3489da",
+   "amount": 4017.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 122526 ID:95792730 INDN:QUICKSTOP MART CO ID:9",
+   "original_description": "GUSTO DES:NET 122526 ID:95792730 INDN:QUICKSTOP MART CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_6c280e009efd181b",
+   "amount": -847.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3092163458 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:3092163458 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_aaed9458f31df84d",
+   "amount": -374.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:COMM PMT ID:47937837",
+   "original_description": "TX LOTTERY COMMISSION DES:COMM PMT ID:47937837",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_42a9664bb1db9edc",
+   "amount": -663.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-26",
+   "authorized_date": "2026-12-26",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 0105 12/26",
+   "original_description": "ATM CASH DEPOSIT 0105 12/26",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_b6263bfad18d0eed",
+   "amount": 284.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-26",
+   "authorized_date": "2026-12-26",
+   "pending": false,
+   "name": "AMAZON MKTPL*8542AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*8542AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_e31109326c259751",
+   "amount": -1093.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-27",
+   "authorized_date": "2026-12-27",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 7729 12/27",
+   "original_description": "ATM CASH DEPOSIT 7729 12/27",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_010d033e96ade1ae",
+   "amount": -1570.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 1630 12/28",
+   "original_description": "ATM CASH DEPOSIT 1630 12/28",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_07a1e2d32d0d2d9a",
+   "amount": -1283.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1753951220 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:1753951220 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_814e3040671067ff",
+   "amount": 2895.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:50116788",
+   "original_description": "TX LOTTERY COMMISSION DES:ACH DEBIT ID:50116788",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Texas Lottery Commission",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_91afad9674b4b135",
+   "amount": -1328.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2839315077 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:2839315077 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_aeb4b2781400a7b2",
+   "amount": -766.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 2508 12/29",
+   "original_description": "ATM CASH DEPOSIT 2508 12/29",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_06fb60e88a2b9332",
+   "amount": -742.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5145878429 INDN:QUICKSTOP",
+   "original_description": "HEARTLAND PMT SYS DES:TXNS/FEES ID:5145878429 INDN:QUICKSTOP MART",
+   "merchant_name": "Heartland",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heartland Payment Systems",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ab3d444b9e00",
+   "transaction_id": "txn_498b1ab02b89ecff",
+   "amount": -1566.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "ATM CASH DEPOSIT 4254 12/30",
+   "original_description": "ATM CASH DEPOSIT 4254 12/30",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 229,
+ "request_id": "synthetic-B08"
+}

@@ -10,15 +10,11 @@ import json
 from pathlib import Path
 
 from reviewer import credit as C
-from reviewer import gate, llm, patterns, sensitivity
+from reviewer import gate, llm, patterns, pipeline, rules, sensitivity
 from reviewer import groups as G
 from reviewer import keywords as K
 
 DEFAULT_MODEL = "gpt-4.1"  # chosen after comparing with gpt-4.1-mini; see SOLUTION.md
-
-
-def sig(d, lab):
-    return gate.feature_signature(d, lab["group"], lab["is_business"])
 
 
 def main():
@@ -28,6 +24,7 @@ def main():
     ap.add_argument("--data", default="data")
     ap.add_argument("--out", default="out")
     ap.add_argument("--no-sensitivity", action="store_true")
+    ap.add_argument("--rules", help="learned rules JSON applied on top of the keyword engine")
     a = ap.parse_args()
 
     out = Path(a.out) / a.model
@@ -36,68 +33,25 @@ def main():
     gold = json.loads(gold_path.read_text(encoding="utf-8")) if gold_path.exists() else None  # absent on new data
     businesses = [load_business(p) for p in sorted(Path(a.data, "businesses").glob("*.json"))]
     cache = llm.load_cache()
+    rule_idx = rules.index(rules.load(a.rules)) if a.rules else {}
 
     rows, per_biz, statuses = [], [], {}
     for b in businesses:
         meta = b["business"]
-        legacy = {t["transaction_id"]: K.label(t) for t in b["transactions"]}
+        legacy = {t["transaction_id"]: rules.apply(t, K.label(t), meta["business_id"], rule_idx)
+                  for t in b["transactions"]}
         pats = patterns.build(b, legacy)
         verdicts, status = llm.review_business(a.model, meta, pats, cache, a.offline)
         statuses[meta["business_id"]] = status
         if a.offline and status == "cache_miss":
             raise SystemExit(f"cache miss for {meta['business_id']} with {a.model}; run with a key first")
-        auto = {k: {"group": v["group"], "is_business": v["is_business"]} for k, v in legacy.items()}
-        assisted = dict(auto)
-        txn_by_id = {t["transaction_id"]: t for t in b["transactions"]}
-        side_total = {"credit": sum(-t["amount"] for t in b["transactions"] if t["amount"] < 0),
-                      "debit": sum(t["amount"] for t in b["transactions"] if t["amount"] > 0)}
-        oracle = dict(auto)
-        for p in pats:
-            v = verdicts.get(p["pid"])
-            outcome, why = ("not_reviewed", status) if v is None else \
-                ("agree", "") if v.verdict == "agree" else \
-                gate.decide(p, v, side_total[p["view"]["direction"]])
-            for tid in p["txn_ids"]:
-                t, lg = txn_by_id[tid], legacy[tid]
-                if outcome.startswith("applied"):
-                    auto[tid] = {"group": v.group, "is_business": v.is_business}
-                if v is not None and v.verdict == "doubt":
-                    assisted[tid] = {"group": v.group, "is_business": v.is_business}
-                g = gold[tid] if gold else None
-                d = lg["direction"]
-                if outcome == "queued" and g and sig(d, {"group": v.group, "is_business": v.is_business}) == sig(d, g):
-                    # simulated underwriter: accepts a queued proposal only if it is materially right
-                    oracle[tid] = {"group": v.group, "is_business": v.is_business}
-                elif outcome.startswith("applied"):
-                    oracle[tid] = {"group": v.group, "is_business": v.is_business}
-                rows.append({
-                    "business_id": meta["business_id"], "pid": p["pid"], "transaction_id": tid,
-                    "date": t["date"], "amount": t["amount"], "direction": d,
-                    "description": t["original_description"],
-                    "legacy_group": lg["group"], "legacy_business": lg["is_business"],
-                    "legacy_revenue": lg["is_revenue"],
-                    "verdict": v.verdict if v else "", "proposed_group": v.group if v and v.verdict == "doubt" else "",
-                    "proposed_business": v.is_business if v and v.verdict == "doubt" else "",
-                    "proposed_revenue": G.is_revenue(d, v.group, v.is_business) if v and v.verdict == "doubt" else "",
-                    "confidence": v.confidence if v else "", "reason": v.reason if v else "",
-                    "injection_alert_code": p["injection_alert"],
-                    "injection_seen_model": v.injection_seen if v else "",
-                    "gate": outcome, "gate_why": why,
-                    "final_group": auto[tid]["group"], "final_business": auto[tid]["is_business"],
-                    "final_revenue": G.is_revenue(d, auto[tid]["group"], auto[tid]["is_business"]),
-                    "gold_group": g["group"] if g else "", "gold_business": g["is_business"] if g else "",
-                    "gold_revenue": G.is_revenue(d, g["group"], g["is_business"]) if g else "",
-                    "case": g["case"] if g else "", "hard_negative": g["hard_negative"] if g else "",
-                    "legacy_materially_wrong": sig(d, lg) != sig(d, g) if g else "",
-                    "proposal_materially_right": (sig(d, {"group": v.group, "is_business": v.is_business}) == sig(d, g))
-                    if g and v is not None and v.verdict == "doubt" else "",
-                    "final_materially_wrong": sig(d, auto[tid]) != sig(d, g) if g else "",
-                })
+        rws, labs = pipeline.process(b, legacy, pats, verdicts, status, gold)
+        rows += rws
         rec = {"business_id": meta["business_id"], "name": meta["name"], "review_status": status}
-        for tag, labs in [("legacy", legacy), ("reviewed", auto), ("assisted", assisted),
-                          ("underwriter", oracle)] + \
-                ([("gold", gold)] if gold else []):
-            for k, val in C.features(b, labs).items():
+        for tag, lab in list(labs.items()) + ([("gold", gold)] if gold else []):
+            if tag == "underwriter" and not gold:
+                continue
+            for k, val in C.features(b, lab).items():
                 rec[f"{tag}_{k}"] = val
         if gold:
             rec["gold_offer_if_90d_assumed"] = C.features(b, gold, assume_days=90)["offer"]
@@ -186,7 +140,7 @@ def summarize(model, rows, per_biz, statuses, has_gold, cache):
             s.append(f"- {r['business_id']} `{r['description'][:70]}`: model injection_seen={r['injection_seen_model']}, "
                      f"verdict={r['verdict']} {r['proposed_group']}, gate={r['gate']}, final={r['final_group']}, gold={r['gold_group']}")
     s += ["", "## Monthly revenue per business (USD)", "",
-          "reviewed = auto-applied only; underwriter = plus queued proposals a correct underwriter accepts; "
+          "reviewed = auto-applied only; underwriter = plus every queued pattern resolved correctly by a human; "
           "assisted = every doubt accepted blindly.", "",
           "| biz | gold | legacy | err | reviewed | err | underwriter | err | assisted | err | offer gold | legacy | reviewed | underwriter |",
           "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]

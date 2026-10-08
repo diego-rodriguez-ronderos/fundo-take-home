@@ -1,0 +1,3288 @@
+{
+ "business": {
+  "business_id": "B07",
+  "name": "Arctic Air HVAC",
+  "industry": "HVAC services",
+  "owner_name": "Gary Nolan",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_1442861e2d7a",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "3679",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_bacedf8e5bc376a6",
+   "amount": -2114.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-3741277094 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-3741277094 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_cc772f6db05b2b5b",
+   "amount": 357.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "LEVY'S HARDWARE & SUPPLY #085",
+   "original_description": "LEVY'S HARDWARE & SUPPLY #085",
+   "merchant_name": "Levy's Hardware",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Levy's Hardware",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_fadbf01d8c1862d8",
+   "amount": 7205.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "GUSTO DES:NET 100226 ID:49028616 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 100226 ID:49028616 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_545ba49e40a13344",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_25284537a63316c1",
+   "amount": 135.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-05",
+   "authorized_date": "2026-10-05",
+   "pending": false,
+   "name": "H-E-B #044 AUSTIN TX",
+   "original_description": "H-E-B #044 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_b828b178f2889c43",
+   "amount": -2517.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-4603348749 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-4603348749 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_9251bcf2fbcb1f68",
+   "amount": 2670.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-07",
+   "authorized_date": "2026-10-07",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 655393",
+   "original_description": "FERGUSON HVAC SUPPLY 655393",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_2b06fd7234d62b82",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:343822363",
+   "original_description": "NATL DEBT RLF DES:PMT ID:343822363",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_6b48d12b9e01e44f",
+   "amount": -1882.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0080974099 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0080974099 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_88fd2daa2d7a5ffa",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_f4ddec3bc4490037",
+   "amount": 7440.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "GUSTO DES:NET 100926 ID:40598684 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 100926 ID:40598684 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_790e322600f6433b",
+   "amount": 338.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-11",
+   "authorized_date": "2026-10-11",
+   "pending": false,
+   "name": "AMAZON MKTPL*2754AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2754AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_b0a82388c4020e7e",
+   "amount": 419.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 9407827635",
+   "original_description": "AUSTIN ENERGY WEB PMT 9407827635",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_e471971831a7fdd6",
+   "amount": -2295.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0329518896 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0329518896 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_397245292839d7f4",
+   "amount": -4369.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-8198617684 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-8198617684 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_c36ec4f297859de2",
+   "amount": 2524.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 562579",
+   "original_description": "FERGUSON HVAC SUPPLY 562579",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_98df84daae32ffa7",
+   "amount": 947.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:3056314821 INDN:GARY NOLAN CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:3056314821 INDN:GARY NOLAN CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_b842274bafb90106",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:649389947",
+   "original_description": "NATL DEBT RLF DES:PMT ID:649389947",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_5b5dafea88854a3c",
+   "amount": -1847.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-4510113818 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-4510113818 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_c862466c514ee7bf",
+   "amount": 7110.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "GUSTO DES:NET 101626 ID:08692702 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 101626 ID:08692702 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_c0657786c19736c8",
+   "amount": 246.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-18",
+   "authorized_date": "2026-10-18",
+   "pending": false,
+   "name": "AMAZON MKTPL*7273AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7273AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_7661cdb0a4b2f4d9",
+   "amount": 806.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W3326",
+   "original_description": "AMEX EPAYMENT ACH PMT W3326",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_bcaac43b01f29e20",
+   "amount": -1708.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-8739520315 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-8739520315 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_d0dc7886175eeb3d",
+   "amount": 2535.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-21",
+   "authorized_date": "2026-10-21",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 833740",
+   "original_description": "FERGUSON HVAC SUPPLY 833740",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_9d41640d1895e2b4",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:110082092",
+   "original_description": "NATL DEBT RLF DES:PMT ID:110082092",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_aeefd4353549d433",
+   "amount": -1765.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0466583033 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0466583033 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_2ac4ee5788725990",
+   "amount": 6504.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "GUSTO DES:NET 102326 ID:81326023 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 102326 ID:81326023 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_98a326ac3a383ae3",
+   "amount": 569.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-25",
+   "authorized_date": "2026-10-25",
+   "pending": false,
+   "name": "LEVY'S HARDWARE & SUPPLY #326",
+   "original_description": "LEVY'S HARDWARE & SUPPLY #326",
+   "merchant_name": "Levy's Hardware",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Levy's Hardware",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_d1642d06cf6ff1b8",
+   "amount": -2561.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-9242231024 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-9242231024 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_5ed7fffafa1dd37a",
+   "amount": -1863.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-7384153986 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-7384153986 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_724e72dfe50f042c",
+   "amount": 1586.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 377144",
+   "original_description": "FERGUSON HVAC SUPPLY 377144",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_30e9135349cc6377",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:184059142",
+   "original_description": "NATL DEBT RLF DES:PMT ID:184059142",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_50a54baa3723f3b4",
+   "amount": 6872.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "GUSTO DES:NET 103026 ID:60387769 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 103026 ID:60387769 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_e7810419ad88a7b2",
+   "amount": -2367.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-9321998946 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-9321998946 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_07d4fa7ae9d9c755",
+   "amount": 89.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "AMAZON MKTPL*4791AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*4791AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_39997e353b7e060d",
+   "amount": 2200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ACH DEBIT 9357 LANDMARK PROPERTIES RENT 1126",
+   "original_description": "ACH DEBIT 9357 LANDMARK PROPERTIES RENT 1126",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_93cb4dc06f891b48",
+   "amount": 1150.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "CH13 TRUSTEE PMT DES:WEB PMT ID:427755496",
+   "original_description": "CH13 TRUSTEE PMT DES:WEB PMT ID:427755496",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_212dc012c820f550",
+   "amount": 62.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "H-E-B #079 AUSTIN TX",
+   "original_description": "H-E-B #079 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_302be4414788f42c",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_767e1c2b821620c6",
+   "amount": -3973.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-2121452234 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-2121452234 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_e63adcd0294349e9",
+   "amount": 373.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "AMAZON MKTPL*7718AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7718AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_84d32bdf2e530070",
+   "amount": 2307.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 468313",
+   "original_description": "FERGUSON HVAC SUPPLY 468313",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_5ef207a07a88b16b",
+   "amount": -3419.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-6723738446 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-6723738446 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_82b00f26ce23afe7",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:900105555",
+   "original_description": "NATL DEBT RLF DES:PMT ID:900105555",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_ecaa9e1a31bed51f",
+   "amount": 6153.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "GUSTO DES:NET 110626 ID:65996401 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 110626 ID:65996401 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_d576cf2d73d6e612",
+   "amount": 314.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-07",
+   "authorized_date": "2026-11-07",
+   "pending": false,
+   "name": "LEVY'S HARDWARE & SUPPLY #544",
+   "original_description": "LEVY'S HARDWARE & SUPPLY #544",
+   "merchant_name": "Levy's Hardware",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Levy's Hardware",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_0688db09e845f05c",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_85eafaa38dadb1b1",
+   "amount": -1517.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-3704678408 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-3704678408 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8789e0c6a75b9450",
+   "amount": 1409.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "LEGAL ORDER DEBIT CASE 451239",
+   "original_description": "LEGAL ORDER DEBIT CASE 451239",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_cf62ce983abf059f",
+   "amount": 388.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "LEVY'S HARDWARE & SUPPLY #645",
+   "original_description": "LEVY'S HARDWARE & SUPPLY #645",
+   "merchant_name": "Levy's Hardware",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Levy's Hardware",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_0e9945c41b1b1db7",
+   "amount": 1011.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "LEGAL ORDER DEBIT CASE 324288",
+   "original_description": "LEGAL ORDER DEBIT CASE 324288",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_84b27bc011d9da32",
+   "amount": 1693.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 547354",
+   "original_description": "FERGUSON HVAC SUPPLY 547354",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_cd58e99b8566bc35",
+   "amount": 6800.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "BANK LEVY PROCESSING IRS 37102726",
+   "original_description": "BANK LEVY PROCESSING IRS 37102726",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_d3326d421751c47c",
+   "amount": -2937.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0005751181 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0005751181 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_3bb05b3b906a9f19",
+   "amount": 578.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 2119572847",
+   "original_description": "AUSTIN ENERGY WEB PMT 2119572847",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_d9ef82afb6424b9d",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:139517174",
+   "original_description": "NATL DEBT RLF DES:PMT ID:139517174",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_46029fe8bab05bf6",
+   "amount": -2491.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-3715107541 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-3715107541 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_b32269be0201dd46",
+   "amount": 6360.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "GUSTO DES:NET 111326 ID:15112374 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 111326 ID:15112374 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8c7aab0b5222c875",
+   "amount": 1523.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8272638560 INDN:GARY NOLAN CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8272638560 INDN:GARY NOLAN CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8145176147df83a8",
+   "amount": -2802.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-1716446121 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-1716446121 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_4d2ea0d64eff2277",
+   "amount": 1217.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 497536",
+   "original_description": "FERGUSON HVAC SUPPLY 497536",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_03151d5d17e508cb",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:248236875",
+   "original_description": "NATL DEBT RLF DES:PMT ID:248236875",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_f7f3f280eb4ab1d3",
+   "amount": -1508.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0536292991 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0536292991 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_87713614eb3756ac",
+   "amount": 435.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W6802",
+   "original_description": "AMEX EPAYMENT ACH PMT W6802",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_94a53bd3dbeab92e",
+   "amount": 6146.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "GUSTO DES:NET 112026 ID:26792808 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 112026 ID:26792808 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_0ca42e144a7240cb",
+   "amount": -3744.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-5784738975 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-5784738975 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_0443f60fa889bcb0",
+   "amount": 1620.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 126963",
+   "original_description": "FERGUSON HVAC SUPPLY 126963",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_daddee77bbabc95a",
+   "amount": -2297.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-1135769511 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-1135769511 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_0328ac8eb6ad9c94",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:653921033",
+   "original_description": "NATL DEBT RLF DES:PMT ID:653921033",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_31ff4bed1a694a82",
+   "amount": -2118.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-8958694069 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-8958694069 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_4eb94cd22f16bdf6",
+   "amount": 6841.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "GUSTO DES:NET 112726 ID:69152150 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 112726 ID:69152150 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_467360f60d42395e",
+   "amount": 185.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "H-E-B #946 AUSTIN TX",
+   "original_description": "H-E-B #946 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_675ae0cc62007e32",
+   "amount": 1150.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "CH13 TRUSTEE PMT DES:WEB PMT ID:367965193",
+   "original_description": "CH13 TRUSTEE PMT DES:WEB PMT ID:367965193",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_6a79c6f97ee9e490",
+   "amount": 2200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ACH DEBIT 1651 LANDMARK PROPERTIES RENT 1226",
+   "original_description": "ACH DEBIT 1651 LANDMARK PROPERTIES RENT 1226",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8f0ae16cbaa179de",
+   "amount": -4424.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-2678798928 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-2678798928 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_5cf4db104294da8c",
+   "amount": 1942.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 208411",
+   "original_description": "FERGUSON HVAC SUPPLY 208411",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_6d6f0924903013a8",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:189609469",
+   "original_description": "NATL DEBT RLF DES:PMT ID:189609469",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_b16ddd8dadfd05ad",
+   "amount": -4351.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-7986568487 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-7986568487 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_d5628ed97c5f3783",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_dcdbffd40817e570",
+   "amount": 7127.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 120426 ID:66719203 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 120426 ID:66719203 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_3728290dc1fb9f9c",
+   "amount": -1844.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-7977167053 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-7977167053 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_a8e5e3de068606be",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_557fb36b3b04412f",
+   "amount": -4423.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-5004061397 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-5004061397 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_930d72002acd774c",
+   "amount": 2509.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 564982",
+   "original_description": "FERGUSON HVAC SUPPLY 564982",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_ebc83f26c32b48df",
+   "amount": 246.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "AMAZON MKTPL*7082AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7082AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_ee1ca1fb25821a73",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:311077206",
+   "original_description": "NATL DEBT RLF DES:PMT ID:311077206",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_27c29a714d6e63df",
+   "amount": 6611.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 121126 ID:02339231 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 121126 ID:02339231 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8f30d568d8d46734",
+   "amount": -2384.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-6481928534 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-6481928534 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_7e053a822e55fc72",
+   "amount": 398.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 0113636580",
+   "original_description": "AUSTIN ENERGY WEB PMT 0113636580",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_24b00f5a686cdc4f",
+   "amount": -3380.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-1909448878 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-1909448878 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_268a569626bb2685",
+   "amount": 2188.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:1130850100 INDN:GARY NOLAN CO ",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:1130850100 INDN:GARY NOLAN CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_66956a8b654ae65e",
+   "amount": 2163.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 224266",
+   "original_description": "FERGUSON HVAC SUPPLY 224266",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_60070ee6398184fe",
+   "amount": -3440.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0477886578 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0477886578 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_609e60558b4a7297",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:475116134",
+   "original_description": "NATL DEBT RLF DES:PMT ID:475116134",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_039b1c5f17b48fb0",
+   "amount": 6323.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 121826 ID:27307654 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 121826 ID:27307654 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8c293ae6e0c13b09",
+   "amount": 104.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "H-E-B #194 AUSTIN TX",
+   "original_description": "H-E-B #194 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_a53e348e61125f21",
+   "amount": 912.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W2073",
+   "original_description": "AMEX EPAYMENT ACH PMT W2073",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_7d0694b1812076ee",
+   "amount": 318.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "AMAZON MKTPL*6888AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6888AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_ecefd89c905b6059",
+   "amount": -2749.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-9519332651 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-9519332651 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_79f7d40103833e0e",
+   "amount": 1916.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 116204",
+   "original_description": "FERGUSON HVAC SUPPLY 116204",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_8a0dc7e96834b220",
+   "amount": -1940.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-1621628135 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-1621628135 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_982f2f36702a037d",
+   "amount": 640.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "NATL DEBT RLF DES:PMT ID:476914643",
+   "original_description": "NATL DEBT RLF DES:PMT ID:476914643",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "National Debt Relief",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_0f4407501296a466",
+   "amount": -3534.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-9678617897 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-9678617897 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_113362693cdd175e",
+   "amount": 6707.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 122526 ID:41476676 INDN:ARCTIC AIR HVAC CO ID:",
+   "original_description": "GUSTO DES:NET 122526 ID:41476676 INDN:ARCTIC AIR HVAC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_b5264a2ba8ce7963",
+   "amount": -2393.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "STRIPE DES:TRANSFER ID:ST-0638457885 INDN:ARCTIC AIR HVAC CO",
+   "original_description": "STRIPE DES:TRANSFER ID:ST-0638457885 INDN:ARCTIC AIR HVAC CO ID:1800948598 CCD",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_62571c6af23d99e4",
+   "amount": 172.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "H-E-B #144 AUSTIN TX",
+   "original_description": "H-E-B #144 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_1442861e2d7a",
+   "transaction_id": "txn_9067d88afc023200",
+   "amount": 2852.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "FERGUSON HVAC SUPPLY 481798",
+   "original_description": "FERGUSON HVAC SUPPLY 481798",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Ferguson",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 107,
+ "request_id": "synthetic-B07"
+}

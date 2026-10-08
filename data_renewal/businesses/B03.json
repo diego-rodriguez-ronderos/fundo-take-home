@@ -1,0 +1,4217 @@
+{
+ "business": {
+  "business_id": "B03",
+  "name": "Bloom and Co Candles",
+  "industry": "E-commerce",
+  "owner_name": "Hannah Price",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_ed73dec91e64",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "3145",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_8e1c83abc9a582ed",
+   "amount": 3217.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "GUSTO DES:NET 100226 ID:28903082 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 100226 ID:28903082 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_eddfae3693ca3453",
+   "amount": -2376.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:199513883576169 EED:261002 IND ID:ST-74424361",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_66e66e0c7c54f44e",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_dfe1edf6e601a72c",
+   "amount": 46.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #6189",
+   "original_description": "SHOPIFY* REFUND ORDER #6189",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_664c7fb5e28bfb37",
+   "amount": -3086.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-04",
+   "authorized_date": "2026-10-04",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:767596813313180 EED:261004 IND ID:ST-65160751",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b0ed6bd0a2b3630a",
+   "amount": 3000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-05",
+   "authorized_date": "2026-10-05",
+   "pending": false,
+   "name": "ONLINE TRANSFER TO SAV XXXXXX4821 REF #IB0367947",
+   "original_description": "ONLINE TRANSFER TO SAV XXXXXX4821 REF #IB0367947",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_OUT",
+    "detailed": "TRANSFER_OUT_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_8c442c061fc101e6",
+   "amount": -1675.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:482684707306648 EED:261006 IND ID:ST-00460140",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b1ee8e3b4c52a68c",
+   "amount": 1621.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_2b6c8ff539371798",
+   "amount": -515.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-07",
+   "authorized_date": "2026-10-07",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:3524762427 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:3524762427 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_09350bb534d3c48f",
+   "amount": 86.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #3695",
+   "original_description": "SHOPIFY* REFUND ORDER #3695",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_1c89a7ef56ec6045",
+   "amount": -3381.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:187457792953625 EED:261008 IND ID:ST-90546451",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_94a9e211a5eae2b8",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b7f2d86088a1a8cd",
+   "amount": 619.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "FACEBK *115987237 FB.ME/ADS CA",
+   "original_description": "FACEBK *115987237 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_782956cbddba58e7",
+   "amount": 3180.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "GUSTO DES:NET 100926 ID:62076906 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 100926 ID:62076906 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_652ebd15fcbae5fd",
+   "amount": -3320.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-10",
+   "authorized_date": "2026-10-10",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:794913337406193 EED:261010 IND ID:ST-34557248",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_10b45bb74a3dbeb3",
+   "amount": -1578.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:952456808589945 EED:261012 IND ID:ST-67897393",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_3a9dde5b6a2eabd8",
+   "amount": 306.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 6786548003",
+   "original_description": "AUSTIN ENERGY WEB PMT 6786548003",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_c8d4ec771f798c1a",
+   "amount": 795.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_340e3443c0ed33b7",
+   "amount": -1221.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:9497538090 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:9497538090 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_6b3d53021e29ed3a",
+   "amount": -1587.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:258608194297213 EED:261014 IND ID:ST-92470815",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_2c0839107e4045d8",
+   "amount": 1309.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "FACEBK *754017918 FB.ME/ADS CA",
+   "original_description": "FACEBK *754017918 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_56d799f41d8efdf9",
+   "amount": 220.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "AMAZON MKTPL*9513AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9513AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_92bdba367d2ec35e",
+   "amount": 1422.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:1478772913 INDN:HANNAH PRICE C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:1478772913 INDN:HANNAH PRICE CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_089920ea5da6565d",
+   "amount": 3016.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "GUSTO DES:NET 101626 ID:33400439 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 101626 ID:33400439 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5d9730a1594024ef",
+   "amount": 130.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "H-E-B #543 AUSTIN TX",
+   "original_description": "H-E-B #543 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_c091f7e75386d95e",
+   "amount": -2916.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:382167445904219 EED:261016 IND ID:ST-35894117",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_d4edd363fc9cbb7c",
+   "amount": -2720.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-18",
+   "authorized_date": "2026-10-18",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:000139561408750 EED:261018 IND ID:ST-91743021",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_03f3922c0d2e1f01",
+   "amount": -1409.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:514911588959940 EED:261020 IND ID:ST-29345436",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_131e120e8d71b233",
+   "amount": 734.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W5511",
+   "original_description": "AMEX EPAYMENT ACH PMT W5511",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_3ba17e624261757a",
+   "amount": -18000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "SHOPIFY CAPITAL DES:ADVANCE ID:2224632280 INDN:BLOOM AND CO ",
+   "original_description": "SHOPIFY CAPITAL DES:ADVANCE ID:2224632280 INDN:BLOOM AND CO CANDLES",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify Capital",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b3e006a8e768b194",
+   "amount": 1741.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_971f4158b114c2a0",
+   "amount": -893.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-21",
+   "authorized_date": "2026-10-21",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:6046613073 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:6046613073 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_6f50b87cb042c105",
+   "amount": -3351.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:624229989855145 EED:261022 IND ID:ST-16870732",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b54b220528962870",
+   "amount": 1150.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "FACEBK *327535614 FB.ME/ADS CA",
+   "original_description": "FACEBK *327535614 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_147c5b95ff4b7329",
+   "amount": 2936.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "GUSTO DES:NET 102326 ID:50380762 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 102326 ID:50380762 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_54b783fe3f048f9e",
+   "amount": -1461.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-24",
+   "authorized_date": "2026-10-24",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:925326495409251 EED:261024 IND ID:ST-74528938",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_ecf005324e948279",
+   "amount": -2383.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:766492426678413 EED:261026 IND ID:ST-36680496",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5dbee6877cbe666d",
+   "amount": 1047.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_0a938b198c9c4a7e",
+   "amount": -1979.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:999215742294619 EED:261028 IND ID:ST-81508530",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5feaed971d155820",
+   "amount": -558.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:2080253626 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:2080253626 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_6b0cc780873ef878",
+   "amount": 1489.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "FACEBK *346918235 FB.ME/ADS CA",
+   "original_description": "FACEBK *346918235 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_18b6772b6bc93221",
+   "amount": -3281.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:665249744811999 EED:261030 IND ID:ST-47312765",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_19c1f5a53bea70ff",
+   "amount": 3327.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "GUSTO DES:NET 103026 ID:97575760 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 103026 ID:97575760 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_52f4241e3033739c",
+   "amount": -2106.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:478187298611184 EED:261101 IND ID:ST-43263446",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_deb495cc81fde953",
+   "amount": 1900,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ACH DEBIT 4689 LANDMARK PROPERTIES RENT 1126",
+   "original_description": "ACH DEBIT 4689 LANDMARK PROPERTIES RENT 1126",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_34a8aabc3b648ad1",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5be53505c7cc383c",
+   "amount": 974.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_ea19a6c33c2d613e",
+   "amount": -2209.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:168518702881552 EED:261103 IND ID:ST-66409327",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_8313303e7b492f2c",
+   "amount": -1034.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:7379350459 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:7379350459 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5929b0c8643c7f91",
+   "amount": 1245.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "FACEBK *729220822 FB.ME/ADS CA",
+   "original_description": "FACEBK *729220822 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_a4dd6e6c49838f72",
+   "amount": -2350.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:377930982671510 EED:261105 IND ID:ST-01864597",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b3ad536d0d15e567",
+   "amount": 3000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "ONLINE TRANSFER TO SAV XXXXXX4821 REF #IB0006024",
+   "original_description": "ONLINE TRANSFER TO SAV XXXXXX4821 REF #IB0006024",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_OUT",
+    "detailed": "TRANSFER_OUT_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_73fa09fcc7803122",
+   "amount": 3382.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "GUSTO DES:NET 110626 ID:22031043 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 110626 ID:22031043 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_29f3521e9dd5eefe",
+   "amount": -1712.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-07",
+   "authorized_date": "2026-11-07",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:487068240745733 EED:261107 IND ID:ST-76830909",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_d04d89720b97b8e2",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_4c8f7316a7772381",
+   "amount": -2951.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:304881866317790 EED:261109 IND ID:ST-11349312",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_11261f3f54438089",
+   "amount": 730.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_1d85b2953136df88",
+   "amount": -2577.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:260123802644142 EED:261111 IND ID:ST-21465342",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5f37199357c6e4f3",
+   "amount": -509.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:2567668364 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:2567668364 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_97a7c275c5e564bb",
+   "amount": 807.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 7183391030",
+   "original_description": "AUSTIN ENERGY WEB PMT 7183391030",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_d301688a717ec539",
+   "amount": 655.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "FACEBK *313166747 FB.ME/ADS CA",
+   "original_description": "FACEBK *313166747 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_16414b33e16652e2",
+   "amount": 115.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #7824",
+   "original_description": "SHOPIFY* REFUND ORDER #7824",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_4db9945cf403db30",
+   "amount": 2882.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "GUSTO DES:NET 111326 ID:25828870 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 111326 ID:25828870 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_ab0a87ba443717bc",
+   "amount": -2893.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:962498394081283 EED:261113 IND ID:ST-06977570",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_85822785b80b9f55",
+   "amount": 235.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-14",
+   "authorized_date": "2026-11-14",
+   "pending": false,
+   "name": "H-E-B #969 AUSTIN TX",
+   "original_description": "H-E-B #969 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_2730db6125208765",
+   "amount": -2427.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:194075736779909 EED:261115 IND ID:ST-16572126",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_7975e84193b796a8",
+   "amount": 1597.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6787634116 INDN:HANNAH PRICE C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6787634116 INDN:HANNAH PRICE CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_0a4da974d3cc0f03",
+   "amount": 386.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "AMAZON MKTPL*2456AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2456AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_38c3cb174326a87f",
+   "amount": 1035.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_7935c26e3948bbf7",
+   "amount": -2987.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:242724583315657 EED:261117 IND ID:ST-82995034",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_874dfac6964ec8fa",
+   "amount": -895.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:0346825379 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:0346825379 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5f30267750ce8dbf",
+   "amount": 853.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "FACEBK *776690532 FB.ME/ADS CA",
+   "original_description": "FACEBK *776690532 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_d85a57c8afd6c196",
+   "amount": -3400.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:838940997777831 EED:261119 IND ID:ST-29234192",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_08ccda79cd93145c",
+   "amount": 2828.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "GUSTO DES:NET 112026 ID:12079638 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 112026 ID:12079638 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_2da723c67aa4eac1",
+   "amount": 136.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "H-E-B #466 AUSTIN TX",
+   "original_description": "H-E-B #466 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_eeab21b1b2f6bd27",
+   "amount": 803.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8648",
+   "original_description": "AMEX EPAYMENT ACH PMT W8648",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_37a130307205b98e",
+   "amount": -2410.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-21",
+   "authorized_date": "2026-11-21",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:476951031182524 EED:261121 IND ID:ST-17762690",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_e82e7e5fc93d719c",
+   "amount": -3378.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:775139236886961 EED:261123 IND ID:ST-50003596",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_3070e6005b975430",
+   "amount": 1754.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_dce3749ddb687b7c",
+   "amount": -2086.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:627615010228726 EED:261125 IND ID:ST-86311291",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_ddcb3559048173e1",
+   "amount": -579.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:2346601146 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:2346601146 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_fb42e7d488ca14bb",
+   "amount": 59.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #6759",
+   "original_description": "SHOPIFY* REFUND ORDER #6759",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_a28fa35522b979a6",
+   "amount": 734.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "FACEBK *896245418 FB.ME/ADS CA",
+   "original_description": "FACEBK *896245418 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_7d27865634c6a2d8",
+   "amount": -2896.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:508331390856848 EED:261127 IND ID:ST-15004953",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_80ca8281a41c458b",
+   "amount": 3218.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "GUSTO DES:NET 112726 ID:69366065 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 112726 ID:69366065 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5ed2af9da0ad528f",
+   "amount": 59.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-29",
+   "authorized_date": "2026-11-29",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #1836",
+   "original_description": "SHOPIFY* REFUND ORDER #1836",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_851599e6d32af421",
+   "amount": -2223.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-29",
+   "authorized_date": "2026-11-29",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:865764748080433 EED:261129 IND ID:ST-09197980",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_322f010dba74ad94",
+   "amount": 1900,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ACH DEBIT 0959 LANDMARK PROPERTIES RENT 1226",
+   "original_description": "ACH DEBIT 0959 LANDMARK PROPERTIES RENT 1226",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_901134bdf905085d",
+   "amount": 1631.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_a96cb6332bfe7f32",
+   "amount": -3131.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:613822683169398 EED:261201 IND ID:ST-08843080",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_4915a6b0e4e7cda7",
+   "amount": -681.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:9127458537 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:9127458537 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_382cd38a94af4024",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_85d85457b302acc2",
+   "amount": -1925.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:052556261738513 EED:261203 IND ID:ST-24920657",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_c49934529ae03689",
+   "amount": 52.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #6798",
+   "original_description": "SHOPIFY* REFUND ORDER #6798",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_f1fcd0339afaacdb",
+   "amount": 1059.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "FACEBK *137761133 FB.ME/ADS CA",
+   "original_description": "FACEBK *137761133 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_580b737a50bbf74e",
+   "amount": 29.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #1131",
+   "original_description": "SHOPIFY* REFUND ORDER #1131",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_c0d425fb3a485ccf",
+   "amount": 3069.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 120426 ID:44831392 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 120426 ID:44831392 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_522f60296182b4cc",
+   "amount": -1957.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-05",
+   "authorized_date": "2026-12-05",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:947983817394169 EED:261205 IND ID:ST-57818569",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_a351a6fc6b9c6e32",
+   "amount": 3000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-05",
+   "authorized_date": "2026-12-05",
+   "pending": false,
+   "name": "ONLINE TRANSFER TO SAV XXXXXX4821 REF #IB0244167",
+   "original_description": "ONLINE TRANSFER TO SAV XXXXXX4821 REF #IB0244167",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_OUT",
+    "detailed": "TRANSFER_OUT_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_d35590c519d26b57",
+   "amount": 73.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-06",
+   "authorized_date": "2026-12-06",
+   "pending": false,
+   "name": "AMAZON MKTPL*8787AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*8787AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_b9a14d4ba2f79679",
+   "amount": -1831.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:389547018403828 EED:261207 IND ID:ST-50497726",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_04acdf00352e14dc",
+   "amount": 1086.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_6bad39120a7ec5d8",
+   "amount": 81.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "H-E-B #891 AUSTIN TX",
+   "original_description": "H-E-B #891 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_cd1f31b46099a7d1",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_28b038e2f11b6eb2",
+   "amount": -2655.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:320287321090209 EED:261209 IND ID:ST-46004132",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_3f0a2e2af0bd3fff",
+   "amount": -474.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:4530574542 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:4530574542 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_a8cf9ac3b6ee2dc8",
+   "amount": 996.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "FACEBK *114640479 FB.ME/ADS CA",
+   "original_description": "FACEBK *114640479 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_029de03ac56d5891",
+   "amount": -1503.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:445408011899895 EED:261211 IND ID:ST-77857737",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_a96e4547312b289d",
+   "amount": 2999.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 121126 ID:55064684 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 121126 ID:55064684 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_37782793dda7eee7",
+   "amount": 606.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 6382022614",
+   "original_description": "AUSTIN ENERGY WEB PMT 6382022614",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_50d6da16e98fdfa2",
+   "amount": 137.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #2195",
+   "original_description": "SHOPIFY* REFUND ORDER #2195",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_c0d54081593c2162",
+   "amount": -1434.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-13",
+   "authorized_date": "2026-12-13",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:692654072847135 EED:261213 IND ID:ST-84015345",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_f7210ebd3672d557",
+   "amount": 45.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #2757",
+   "original_description": "SHOPIFY* REFUND ORDER #2757",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_1f5afef423b8cd21",
+   "amount": 1665.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_72e646fb5f9ca9cf",
+   "amount": -3038.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:192636500019404 EED:261215 IND ID:ST-35285505",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_efa97737b987a7fb",
+   "amount": 1307.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8255782873 INDN:HANNAH PRICE C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8255782873 INDN:HANNAH PRICE CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_06ce9d525a1fb188",
+   "amount": 51.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "SHOPIFY* REFUND ORDER #9498",
+   "original_description": "SHOPIFY* REFUND ORDER #9498",
+   "merchant_name": "Shopify",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_4310d0bfe76d642f",
+   "amount": -760.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:7916814928 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:7916814928 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_6eb075c8ecdb24d2",
+   "amount": 114.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "AMAZON MKTPL*5315AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*5315AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_2d3a574200762cdf",
+   "amount": 705.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "FACEBK *587662521 FB.ME/ADS CA",
+   "original_description": "FACEBK *587662521 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_61037cc3aad65910",
+   "amount": -3503.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:576868575780116 EED:261217 IND ID:ST-84390828",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_e80882649e56b308",
+   "amount": 2810.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 121826 ID:32346765 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 121826 ID:32346765 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_45b9a86818c4ea64",
+   "amount": 222.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-19",
+   "authorized_date": "2026-12-19",
+   "pending": false,
+   "name": "H-E-B #771 AUSTIN TX",
+   "original_description": "H-E-B #771 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_d6861848f045b106",
+   "amount": -1654.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-19",
+   "authorized_date": "2026-12-19",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:266897902438057 EED:261219 IND ID:ST-16551446",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_5401df8b5221b59a",
+   "amount": 921.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8051",
+   "original_description": "AMEX EPAYMENT ACH PMT W8051",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_857938a0b24aab62",
+   "amount": -1909.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:175312027838072 EED:261221 IND ID:ST-24775481",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_e1befd13941e4389",
+   "amount": 168.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "AMAZON MKTPL*6771AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6771AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_88acea1547e3f838",
+   "amount": 1774.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_e77adf82b2162487",
+   "amount": -4500.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "ONLINE TRANSFER FROM SAV XXXXXX4821 REF #IB0837928",
+   "original_description": "ONLINE TRANSFER FROM SAV XXXXXX4821 REF #IB0837928",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_7be2bccfd0e7a071",
+   "amount": 80.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "AMAZON MKTPL*0521AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*0521AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_aa7d9760e45eeda3",
+   "amount": -3154.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:079458869348487 EED:261223 IND ID:ST-19231878",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_ca4073c1b9b1066b",
+   "amount": -1092.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:2711509119 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:2711509119 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_c06f58cfb43af5c7",
+   "amount": 1445.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "FACEBK *484776096 FB.ME/ADS CA",
+   "original_description": "FACEBK *484776096 FB.ME/ADS CA",
+   "merchant_name": "Facebook",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_OTHER_GENERAL_SERVICES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Meta",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_4115d9c2679ed4c5",
+   "amount": 2899.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 122526 ID:14117653 INDN:BLOOM AND CO CANDLES C",
+   "original_description": "GUSTO DES:NET 122526 ID:14117653 INDN:BLOOM AND CO CANDLES CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_bad716f18b8c2cc7",
+   "amount": -3298.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:942472804173212 EED:261225 IND ID:ST-53861615",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_58b0a01a821ce7ad",
+   "amount": -3531.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-27",
+   "authorized_date": "2026-12-27",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:869634435619915 EED:261227 IND ID:ST-81191187",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_9a7b9775568fdf48",
+   "amount": 1696.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "original_description": "ULINE *SHIP SUPPLIES 800-295-5510 WI",
+   "merchant_name": "Uline",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uline",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_fde0189a5c33d1e4",
+   "amount": -3534.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:",
+   "original_description": "ORIG CO NAME:SHOPIFY CO ENTRY DESCR:TRANSFER SEC:CCD TRACE#:332176121474247 EED:261229 IND ID:ST-08493757",
+   "merchant_name": "Shopify",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Shopify",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ed73dec91e64",
+   "transaction_id": "txn_41aef6d10824b056",
+   "amount": -762.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "PAYPAL DES:TRANSFER ID:3423370523 INDN:BLOOM AND CO CANDLES ",
+   "original_description": "PAYPAL DES:TRANSFER ID:3423370523 INDN:BLOOM AND CO CANDLES CO ID:PAYPALSI77 PPD",
+   "merchant_name": "PayPal",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "PayPal",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 139,
+ "request_id": "synthetic-B03"
+}

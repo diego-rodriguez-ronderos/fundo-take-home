@@ -1,0 +1,378 @@
+{
+ "rules": [
+  {
+   "key": "ASHLEY KIM",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "BETTER BEVERAGE DISTRIBUTORS",
+   "direction": "debit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B06"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B06"
+  },
+  {
+   "key": "BRENDA OKAFOR",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "CH13 TRUSTEE",
+   "direction": "debit",
+   "group": "HIGH_RISK_BANKRUPTCY",
+   "is_business": true,
+   "evidence_merchants": [
+    "B07"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B07"
+  },
+  {
+   "key": "DK SPORTSBK",
+   "direction": "debit",
+   "group": "HIGH_RISK_GAMBLING",
+   "is_business": false,
+   "evidence_merchants": [
+    "B06"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B06"
+  },
+  {
+   "key": "JESSICA WU",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "LAURA BIANCHI",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "LEGAL ORDER",
+   "direction": "debit",
+   "group": "HIGH_RISK_GARNISHMENT",
+   "is_business": true,
+   "evidence_merchants": [
+    "B07"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B07"
+  },
+  {
+   "key": "LEVY S HARDWARE",
+   "direction": "debit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B07"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B07"
+  },
+  {
+   "key": "MARIA LOPEZ",
+   "direction": "credit",
+   "group": "NOT_AVG_MONTHLY_REVENUE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "NATIONAL DEBT RELIEF",
+   "direction": "debit",
+   "group": "HIGH_RISK_DEBT_SETTLEMENT",
+   "is_business": true,
+   "evidence_merchants": [
+    "B07"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B07"
+  },
+  {
+   "key": "NICOLE GRANT",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "NON SUFFICIENT FUNDS",
+   "direction": "debit",
+   "group": "NSF",
+   "is_business": true,
+   "evidence_merchants": [
+    "B02"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B02"
+  },
+  {
+   "key": "O D ITEM",
+   "direction": "debit",
+   "group": "OVERDRAFT",
+   "is_business": true,
+   "evidence_merchants": [
+    "B02"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B02"
+  },
+  {
+   "key": "OD FEE REFUND",
+   "direction": "credit",
+   "group": "NOT_AVG_MONTHLY_REVENUE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B10"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B10"
+  },
+  {
+   "key": "PAYPAL",
+   "direction": "credit",
+   "group": "REVENUE_VERIFICATION",
+   "is_business": true,
+   "evidence_merchants": [
+    "B03"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B03"
+  },
+  {
+   "key": "QUICKFUND LLC",
+   "direction": "debit",
+   "group": "ACTIVE_ADVANCE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B09"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B09"
+  },
+  {
+   "key": "RACHEL STONE",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "SHOPIFY",
+   "direction": "credit",
+   "group": "REVENUE_VERIFICATION",
+   "is_business": true,
+   "evidence_merchants": [
+    "B03"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B03"
+  },
+  {
+   "key": "SHOPIFY CAPITAL",
+   "direction": "credit",
+   "group": "ACTIVE_ADVANCE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B03"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B03"
+  },
+  {
+   "key": "SOFIA DIAZ",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "SQUARE CAPITAL",
+   "direction": "credit",
+   "group": "ACTIVE_ADVANCE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B01"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B01"
+  },
+  {
+   "key": "STRIPE",
+   "direction": "credit",
+   "group": "REVENUE_VERIFICATION",
+   "is_business": true,
+   "evidence_merchants": [
+    "B07"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B07"
+  },
+  {
+   "key": "TANYA REYES",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B04"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B04"
+  },
+  {
+   "key": "TEXAS LOTTERY COMMISSION",
+   "direction": "credit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B08"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B08"
+  },
+  {
+   "key": "TEXAS LOTTERY COMMISSION",
+   "direction": "debit",
+   "group": "NONE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B08"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B08"
+  },
+  {
+   "key": "U S SMALL BUSINESS ADMINISTRATION",
+   "direction": "credit",
+   "group": "NOT_AVG_MONTHLY_REVENUE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B09"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B09"
+  },
+  {
+   "key": "YSTONE CAPITAL",
+   "direction": "debit",
+   "group": "ACTIVE_ADVANCE",
+   "is_business": true,
+   "evidence_merchants": [
+    "B02"
+   ],
+   "status": "proposed",
+   "created": "2026-10-07",
+   "review_by": "2027-04-05",
+   "scope": "B02"
+  }
+ ],
+ "skipped": [
+  {
+   "key": "FORWARD FINANCING",
+   "direction": "credit",
+   "why": "event group keyed on a counterparty",
+   "labels": [
+    "NSF"
+   ]
+  }
+ ]
+}

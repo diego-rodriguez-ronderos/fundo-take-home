@@ -1,0 +1,4501 @@
+{
+ "business": {
+  "business_id": "B01",
+  "name": "Joes Tacos LLC",
+  "industry": "Restaurant",
+  "owner_name": "Joe Ramirez",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "4162",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1f5a14e1110d6be5",
+   "amount": -3028.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261002 ID:T39123185058 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261002 ID:T39123185058 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_a17ef8af89bd21e4",
+   "amount": 8436.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "GUSTO DES:NET 100226 ID:80490232 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 100226 ID:80490232 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_deeeb868ad80ad3b",
+   "amount": 393.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-02",
+   "authorized_date": "2026-10-02",
+   "pending": false,
+   "name": "AMAZON MKTPL*7530AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7530AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c8c13c0d853c76cf",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_dd16cee9c8022aa1",
+   "amount": -1543.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-03",
+   "authorized_date": "2026-10-03",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261003 ID:T39183454866 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261003 ID:T39183454866 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_e06fb7257ec8922a",
+   "amount": -1427.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-04",
+   "authorized_date": "2026-10-04",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261004 ID:T36454817672 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261004 ID:T36454817672 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_df166f57fb8a5925",
+   "amount": -2556.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-05",
+   "authorized_date": "2026-10-05",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261005 ID:T37627007853 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261005 ID:T37627007853 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c6fa73d2cc891b0a",
+   "amount": -1804.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261006 ID:T32990900521 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261006 ID:T32990900521 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_f962a78ca51e42fb",
+   "amount": 2974.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-06",
+   "authorized_date": "2026-10-06",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 80960137",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 80960137",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_953b7dbfcef4d882",
+   "amount": -2153.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-07",
+   "authorized_date": "2026-10-07",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261007 ID:T36919891955 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261007 ID:T36919891955 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_43f7a7546e1f0345",
+   "amount": -2024.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261008 ID:T33004793893 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261008 ID:T33004793893 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_7c6229c5798eee2e",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-08",
+   "authorized_date": "2026-10-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_0d92c5de4b6cea5e",
+   "amount": 7834.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "GUSTO DES:NET 100926 ID:67057566 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 100926 ID:67057566 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_2b376c4c904a0b59",
+   "amount": 293.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "AMAZON MKTPL*5552AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*5552AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_eb2cde38d6e136b0",
+   "amount": -2078.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-09",
+   "authorized_date": "2026-10-09",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261009 ID:T32026193864 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261009 ID:T32026193864 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_843c025523769cf4",
+   "amount": -1746.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-10",
+   "authorized_date": "2026-10-10",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261010 ID:T34409706434 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261010 ID:T34409706434 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_0ff11818d209cad7",
+   "amount": -2059.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-11",
+   "authorized_date": "2026-10-11",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261011 ID:T37553660910 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261011 ID:T37553660910 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_6dbe3f2235ce2270",
+   "amount": 511.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 3480786692",
+   "original_description": "AUSTIN ENERGY WEB PMT 3480786692",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9b5ac64908a214bc",
+   "amount": -2611.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-12",
+   "authorized_date": "2026-10-12",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261012 ID:T32535254419 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261012 ID:T32535254419 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_da01e62a84bcc6f8",
+   "amount": 3928.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 32081875",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 32081875",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_f96ad82b38a40795",
+   "amount": -3022.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-13",
+   "authorized_date": "2026-10-13",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261013 ID:T30237797550 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261013 ID:T30237797550 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_fef8a203a71bb040",
+   "amount": -2886.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-14",
+   "authorized_date": "2026-10-14",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261014 ID:T32754765404 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261014 ID:T32754765404 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_2653e907414d881a",
+   "amount": 2035.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8332491355 INDN:JOE RAMIREZ CO",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8332491355 INDN:JOE RAMIREZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_bc65abd72fcf0d08",
+   "amount": -2499.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-15",
+   "authorized_date": "2026-10-15",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261015 ID:T30928587088 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261015 ID:T30928587088 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_42445a10012f3077",
+   "amount": -2552.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261016 ID:T37294915338 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261016 ID:T37294915338 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_bae067e76455c1a7",
+   "amount": 8090.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-16",
+   "authorized_date": "2026-10-16",
+   "pending": false,
+   "name": "GUSTO DES:NET 101626 ID:72596377 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 101626 ID:72596377 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_3e05bc5f0aba46b0",
+   "amount": -2037.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-17",
+   "authorized_date": "2026-10-17",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261017 ID:T32628886882 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261017 ID:T32628886882 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_5b9dfb336a6e2dbb",
+   "amount": -2294.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-18",
+   "authorized_date": "2026-10-18",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261018 ID:T39011793848 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261018 ID:T39011793848 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_761bf20c3275e7f1",
+   "amount": -2192.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-19",
+   "authorized_date": "2026-10-19",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261019 ID:T30668056729 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261019 ID:T30668056729 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_39c45ed68628d5ab",
+   "amount": 2854.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 35932722",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 35932722",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_a8dcb7af66aa5db4",
+   "amount": -1624.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261020 ID:T34404904776 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261020 ID:T34404904776 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_bd61451304f2c8b2",
+   "amount": 988.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-20",
+   "authorized_date": "2026-10-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W7781",
+   "original_description": "AMEX EPAYMENT ACH PMT W7781",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_2b4216fc7bb6869e",
+   "amount": -3185.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-21",
+   "authorized_date": "2026-10-21",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261021 ID:T36842501124 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261021 ID:T36842501124 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_34aa895c4c046dd8",
+   "amount": -2377.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-22",
+   "authorized_date": "2026-10-22",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261022 ID:T37200028600 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261022 ID:T37200028600 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_7a4b58960c728e15",
+   "amount": 8521.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "GUSTO DES:NET 102326 ID:82777406 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 102326 ID:82777406 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c495beaaf5f7daf5",
+   "amount": -1612.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-23",
+   "authorized_date": "2026-10-23",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261023 ID:T31806694977 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261023 ID:T31806694977 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_b09c8f73bc74eca8",
+   "amount": -2803.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-24",
+   "authorized_date": "2026-10-24",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261024 ID:T32198422933 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261024 ID:T32198422933 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_3dcfee610ff302a4",
+   "amount": -2300.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-25",
+   "authorized_date": "2026-10-25",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261025 ID:T32537023656 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261025 ID:T32537023656 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_446b06ee312eabb8",
+   "amount": -2199.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-26",
+   "authorized_date": "2026-10-26",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261026 ID:T34422496955 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261026 ID:T34422496955 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_4292e6f4df89a2e0",
+   "amount": 176.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "H-E-B #785 AUSTIN TX",
+   "original_description": "H-E-B #785 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9d27127feceb3c73",
+   "amount": -2860.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261027 ID:T32069601198 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261027 ID:T32069601198 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_a086fa916980ff42",
+   "amount": 3507.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-27",
+   "authorized_date": "2026-10-27",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 53095779",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 53095779",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_344c28d241de38d9",
+   "amount": -2354.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-28",
+   "authorized_date": "2026-10-28",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261028 ID:T31626569135 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261028 ID:T31626569135 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_3713347c7ad74edc",
+   "amount": -2272.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-29",
+   "authorized_date": "2026-10-29",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261029 ID:T37227034394 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261029 ID:T37227034394 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_70d05312dc14aeb5",
+   "amount": -2563.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261030 ID:T35508567520 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261030 ID:T35508567520 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_b88adf1e9f035ae0",
+   "amount": 7376.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-30",
+   "authorized_date": "2026-10-30",
+   "pending": false,
+   "name": "GUSTO DES:NET 103026 ID:27363798 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 103026 ID:27363798 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_cbd1b597dd702643",
+   "amount": -2065.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-31",
+   "authorized_date": "2026-10-31",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261031 ID:T38173809167 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261031 ID:T38173809167 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_24b600fb36c0c807",
+   "amount": 6500,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ACH DEBIT 2180 LANDMARK PROPERTIES RENT 1126",
+   "original_description": "ACH DEBIT 2180 LANDMARK PROPERTIES RENT 1126",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_88d0847675321586",
+   "amount": -3104.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261101 ID:T30270847364 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261101 ID:T30270847364 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_45a3d2541efdb6f3",
+   "amount": -2770.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261102 ID:T37992122505 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261102 ID:T37992122505 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1cb122faa3575b7e",
+   "amount": -3086.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261103 ID:T31041186095 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261103 ID:T31041186095 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_4c27d7d8979c9b72",
+   "amount": 3812.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 66453465",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 66453465",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_63f718ebfc2d7330",
+   "amount": -30000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "SQUARE CAPITAL LLC DES:SQ CAP ADV ID:7299672494 INDN:JOES TA",
+   "original_description": "SQUARE CAPITAL LLC DES:SQ CAP ADV ID:7299672494 INDN:JOES TACOS LLC CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square Capital",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9b08ee8d29e41663",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_bd1e6c32bdaf924a",
+   "amount": -2512.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261104 ID:T33483141925 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261104 ID:T33483141925 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_2872e7cacf723d75",
+   "amount": -3134.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261105 ID:T31192901082 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261105 ID:T31192901082 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_552a1b3e3a4bdd0a",
+   "amount": -2743.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261106 ID:T39758029949 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261106 ID:T39758029949 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_982e173ea6e35ec2",
+   "amount": 7456.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "GUSTO DES:NET 110626 ID:10135729 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 110626 ID:10135729 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_641bfc506f8a8fb2",
+   "amount": -1944.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-07",
+   "authorized_date": "2026-11-07",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261107 ID:T32907823881 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261107 ID:T32907823881 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_766101d99158c49a",
+   "amount": -1692.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261108 ID:T31888772026 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261108 ID:T31888772026 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9748b55c1ed7235d",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_74c04adc6a89d4f1",
+   "amount": -2658.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261109 ID:T31299166221 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261109 ID:T31299166221 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c3849847f7250b16",
+   "amount": 2917.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 97568941",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 97568941",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_efd3d8d52ba1ad67",
+   "amount": -3082.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261110 ID:T33721144525 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261110 ID:T33721144525 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_3e28164c80830836",
+   "amount": -2501.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261111 ID:T32268534597 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261111 ID:T32268534597 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_86c720227eaaf55f",
+   "amount": 741.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 6123226547",
+   "original_description": "AUSTIN ENERGY WEB PMT 6123226547",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_d282753494b9c013",
+   "amount": -2577.39,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261112 ID:T39721180772 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261112 ID:T39721180772 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_b0e88cd2616e80bf",
+   "amount": 7052.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "GUSTO DES:NET 111326 ID:65792439 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 111326 ID:65792439 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_cb8e86c5382ce3c8",
+   "amount": -1740.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261113 ID:T32183485826 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261113 ID:T32183485826 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_e169c6966e7ef764",
+   "amount": -2454.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-14",
+   "authorized_date": "2026-11-14",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261114 ID:T35493893973 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261114 ID:T35493893973 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_0b9ff24dec85f38d",
+   "amount": -1455.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261115 ID:T36773146061 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261115 ID:T36773146061 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_976e85e4d69acdf8",
+   "amount": 1616.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:7290936666 INDN:JOE RAMIREZ CO",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:7290936666 INDN:JOE RAMIREZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_a0504b699781b9f9",
+   "amount": -2691.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-16",
+   "authorized_date": "2026-11-16",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261116 ID:T34973543887 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261116 ID:T34973543887 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9fdf9afd6ccd0af3",
+   "amount": 3066.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 90211769",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 90211769",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c432bfb0235892d8",
+   "amount": -3053.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261117 ID:T31161918887 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261117 ID:T31161918887 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_09e9c94d880dd14f",
+   "amount": -1767.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261118 ID:T36755143403 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261118 ID:T36755143403 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_afb38c8352378433",
+   "amount": -1859.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261119 ID:T31266098631 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261119 ID:T31266098631 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_8171c94ddd2d860b",
+   "amount": 7163.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "GUSTO DES:NET 112026 ID:06675955 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 112026 ID:06675955 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_a4c418bc145741e4",
+   "amount": -1993.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261120 ID:T37026160996 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261120 ID:T37026160996 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_e847d90374c6cc02",
+   "amount": 441.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W1996",
+   "original_description": "AMEX EPAYMENT ACH PMT W1996",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_8ad5602820d09e5b",
+   "amount": -1568.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-21",
+   "authorized_date": "2026-11-21",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261121 ID:T30692793030 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261121 ID:T30692793030 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_7a0a15d04d6d1de2",
+   "amount": -2642.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-22",
+   "authorized_date": "2026-11-22",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261122 ID:T34754058057 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261122 ID:T34754058057 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_ac1f76276bbb6f24",
+   "amount": 112.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-22",
+   "authorized_date": "2026-11-22",
+   "pending": false,
+   "name": "H-E-B #376 AUSTIN TX",
+   "original_description": "H-E-B #376 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9e216e446ee73c00",
+   "amount": 310.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "AMAZON MKTPL*2428AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2428AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c84b6c83a9e766f8",
+   "amount": -2563.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261123 ID:T31783099640 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261123 ID:T31783099640 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_137631e7f8b9d826",
+   "amount": -2311.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261124 ID:T31286103641 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261124 ID:T31286103641 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_de220ee551cd192d",
+   "amount": 3757.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 03394471",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 03394471",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c825f98b3ff49bff",
+   "amount": -3197.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261125 ID:T32992943020 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261125 ID:T32992943020 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_e5cfcf18227c506d",
+   "amount": 257.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "AMAZON MKTPL*5944AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*5944AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_d9d488111a50d5f5",
+   "amount": -3196.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261126 ID:T36990073979 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261126 ID:T36990073979 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9982db5d24bc5afe",
+   "amount": -2620.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261127 ID:T39444764067 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261127 ID:T39444764067 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_be483d1835103fc0",
+   "amount": 7575.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "GUSTO DES:NET 112726 ID:14129018 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 112726 ID:14129018 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1317c0a3e690751b",
+   "amount": 137.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-28",
+   "authorized_date": "2026-11-28",
+   "pending": false,
+   "name": "H-E-B #850 AUSTIN TX",
+   "original_description": "H-E-B #850 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_6c07482fff253074",
+   "amount": -3045.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-28",
+   "authorized_date": "2026-11-28",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261128 ID:T36767861850 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261128 ID:T36767861850 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_f832d6b210ac7430",
+   "amount": -3198.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-29",
+   "authorized_date": "2026-11-29",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261129 ID:T33024392756 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261129 ID:T33024392756 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_81ec20c5acb6af0c",
+   "amount": -2360.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261130 ID:T31843366196 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261130 ID:T31843366196 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_125d829660532b13",
+   "amount": -3040.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261201 ID:T38974836387 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261201 ID:T38974836387 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_6e157e9c88b9c1d0",
+   "amount": 6500,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ACH DEBIT 6387 LANDMARK PROPERTIES RENT 1226",
+   "original_description": "ACH DEBIT 6387 LANDMARK PROPERTIES RENT 1226",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c6cbde799f8d494e",
+   "amount": 3720.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 44672174",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 44672174",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_b7a72e46c2c93484",
+   "amount": -1876.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261202 ID:T34991137307 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261202 ID:T34991137307 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_56791b6c43061e97",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_7ab2298f65a73205",
+   "amount": -1874.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261203 ID:T36316213754 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261203 ID:T36316213754 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_37534ebe6799c5f9",
+   "amount": -2001.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261204 ID:T31166046722 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261204 ID:T31166046722 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_4876451a6b76033e",
+   "amount": 8565.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 120426 ID:20614919 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 120426 ID:20614919 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_b91de9df52fa3118",
+   "amount": -2858.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-05",
+   "authorized_date": "2026-12-05",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261205 ID:T35712662558 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261205 ID:T35712662558 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_14d826b5c026d708",
+   "amount": 220.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-06",
+   "authorized_date": "2026-12-06",
+   "pending": false,
+   "name": "H-E-B #285 AUSTIN TX",
+   "original_description": "H-E-B #285 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_74513cb0a01c11ba",
+   "amount": -2902.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-06",
+   "authorized_date": "2026-12-06",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261206 ID:T37526135807 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261206 ID:T37526135807 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_d9088e59d4399799",
+   "amount": -1963.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261207 ID:T30016095982 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261207 ID:T30016095982 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_36cb51abcb49d288",
+   "amount": -1465.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261208 ID:T33404672639 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261208 ID:T33404672639 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_477dc08b39199e6b",
+   "amount": 3157.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 82830045",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 82830045",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_49a15296053bbba3",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_0a99e83d59c400ea",
+   "amount": -2952.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261209 ID:T36655673633 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261209 ID:T36655673633 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_5e60b4877ed16235",
+   "amount": -2543.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261210 ID:T38293481574 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261210 ID:T38293481574 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_05eee140a2a296f9",
+   "amount": -2852.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261211 ID:T32550453848 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261211 ID:T32550453848 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_484106fc20bc3d3f",
+   "amount": 7771.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 121126 ID:56268865 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 121126 ID:56268865 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_13d35f93b429c40e",
+   "amount": 657.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 4771163796",
+   "original_description": "AUSTIN ENERGY WEB PMT 4771163796",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_b202980a5bc20ecc",
+   "amount": -2386.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261212 ID:T31311323973 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261212 ID:T31311323973 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_f21fc4966e7e62ff",
+   "amount": -2618.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-13",
+   "authorized_date": "2026-12-13",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261213 ID:T35747939796 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261213 ID:T35747939796 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_14de1c704251a665",
+   "amount": -1904.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261214 ID:T31958292222 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261214 ID:T31958292222 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_15480f409eaa7004",
+   "amount": 1015.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:7026370739 INDN:JOE RAMIREZ CO",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:7026370739 INDN:JOE RAMIREZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_26e533fa28317410",
+   "amount": 3052.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 89489943",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 89489943",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_c97ed8683b939e5a",
+   "amount": -3093.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261215 ID:T36015879103 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261215 ID:T36015879103 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_3bace1211734f004",
+   "amount": 80.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "AMAZON MKTPL*7360AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7360AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_d2c0a52d6aa5156b",
+   "amount": -1623.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261216 ID:T37761145858 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261216 ID:T37761145858 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1cb3c55567c1e24b",
+   "amount": 233.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "H-E-B #831 AUSTIN TX",
+   "original_description": "H-E-B #831 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_9d6093b1680e4b3e",
+   "amount": -2010.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261217 ID:T31817768593 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261217 ID:T31817768593 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_256f6d8b2abec8e0",
+   "amount": -2346.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261218 ID:T38228334444 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261218 ID:T38228334444 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_cb09c02dd8553a64",
+   "amount": 8081.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 121826 ID:63175013 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 121826 ID:63175013 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_d6392f3d96698b85",
+   "amount": -2981.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-19",
+   "authorized_date": "2026-12-19",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261219 ID:T32976893086 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261219 ID:T32976893086 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_0d95260a7a014e04",
+   "amount": -2331.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261220 ID:T36618740191 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261220 ID:T36618740191 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1b8baebae9e7f4c3",
+   "amount": 1180.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W9196",
+   "original_description": "AMEX EPAYMENT ACH PMT W9196",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_03d04ca9fc872804",
+   "amount": -1787.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261221 ID:T32174312045 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261221 ID:T32174312045 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_0129dd822883dc02",
+   "amount": 325.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "AMAZON MKTPL*5176AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*5176AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_02ecb9ee638ec58c",
+   "amount": -2133.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261222 ID:T34198818787 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261222 ID:T34198818787 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_a34ce2dc2acda674",
+   "amount": 3043.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 00329841",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 00329841",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_22db5456f973627e",
+   "amount": -2165.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261223 ID:T33147897222 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261223 ID:T33147897222 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_2bc9f216e8021424",
+   "amount": -2586.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261224 ID:T37056867443 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261224 ID:T37056867443 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1038fdf356ff7bb6",
+   "amount": -1786.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261225 ID:T30252454994 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261225 ID:T30252454994 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_db7cfd8914d3ceff",
+   "amount": 8523.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 122526 ID:45385103 INDN:JOES TACOS LLC CO ID:9",
+   "original_description": "GUSTO DES:NET 122526 ID:45385103 INDN:JOES TACOS LLC CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_aec6bce12c6cf8b8",
+   "amount": -3080.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-26",
+   "authorized_date": "2026-12-26",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261226 ID:T34791963885 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261226 ID:T34791963885 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_1811eb8644f3f69b",
+   "amount": -2825.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-27",
+   "authorized_date": "2026-12-27",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261227 ID:T39761373215 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261227 ID:T39761373215 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_909b629f26ead240",
+   "amount": -2546.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261228 ID:T36821141771 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261228 ID:T36821141771 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_e0e5572afcf0358a",
+   "amount": -2698.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261229 ID:T30646275166 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261229 ID:T30646275166 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_f37bc2e0f60d543d",
+   "amount": 2997.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "SYSCO CORPORATION ACH DEBIT 22723110",
+   "original_description": "SYSCO CORPORATION ACH DEBIT 22723110",
+   "merchant_name": "Sysco",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Sysco",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_23a6b509f8c9",
+   "transaction_id": "txn_109359eb1be1edeb",
+   "amount": -2047.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "SQUARE INC DES:SQ261230 ID:T34498632727 INDN:JOES TACOS LLC ",
+   "original_description": "SQUARE INC DES:SQ261230 ID:T34498632727 INDN:JOES TACOS LLC CO ID:9424300002 CCD",
+   "merchant_name": "Square",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Square",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 145,
+ "request_id": "synthetic-B01"
+}

@@ -1,0 +1,3198 @@
+{
+ "business": {
+  "business_id": "B10",
+  "name": "GreenEdge Lawn Care",
+  "industry": "Landscaping",
+  "owner_name": "Luis Ortega",
+  "bank": "Chase",
+  "days_of_history": 61
+ },
+ "accounts": [
+  {
+   "account_id": "acc_5224d572f0d7",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "5286",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_a1439b0d90377e89",
+   "amount": 225.65,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-31",
+   "authorized_date": "2026-10-31",
+   "pending": false,
+   "name": "AMAZON MKTPL*9813AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9813AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_edb03a1337967d63",
+   "amount": 194.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-10-31",
+   "authorized_date": "2026-10-31",
+   "pending": false,
+   "name": "H-E-B #203 AUSTIN TX",
+   "original_description": "H-E-B #203 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_0ba4cb6a6203a6df",
+   "amount": -2190.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:8475827290",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:8475827290",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_8d496fb2c5c60059",
+   "amount": 1200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "ACH DEBIT 7155 LANDMARK PROPERTIES RENT 1126",
+   "original_description": "ACH DEBIT 7155 LANDMARK PROPERTIES RENT 1126",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_ac8b9c962300d740",
+   "amount": 164.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-01",
+   "authorized_date": "2026-11-01",
+   "pending": false,
+   "name": "STRIPE DES:REFUND ID:ST-1954255017",
+   "original_description": "STRIPE DES:REFUND ID:ST-1954255017",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_40e76b3aff73c816",
+   "amount": 449.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #152",
+   "original_description": "SITEONE LANDSCAPE #152",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c6fe5a43035cd832",
+   "amount": -1036.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-02",
+   "authorized_date": "2026-11-02",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-5465066419 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-5465066419 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_2283e0ba10ef1f90",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_aec28111dfb1a71d",
+   "amount": -1686.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:8402127399",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:8402127399",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c46f3945d3e946de",
+   "amount": -1492.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-03",
+   "authorized_date": "2026-11-03",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-0105582745 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-0105582745 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_34dafc6b6f660693",
+   "amount": -956.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-3812567754 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-3812567754 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_fec0dc7517bdc01e",
+   "amount": 134.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-04",
+   "authorized_date": "2026-11-04",
+   "pending": false,
+   "name": "AMAZON MKTPL*6556AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6556AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_555bf48b8b75f051",
+   "amount": -602.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-05",
+   "authorized_date": "2026-11-05",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-4591247814 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-4591247814 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_789d078d82fd1145",
+   "amount": 4010.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "GUSTO DES:NET 110626 ID:93247502 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 110626 ID:93247502 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_7bff77c1c701acfa",
+   "amount": 34.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "OVERDRAFT FEE FOR ITEM 082165",
+   "original_description": "OVERDRAFT FEE FOR ITEM 082165",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OVERDRAFT_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_9754d97823e40320",
+   "amount": -866.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-9273929884 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-9273929884 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_cb07e7aa5ebe0e25",
+   "amount": 214.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-06",
+   "authorized_date": "2026-11-06",
+   "pending": false,
+   "name": "AMAZON MKTPL*1082AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1082AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_8560dcc2430fa939",
+   "amount": 118.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-07",
+   "authorized_date": "2026-11-07",
+   "pending": false,
+   "name": "H-E-B #257 AUSTIN TX",
+   "original_description": "H-E-B #257 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_1e54215350d97852",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-08",
+   "authorized_date": "2026-11-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_4048a51ac7f71ca0",
+   "amount": 232.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #737",
+   "original_description": "SITEONE LANDSCAPE #737",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c50b2f8a27975975",
+   "amount": -1108.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-09",
+   "authorized_date": "2026-11-09",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-9920373138 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-9920373138 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_814b2dc8e2afa1f5",
+   "amount": -1355.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-10",
+   "authorized_date": "2026-11-10",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-8333059982 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-8333059982 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_4a2e91b74a5a965d",
+   "amount": -838.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-11",
+   "authorized_date": "2026-11-11",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-7942653051 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-7942653051 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_36c488107af5643a",
+   "amount": 245.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "H-E-B #021 AUSTIN TX",
+   "original_description": "H-E-B #021 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_84b10c9173a1d8a1",
+   "amount": 588.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 4302574481",
+   "original_description": "AUSTIN ENERGY WEB PMT 4302574481",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_9e1ad4cddf4e5d22",
+   "amount": -1325.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-12",
+   "authorized_date": "2026-11-12",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-5978745161 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-5978745161 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_731e79f3f3d10d51",
+   "amount": -1079.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-5437629489 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-5437629489 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_ed30630433e8da46",
+   "amount": 4041.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-13",
+   "authorized_date": "2026-11-13",
+   "pending": false,
+   "name": "GUSTO DES:NET 111326 ID:82500680 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 111326 ID:82500680 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_f4a09ea12c570168",
+   "amount": -1536.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-14",
+   "authorized_date": "2026-11-14",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:1431541721",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:1431541721",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_f985af7b001c8c0f",
+   "amount": 1789.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-15",
+   "authorized_date": "2026-11-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:7429753181 INDN:LUIS ORTEGA CO",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:7429753181 INDN:LUIS ORTEGA CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_074478557a20c532",
+   "amount": -539.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-16",
+   "authorized_date": "2026-11-16",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-8431286564 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-8431286564 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_1e70d386d5a267af",
+   "amount": 540.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-16",
+   "authorized_date": "2026-11-16",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #816",
+   "original_description": "SITEONE LANDSCAPE #816",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_3a0871efc20c62a5",
+   "amount": -1230.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-7702585428 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-7702585428 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_9cb7b4d4bfeff34e",
+   "amount": -188.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-17",
+   "authorized_date": "2026-11-17",
+   "pending": false,
+   "name": "VENMO DES:CASHOUT ID:8476823610 INDN:LUIS ORTEGA",
+   "original_description": "VENMO DES:CASHOUT ID:8476823610 INDN:LUIS ORTEGA",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Venmo",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_00dbe07ff7eaeb91",
+   "amount": -803.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-8463532269 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-8463532269 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_4b552d3038fa065b",
+   "amount": -1682.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-18",
+   "authorized_date": "2026-11-18",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0153238230",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0153238230",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_1e46b416cdb05b93",
+   "amount": -4200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "IRS TREAS 310 DES:TAX REF ID:599740126012",
+   "original_description": "IRS TREAS 310 DES:TAX REF ID:599740126012",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_TAX_REFUND",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_8542563672bcc5f5",
+   "amount": 264.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "AMAZON MKTPL*9730AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9730AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_9bc8678a0ac7d8fc",
+   "amount": -873.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-19",
+   "authorized_date": "2026-11-19",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-0429129196 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-0429129196 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_3fa7148c4afe4cbe",
+   "amount": 3481.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "GUSTO DES:NET 112026 ID:52516468 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 112026 ID:52516468 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_e4ee50a47a0cb43b",
+   "amount": -577.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-2177777607 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-2177777607 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_f71f32cf1136acc5",
+   "amount": 1110.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-20",
+   "authorized_date": "2026-11-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W5563",
+   "original_description": "AMEX EPAYMENT ACH PMT W5563",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c07368e163b123dd",
+   "amount": 121.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-21",
+   "authorized_date": "2026-11-21",
+   "pending": false,
+   "name": "STRIPE DES:REFUND ID:ST-0437152391",
+   "original_description": "STRIPE DES:REFUND ID:ST-0437152391",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_7351416061f8fdd7",
+   "amount": 421.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #273",
+   "original_description": "SITEONE LANDSCAPE #273",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_8e6a0be0a0fe1a3d",
+   "amount": -1438.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-23",
+   "authorized_date": "2026-11-23",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-2093728816 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-2093728816 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_880468ebcdf3c94e",
+   "amount": -1560.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-24",
+   "authorized_date": "2026-11-24",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-6527467671 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-6527467671 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_922681e65f9542df",
+   "amount": -687.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-4048459572 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-4048459572 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c23c923dcf8746a9",
+   "amount": -1707.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5313118578",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5313118578",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_d25fff897b670556",
+   "amount": 169.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-25",
+   "authorized_date": "2026-11-25",
+   "pending": false,
+   "name": "H-E-B #819 AUSTIN TX",
+   "original_description": "H-E-B #819 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_61c619a6e2355f31",
+   "amount": -830.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-26",
+   "authorized_date": "2026-11-26",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-4665928939 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-4665928939 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_339417bee8089aab",
+   "amount": -1765.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-2438974714 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-2438974714 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_7414d81790e6439d",
+   "amount": 3841.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "GUSTO DES:NET 112726 ID:86742458 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 112726 ID:86742458 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_9f075b02eed8db89",
+   "amount": 49.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-27",
+   "authorized_date": "2026-11-27",
+   "pending": false,
+   "name": "STRIPE DES:REFUND ID:ST-5565289681",
+   "original_description": "STRIPE DES:REFUND ID:ST-5565289681",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_41071e5351e3d320",
+   "amount": -1413.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-9835786599 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-9835786599 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_bc9f7f0cf63d871f",
+   "amount": 300.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #933",
+   "original_description": "SITEONE LANDSCAPE #933",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_dc52b448ce0d9f7d",
+   "amount": 97.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-11-30",
+   "authorized_date": "2026-11-30",
+   "pending": false,
+   "name": "AMAZON MKTPL*6846AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6846AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_09aa22253a688faf",
+   "amount": -1380.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-2258564883 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-2258564883 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_6512f763749bfbed",
+   "amount": 1200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-01",
+   "authorized_date": "2026-12-01",
+   "pending": false,
+   "name": "ACH DEBIT 0696 LANDMARK PROPERTIES RENT 1226",
+   "original_description": "ACH DEBIT 0696 LANDMARK PROPERTIES RENT 1226",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_cfeca1accfcd12bd",
+   "amount": -1499.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-02",
+   "authorized_date": "2026-12-02",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-1318495584 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-1318495584 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_043039faa81105d7",
+   "amount": -34.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "OD FEE REFUND 516941",
+   "original_description": "OD FEE REFUND 516941",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_5d7d5e7d44e73583",
+   "amount": -1021.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-6677435754 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-6677435754 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_816d49dfa748dbc4",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_fd502ecdd5897d58",
+   "amount": -234.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-03",
+   "authorized_date": "2026-12-03",
+   "pending": false,
+   "name": "VENMO DES:CASHOUT ID:1357029475 INDN:LUIS ORTEGA",
+   "original_description": "VENMO DES:CASHOUT ID:1357029475 INDN:LUIS ORTEGA",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Venmo",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_6dd8429ef87d0554",
+   "amount": 4104.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 120426 ID:23745595 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 120426 ID:23745595 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_70f7aae46404519d",
+   "amount": -1104.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-7345214426 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-7345214426 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_f37a79451e4cef98",
+   "amount": 232.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-04",
+   "authorized_date": "2026-12-04",
+   "pending": false,
+   "name": "H-E-B #463 AUSTIN TX",
+   "original_description": "H-E-B #463 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_0161daa997f20032",
+   "amount": 320.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #065",
+   "original_description": "SITEONE LANDSCAPE #065",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_d73e9259e33fb2be",
+   "amount": -1296.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-07",
+   "authorized_date": "2026-12-07",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-2324208426 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-2324208426 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_479ca4ef61618c8b",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_65b00745a28d555f",
+   "amount": -1922.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:7861168432",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:7861168432",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_cd02dd00abd7e424",
+   "amount": -610.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-08",
+   "authorized_date": "2026-12-08",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-8436407873 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-8436407873 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_fb624be57f42935d",
+   "amount": -1359.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-09",
+   "authorized_date": "2026-12-09",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-7884767119 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-7884767119 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_0939947c49c6534f",
+   "amount": -299.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "VENMO DES:CASHOUT ID:4645541670 INDN:LUIS ORTEGA",
+   "original_description": "VENMO DES:CASHOUT ID:4645541670 INDN:LUIS ORTEGA",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Venmo",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_e512eb74c962cff0",
+   "amount": -1330.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-10",
+   "authorized_date": "2026-12-10",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-6701245352 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-6701245352 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_01b94fb43d925f3c",
+   "amount": 4153.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 121126 ID:17527168 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 121126 ID:17527168 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_2a0d26d9ac31f4df",
+   "amount": -974.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-11",
+   "authorized_date": "2026-12-11",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-1626648928 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-1626648928 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_5b9aa0b987392534",
+   "amount": 442.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-12",
+   "authorized_date": "2026-12-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 3930403938",
+   "original_description": "AUSTIN ENERGY WEB PMT 3930403938",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_087da3b7738281f6",
+   "amount": 330.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #377",
+   "original_description": "SITEONE LANDSCAPE #377",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_d87796042e412462",
+   "amount": -715.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-1824275964 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-1824275964 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_f3fe1fc3e2109a63",
+   "amount": -136.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "VENMO DES:CASHOUT ID:9570574203 INDN:LUIS ORTEGA",
+   "original_description": "VENMO DES:CASHOUT ID:9570574203 INDN:LUIS ORTEGA",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Venmo",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_f80c457fdd2566a2",
+   "amount": 222.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-14",
+   "authorized_date": "2026-12-14",
+   "pending": false,
+   "name": "STRIPE DES:REFUND ID:ST-7662490687",
+   "original_description": "STRIPE DES:REFUND ID:ST-7662490687",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_0a538a50d10d99e4",
+   "amount": 1394.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:8459983801 INDN:LUIS ORTEGA CO",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:8459983801 INDN:LUIS ORTEGA CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_4c13bf0e70b9a268",
+   "amount": -1435.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:3767513044",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:3767513044",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_be35cb3ab7a4f85e",
+   "amount": -816.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-15",
+   "authorized_date": "2026-12-15",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-0334780787 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-0334780787 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_46d6ba4c357e39d7",
+   "amount": -1520.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-16",
+   "authorized_date": "2026-12-16",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-3658592964 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-3658592964 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_58fa47529704d8dd",
+   "amount": -1359.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-17",
+   "authorized_date": "2026-12-17",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-2541512626 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-2541512626 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_05d9c24ff760f0fb",
+   "amount": 120.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "STRIPE DES:REFUND ID:ST-4464879677",
+   "original_description": "STRIPE DES:REFUND ID:ST-4464879677",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_8467f78aa2db4288",
+   "amount": -848.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-4128237837 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-4128237837 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_8cca52643ffe4130",
+   "amount": 3904.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 121826 ID:76726332 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 121826 ID:76726332 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_e00133d1ec879e07",
+   "amount": 34.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-18",
+   "authorized_date": "2026-12-18",
+   "pending": false,
+   "name": "OVERDRAFT FEE FOR ITEM 651421",
+   "original_description": "OVERDRAFT FEE FOR ITEM 651421",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OVERDRAFT_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_7a54a5eabfeaf146",
+   "amount": 167.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-19",
+   "authorized_date": "2026-12-19",
+   "pending": false,
+   "name": "STRIPE DES:REFUND ID:ST-6432229843",
+   "original_description": "STRIPE DES:REFUND ID:ST-6432229843",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_3d4c950a2eefe709",
+   "amount": 204.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMAZON MKTPL*0111AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*0111AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_972b7ad8bb128003",
+   "amount": 480.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-20",
+   "authorized_date": "2026-12-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W7823",
+   "original_description": "AMEX EPAYMENT ACH PMT W7823",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_4302ff4c7e2af55f",
+   "amount": 431.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #299",
+   "original_description": "SITEONE LANDSCAPE #299",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c924cc344634ff82",
+   "amount": -1368.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-21",
+   "authorized_date": "2026-12-21",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-3937731961 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-3937731961 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_5472c7e13d00f974",
+   "amount": -960.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-22",
+   "authorized_date": "2026-12-22",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-0261822894 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-0261822894 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_6c5d0967d4f5fea2",
+   "amount": -1431.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-23",
+   "authorized_date": "2026-12-23",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-1320737881 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-1320737881 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_303afb2847c49a6f",
+   "amount": -1571.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-24",
+   "authorized_date": "2026-12-24",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-9912182147 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-9912182147 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_5a88f8e1be1dc20c",
+   "amount": -1400.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-6046748796 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-6046748796 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_ce1c5fe19e8fd418",
+   "amount": 3527.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-25",
+   "authorized_date": "2026-12-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 122526 ID:63993210 INDN:GREENEDGE LAWN CARE CO",
+   "original_description": "GUSTO DES:NET 122526 ID:63993210 INDN:GREENEDGE LAWN CARE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_2f62535666e5abda",
+   "amount": 228.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "SITEONE LANDSCAPE #592",
+   "original_description": "SITEONE LANDSCAPE #592",
+   "merchant_name": null,
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "SiteOne",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_556566f5ffdd5d00",
+   "amount": -1583.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-1022654164 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-1022654164 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_cb0d7199e26b21f1",
+   "amount": -2399.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-28",
+   "authorized_date": "2026-12-28",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:2495237364",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:2495237364",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_c2b75c21a918a52e",
+   "amount": -828.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-29",
+   "authorized_date": "2026-12-29",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-8155083689 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-8155083689 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_5224d572f0d7",
+   "transaction_id": "txn_e9cd161f3c2a322f",
+   "amount": -639.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-12-30",
+   "authorized_date": "2026-12-30",
+   "pending": false,
+   "name": "STRIPE DES:PAYOUT ID:ST-7777006031 INDN:GREENEDGE LAWN CARE",
+   "original_description": "STRIPE DES:PAYOUT ID:ST-7777006031 INDN:GREENEDGE LAWN CARE",
+   "merchant_name": "Stripe",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Stripe",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 105,
+ "request_id": "synthetic-B10"
+}
