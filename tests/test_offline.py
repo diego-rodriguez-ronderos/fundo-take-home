@@ -88,6 +88,29 @@ class Validation(unittest.TestCase):
         self.assertTrue(status.startswith("partial"))
 
 
+class PatternInvariant(unittest.TestCase):
+    def test_mixed_legacy_labels_are_split(self):
+        """Same key once digits are dropped, different legacy labels: must become two patterns."""
+        txns = [{"transaction_id": f"t{i}", "amount": 30.0, "date": "2026-09-0" + str(i + 1),
+                 "original_description": d, "counterparties": [], "personal_finance_category": None}
+                for i, d in enumerate(["PAYMENT BET123 ACME", "PAYMENT XYZ999 ACME", "PAYMENT QRS777 ACME"])]
+        self.assertEqual(len({patterns.pattern_key(t["original_description"], "debit") for t in txns}), 1)
+        legacy = {t["transaction_id"]: K.label(t) for t in txns}
+        pats = patterns.build({"transactions": txns}, legacy)
+        self.assertEqual(len(pats), 2)
+        for p in pats:
+            self.assertEqual(len({legacy[i]["group"] for i in p["txn_ids"]}), 1)
+            self.assertEqual(p["view"]["legacy_label"]["group"], legacy[p["txn_ids"][0]]["group"])
+
+    def test_homogeneous_sets_unchanged(self):
+        for bid in ("B01", "B04", "B09"):
+            b = load(bid)
+            legacy = {t["transaction_id"]: K.label(t) for t in b["transactions"]}
+            for p in patterns.build(b, legacy):
+                self.assertNotIn("legacy=", p["view"]["direction"])
+                self.assertEqual(len({(legacy[i]["group"], legacy[i]["is_business"]) for i in p["txn_ids"]}), 1)
+
+
 class Cumulative(unittest.TestCase):
     def test_small_fixes_that_add_up_are_queued(self):
         """B04: each customer-Zelle fix moves the offer < $5,000 alone; together they move it more."""

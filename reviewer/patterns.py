@@ -1,9 +1,14 @@
 """Collapse transactions into description patterns, computed in code.
 
 The reviewer sees one row per pattern, not per transaction: 1,760 transactions
-become ~250 patterns. That cuts cost ~7x and, more importantly, gives the model
+become 167 patterns. That cuts tokens ~10x and, more importantly, gives the model
 facts it cannot see in a single row (cadence, fixed amounts, count), which is
 how you tell a daily MCA remittance from a supplier invoice.
+
+Invariant: every transaction in a pattern has the same legacy label. The key drops
+digit tokens but the keyword engine reads the full text ("BET" inside "BET123"), and
+learned rules key on the counterparty, not the description. So a group with mixed
+legacy labels is split by label instead of showing the model the first one only.
 """
 import re
 import statistics
@@ -38,11 +43,32 @@ def cadence(dates: list[date]) -> str:
     return "irregular"
 
 
+def _label_of(legacy, t):
+    lab = legacy[t["transaction_id"]]
+    return lab["group"], lab["is_business"]
+
+
+def split_mixed(groups: dict, legacy: dict) -> dict:
+    """Enforce the invariant. Homogeneous groups keep their key, so their order and pid
+    do not change; only a mixed group is split, with the legacy label added to its key."""
+    out = {}
+    for key, ts in groups.items():
+        labels = {_label_of(legacy, t) for t in ts}
+        if len(labels) == 1:
+            out[key] = ts
+            continue
+        for t in ts:
+            g, b = _label_of(legacy, t)
+            out.setdefault(f"{key}|legacy={g}/{'business' if b else 'personal'}", []).append(t)
+    return out
+
+
 def build(biz: dict, legacy: dict) -> list[dict]:
     groups: dict[str, list] = {}
     for t in biz["transactions"]:
         d = "debit" if t["amount"] > 0 else "credit"
         groups.setdefault(pattern_key(t["original_description"], d), []).append(t)
+    groups = split_mixed(groups, legacy)
     out = []
     for i, (key, ts) in enumerate(sorted(groups.items())):
         amts = [abs(t["amount"]) for t in ts]
