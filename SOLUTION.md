@@ -1,10 +1,10 @@
 # SOLUTION
 
-The goal is to make the numbers behind a funding offer trustworthy when the transaction labels
-that feed them are not. A legacy keyword engine labels each bank transaction; an LLM reviewer
-reads those labels and flags the ones it doubts; code, not the model, decides which corrections
-are applied on their own and which wait for an underwriter. On a held-out set of new
-businesses the reviewer found every label error that changes a credit feature (20 of 20
+The objective of this solution is to make the numbers behind a funding offer trustworthy when the 
+transaction labels that feed them are not. A legacy keyword engine labels each bank transaction; 
+an LLM reviewer reads those labels and flags the ones it doubts; code, not the model, decides which
+corrections may change a funding decision and sends the rest to an underwriter. On a held-out set 
+of new businesses the reviewer found every label error that changes a credit feature (20 of 20
 patterns), proposed the right label for all of them, and sent 6 patterns and no false alarm to an
 underwriter. Total LLM spend: $0.35. All results come from synthetic data I generated; that is
 the main limitation, and I note where it matters.
@@ -74,9 +74,12 @@ retries are capped, so each call's worst case is computed before sending, and a 
 break the $10 budget is never made. Worst case for every call in this project: $4.06. Actual:
 $0.35, about $0.017 per application.
 
-**Model.** OpenAI gpt-4.1, temperature 0, strict JSON schema, with gpt-4.1-mini for comparison
-(gpt-5-mini needed an organization verification I did not have). gpt-4.1 is the default because
-the smaller one misses errors in the expensive direction.
+**Model.** OpenAI gpt-4.1, temperature 0, strict JSON schema. The provider was the account I had 
+funded; the choice between models was measured. gpt-4.1-mini found 48% of the held-out errors and 
+erred toward lending more, so gpt-4.1 is the default at about $0.017 per application. The provider 
+sits behind one function and the cache key includes the model, so another candidate (Claude, or an 
+open-weights model hosted inside Fundo if bank data must not leave it) goes through the same 
+development set, held-out set and sweep, and wins only if it passes the quality bar more cheaply.
 
 ### Results
 
@@ -179,8 +182,9 @@ from their decisions) times its decision impact (computed in code; see
 ## Skipped
 
 Plaid Sandbox (no control over edge cases); daily balances (better than fee counts for
-overdrafts); Claude models (no funded key; the code path exists); frameworks, vector stores and
-agents (one call per business with a schema is enough); a production guard for short histories.
+overdrafts); other providers and open-weights models (the harness compares them; only OpenAI was 
+funded); frameworks, vector stores and agents (one call per business with a schema is enough); a 
+production guard for short histories.
 
 ## Tools
 
