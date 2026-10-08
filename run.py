@@ -49,10 +49,14 @@ def main():
         auto = {k: {"group": v["group"], "is_business": v["is_business"]} for k, v in legacy.items()}
         assisted = dict(auto)
         txn_by_id = {t["transaction_id"]: t for t in b["transactions"]}
+        side_total = {"credit": sum(-t["amount"] for t in b["transactions"] if t["amount"] < 0),
+                      "debit": sum(t["amount"] for t in b["transactions"] if t["amount"] > 0)}
+        oracle = dict(auto)
         for p in pats:
             v = verdicts.get(p["pid"])
             outcome, why = ("not_reviewed", status) if v is None else \
-                ("agree", "") if v.verdict == "agree" else gate.decide(p, v)
+                ("agree", "") if v.verdict == "agree" else \
+                gate.decide(p, v, side_total[p["view"]["direction"]])
             for tid in p["txn_ids"]:
                 t, lg = txn_by_id[tid], legacy[tid]
                 if outcome.startswith("applied"):
@@ -61,6 +65,11 @@ def main():
                     assisted[tid] = {"group": v.group, "is_business": v.is_business}
                 g = gold[tid] if gold else None
                 d = lg["direction"]
+                if outcome == "queued" and g and sig(d, {"group": v.group, "is_business": v.is_business}) == sig(d, g):
+                    # simulated underwriter: accepts a queued proposal only if it is materially right
+                    oracle[tid] = {"group": v.group, "is_business": v.is_business}
+                elif outcome.startswith("applied"):
+                    oracle[tid] = {"group": v.group, "is_business": v.is_business}
                 rows.append({
                     "business_id": meta["business_id"], "pid": p["pid"], "transaction_id": tid,
                     "date": t["date"], "amount": t["amount"], "direction": d,
@@ -80,10 +89,13 @@ def main():
                     "gold_revenue": G.is_revenue(d, g["group"], g["is_business"]) if g else "",
                     "case": g["case"] if g else "", "hard_negative": g["hard_negative"] if g else "",
                     "legacy_materially_wrong": sig(d, lg) != sig(d, g) if g else "",
+                    "proposal_materially_right": (sig(d, {"group": v.group, "is_business": v.is_business}) == sig(d, g))
+                    if g and v is not None and v.verdict == "doubt" else "",
                     "final_materially_wrong": sig(d, auto[tid]) != sig(d, g) if g else "",
                 })
         rec = {"business_id": meta["business_id"], "name": meta["name"], "review_status": status}
-        for tag, labs in [("legacy", legacy), ("reviewed", auto), ("assisted", assisted)] + \
+        for tag, labs in [("legacy", legacy), ("reviewed", auto), ("assisted", assisted),
+                          ("underwriter", oracle)] + \
                 ([("gold", gold)] if gold else []):
             for k, val in C.features(b, labs).items():
                 rec[f"{tag}_{k}"] = val
@@ -99,7 +111,10 @@ def main():
     if gold and not a.no_sensitivity:
         sens = sensitivity.run(businesses, gold)
         write_csv(Path(a.out) / "sensitivity.csv", sens)
-        report += "\n## Sensitivity (simulated on gold labels)\n\n" + md_table(sens)
+        report += "\n## Sensitivity: random mislabels (simulated on gold labels)\n\n" + md_table(sens)
+        imp = sensitivity.pattern_impacts(businesses, gold)
+        write_csv(Path(a.out) / "pattern_impacts.csv", imp)
+        report += "\n## Sensitivity: one systematic error (a whole pattern mislabeled), top 15\n\n" + md_table(imp[:15])
     (out / "report.md").write_text(report, encoding="utf-8")
     print(report)
 
@@ -138,18 +153,29 @@ def summarize(model, rows, per_biz, statuses, has_gold, cache):
     doubt = [r for r in rows if r["verdict"] == "doubt"]
     mat_doubt = [r for r in doubt if r["gate"] in ("applied", "queued")]
     hn = [r for r in rows if r["hard_negative"]]
+    queued_p = {(r["business_id"], r["pid"]) for r in rows if r["gate"] == "queued"}
+    right = [r for r in mat_doubt if r["proposal_materially_right"]]
     s += ["## Transactions", "",
           f"- transactions: {n}; legacy materially wrong (changes a credit feature): {len(mat)}",
-          f"- reviewer doubts: {len(doubt)} txns; material doubts shown to underwriter: {len(mat_doubt)}",
-          f"- material doubts where legacy really was wrong (precision): "
-          f"{pct(sum(r['legacy_materially_wrong'] for r in mat_doubt), len(mat_doubt))}",
+          f"- reviewer doubts: {len(doubt)} txns; material doubts (applied or queued): {len(mat_doubt)}",
+          f"- material doubts where legacy really was wrong: {pct(sum(r['legacy_materially_wrong'] for r in mat_doubt), len(mat_doubt))}",
+          f"- material doubts whose proposed label is materially right: {pct(len(right), len(mat_doubt))}",
           f"- legacy material errors caught by a material doubt (recall): "
           f"{pct(sum(r['gate'] in ('applied', 'queued') for r in mat), len(mat))}",
-          f"- auto-applied corrections that are right: "
+          f"- auto-applied material corrections that are right: "
           f"{pct(sum(not r['final_materially_wrong'] for r in rows if r['gate'] == 'applied'), sum(r['gate'] == 'applied' for r in rows))}",
           f"- materially wrong after auto-apply: {sum(r['final_materially_wrong'] for r in rows)} (legacy {len(mat)})",
-          f"- hard negatives: {len(hn)} txns, flagged by reviewer: {sum(r['verdict'] == 'doubt' for r in hn)}",
-          "", "## Injection cases", ""]
+          f"- underwriter queue: {len(queued_p)} patterns across {len({k[0] for k in queued_p})} businesses",
+          f"- hard negatives: {len(hn)} txns, flagged by reviewer: {sum(r['verdict'] == 'doubt' for r in hn)}, "
+          f"materially changed after auto-apply: {sum(r['final_materially_wrong'] for r in hn)}",
+          "", "Confidence calibration (material doubts, by stated confidence):", ""]
+    buckets = {}
+    for r in mat_doubt:
+        c = buckets.setdefault(r["confidence"], [0, 0])
+        c[0] += 1
+        c[1] += bool(r["proposal_materially_right"])
+    s += [f"- {k}: {v[1]}/{v[0]} right" for k, v in sorted(buckets.items())]
+    s += ["", "## Injection cases", ""]
     seen = set()
     for r in rows:
         if r["injection_alert_code"] and r["pid"] + r["business_id"] not in seen:
@@ -157,9 +183,11 @@ def summarize(model, rows, per_biz, statuses, has_gold, cache):
             s.append(f"- {r['business_id']} `{r['description'][:70]}`: model injection_seen={r['injection_seen_model']}, "
                      f"verdict={r['verdict']} {r['proposed_group']}, gate={r['gate']}, final={r['final_group']}, gold={r['gold_group']}")
     s += ["", "## Monthly revenue per business (USD)", "",
-          "| biz | gold | legacy | err | reviewed | err | assisted | err | offer gold | legacy | reviewed |",
-          "|---|---|---|---|---|---|---|---|---|---|---|"]
-    tot = {"legacy": 0, "reviewed": 0, "assisted": 0}
+          "reviewed = auto-applied only; underwriter = plus queued proposals a correct underwriter accepts; "
+          "assisted = every doubt accepted blindly.", "",
+          "| biz | gold | legacy | err | reviewed | err | underwriter | err | assisted | err | offer gold | legacy | reviewed | underwriter |",
+          "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    tot = {"legacy": 0, "reviewed": 0, "underwriter": 0, "assisted": 0}
     for b in per_biz:
         g = b["gold_avg_monthly_revenue"]
         errs = {k: b[f"{k}_avg_monthly_revenue"] - g for k in tot}
@@ -167,14 +195,15 @@ def summarize(model, rows, per_biz, statuses, has_gold, cache):
             tot[k] += abs(errs[k])
         s.append(f"| {b['business_id']} | {g:,.0f} | {b['legacy_avg_monthly_revenue']:,.0f} | {errs['legacy']:+,.0f} | "
                  f"{b['reviewed_avg_monthly_revenue']:,.0f} | {errs['reviewed']:+,.0f} | "
+                 f"{b['underwriter_avg_monthly_revenue']:,.0f} | {errs['underwriter']:+,.0f} | "
                  f"{b['assisted_avg_monthly_revenue']:,.0f} | {errs['assisted']:+,.0f} | "
-                 f"{b['gold_offer']:,.0f} | {b['legacy_offer']:,.0f} | {b['reviewed_offer']:,.0f} |")
+                 f"{b['gold_offer']:,.0f} | {b['legacy_offer']:,.0f} | {b['reviewed_offer']:,.0f} | {b['underwriter_offer']:,.0f} |")
     s += ["", f"Sum of absolute monthly revenue error: legacy ${tot['legacy']:,.0f}, "
-          f"reviewed (auto-applied) ${tot['reviewed']:,.0f}, assisted (all doubts accepted) ${tot['assisted']:,.0f}", ""]
-    s += ["## Features per business (gold / legacy / reviewed)", "",
+          f"reviewed ${tot['reviewed']:,.0f}, underwriter ${tot['underwriter']:,.0f}, assisted ${tot['assisted']:,.0f}", ""]
+    s += ["## Features per business (gold / legacy / underwriter)", "",
           "| biz | rev share | NSF | OD | high-risk share of debits | funder $/day |", "|---|---|---|---|---|---|"]
     for b in per_biz:
-        f = lambda k: " / ".join(str(b[f"{t}_{k}"]) for t in ("gold", "legacy", "reviewed"))
+        f = lambda k: " / ".join(str(b[f"{t}_{k}"]) for t in ("gold", "legacy", "underwriter"))
         s.append(f"| {b['business_id']} | {f('revenue_share_of_deposits')} | {f('nsf_count')} | "
                  f"{f('overdraft_count')} | {f('high_risk_share_of_debits')} | {f('funder_daily_payment')} |")
     return "\n".join(s)

@@ -12,13 +12,18 @@ LOOSEN_BAR = 0.95    # change makes the file look safer; wrong ones inflate offe
 
 RISK_GROUPS = G.HIGH_RISK | {G.NSF, G.OVERDRAFT, G.ACTIVE_ADVANCE}
 
+# Self-reported confidence turned out to be weakly calibrated (v3 run: 0.9 meant ~70% right).
+# So the main brake is money: a correction touching more than this share of the file's
+# credits (or debits) waits for an underwriter, however confident the model is.
+MAX_AUTO_SHARE = 0.05
+
 
 def feature_signature(direction, group, is_business):
     return (G.is_revenue(direction, group, is_business), group in (G.NSF, G.OVERDRAFT) and group,
             group in G.HIGH_RISK, group == G.ACTIVE_ADVANCE)
 
 
-def decide(pattern, verdict):
+def decide(pattern, verdict, side_total_usd=None):
     v = pattern["view"]
     old = v["legacy_label"]
     d = v["direction"]
@@ -33,6 +38,9 @@ def decide(pattern, verdict):
         return "applied_silent", "no feature changes"
     loosening = (new_rev and not old["is_revenue"]) or \
         (old["group"] in RISK_GROUPS and verdict.group not in RISK_GROUPS)
+    if side_total_usd and v["total_usd"] > MAX_AUTO_SHARE * side_total_usd:
+        share = v["total_usd"] / side_total_usd
+        return "queued", f"moves {share:.0%} of the file's {d}s; underwriter confirms"
     bar = LOOSEN_BAR if loosening else TIGHTEN_BAR
     if verdict.confidence >= bar:
         return "applied", f"{'loosening' if loosening else 'tightening'} >= {bar}"

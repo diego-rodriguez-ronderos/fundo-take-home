@@ -10,7 +10,7 @@ import statistics
 from . import credit as C
 from . import groups as G
 
-TRIALS = 300
+TRIALS = 100
 RATES = [0.02, 0.05, 0.10]
 
 
@@ -83,3 +83,39 @@ def run(businesses, gold, seed=7):
                 "decision_flip_rate_pct": round(100 * flips / n, 1),
             })
     return rows
+
+
+def pattern_impacts(businesses, gold):
+    """Mislabel one whole pattern (what a keyword engine actually does) and measure the offer move.
+    Credits flip revenue <-> excluded; funder debits lose ACTIVE_ADVANCE; NSF/OD lose their group;
+    ordinary debits become ACTIVE_ADVANCE (a false funder)."""
+    from .keywords import label as legacy_label
+    from .patterns import build
+    rows = []
+    for b in businesses:
+        sub = {t["transaction_id"]: gold[t["transaction_id"]] for t in b["transactions"]}
+        base = C.features(b, sub)
+        legacy = {t["transaction_id"]: legacy_label(t) for t in b["transactions"]}
+        for p in build(b, legacy):
+            g = sub[p["txn_ids"][0]]
+            d = p["view"]["direction"]
+            if d == "credit":
+                rev = G.is_revenue(d, g["group"], g["is_business"])
+                new, kind = ({"group": G.INTERNAL_TRANSFER, "is_business": True}, "revenue missed") if rev \
+                    else ({"group": G.NONE, "is_business": True}, "false revenue")
+            elif g["group"] == G.ACTIVE_ADVANCE:
+                new, kind = {"group": G.NONE, "is_business": True}, "funder missed"
+            elif g["group"] in (G.NSF, G.OVERDRAFT):
+                new, kind = {"group": G.NONE, "is_business": True}, f"{g['group']} missed"
+            else:
+                new, kind = {"group": G.ACTIVE_ADVANCE, "is_business": True}, "false funder"
+            labels = dict(sub)
+            for tid in p["txn_ids"]:
+                labels[tid] = new
+            f = C.features(b, labels)
+            rows.append({"business_id": b["business"]["business_id"], "error": kind,
+                         "pattern": p["view"]["untrusted_bank_description_examples"][0][:48],
+                         "n_txns": len(p["txn_ids"]), "pattern_usd": p["view"]["total_usd"],
+                         "offer_gold": base["offer"], "offer_delta": round(f["offer"] - base["offer"], 0),
+                         "usd_offer_per_usd_mislabeled": round(abs(f["offer"] - base["offer"]) / p["view"]["total_usd"], 2)})
+    return sorted(rows, key=lambda r: -abs(r["offer_delta"]))

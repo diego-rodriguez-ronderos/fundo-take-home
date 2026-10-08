@@ -326,7 +326,7 @@
  "txn_0959ad2bb6f151ba": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_09909af241c54f1e": {
@@ -362,7 +362,7 @@
  "txn_0a27046980b707b6": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_0a5b429526a387e9": {
@@ -428,7 +428,7 @@
  "txn_0bab5af0aab4c9e2": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_0bb22b9c7df0e6e9": {
@@ -482,7 +482,7 @@
  "txn_0d1d7fdc8583ac12": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_0d1fbc39be529a80": {
@@ -524,7 +524,7 @@
  "txn_0e259f20028c4bdb": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_0e50b3230859fbd3": {
@@ -584,7 +584,7 @@
  "txn_0edb7698c42297d9": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_0ee4f6bef99aebfb": {
@@ -686,7 +686,7 @@
  "txn_11231c4822f0c267": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_117e6d8079d3f361": {
@@ -752,7 +752,7 @@
  "txn_133360e684902a99": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_1363b3bcb19f92ef": {
@@ -872,7 +872,7 @@
  "txn_161c803aee47f132": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_16246f8fc9504ee0": {
@@ -1058,7 +1058,7 @@
  "txn_19f603bc338dad61": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_1a25c06f840c0213": {
@@ -1190,7 +1190,7 @@
  "txn_1da9df2b59fa5b4a": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_1db790afcc6beb56": {
@@ -1220,7 +1220,7 @@
  "txn_1e4d82af7a02d4e4": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_1e4e0a1b83acb87e": {
@@ -1244,13 +1244,13 @@
  "txn_1e62e54847f13d92": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_1e659f683a955e26": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_1ea9d03aa3ba2a51": {
@@ -1322,7 +1322,7 @@
  "txn_209d158c8b532c67": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_20ab497fdbd692d5": {
@@ -1448,7 +1448,7 @@
  "txn_2413503f8c999992": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_24332e0ed7e45bf6": {
@@ -1616,7 +1616,7 @@
  "txn_27b0aa6084ba0117": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_27f0c42252f67afd": {
@@ -1634,7 +1634,7 @@
  "txn_282954fe092d23ce": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_28595073d6f9b909": {
@@ -1952,7 +1952,7 @@
  "txn_2e660800b41d3664": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_2e67394731a47de4": {
@@ -1970,7 +1970,7 @@
  "txn_2eea22558adb4560": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_2ef714dab09caca5": {
@@ -2078,7 +2078,7 @@
  "txn_30536d81232b860f": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_306d1450965061b0": {
@@ -2180,7 +2180,7 @@
  "txn_32a160b4edce46c5": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_32cae27abdf45737": {
@@ -2210,7 +2210,7 @@
  "txn_336241d60fb08c28": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_33ae16cdfdc8cf8b": {
@@ -2324,7 +2324,7 @@
  "txn_3653baf0427e02c0": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_36b64ca1e8985b48": {
@@ -2534,7 +2534,7 @@
  "txn_3bdf9b0f5d8e2fdc": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_3be8b4101ee34a27": {
@@ -2558,7 +2558,7 @@
  "txn_3c8a70beb63d0d64": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_3c8ff46a5e1ae49c": {
@@ -2678,7 +2678,7 @@
  "txn_3e5d8bc682316baa": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_3e819d378acb0c6c": {
@@ -2714,7 +2714,7 @@
  "txn_3f1106f2297fb4dd": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_3f242420014b8235": {
@@ -3104,13 +3104,13 @@
  "txn_4815f4c2287b9597": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_485804ea7a529319": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_487c305209a797b6": {
@@ -3206,7 +3206,7 @@
  "txn_4b8cad320722bcb4": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_4ba409ed495c75c2": {
@@ -3452,7 +3452,7 @@
  "txn_51db254d929d5fea": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_51f8d436b3c78dd3": {
@@ -3494,7 +3494,7 @@
  "txn_5310a25dbffeb400": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_5322f40ab0c8a267": {
@@ -3632,7 +3632,7 @@
  "txn_55ac511cbd6d2fec": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_55f895c288122a07": {
@@ -3680,7 +3680,7 @@
  "txn_569911e333a540e8": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_56b18d611bbef287": {
@@ -3866,7 +3866,7 @@
  "txn_5b82b4efda4a87e5": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_5b986336e7b47e18": {
@@ -3926,7 +3926,7 @@
  "txn_5d74703aab8f843f": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_5d8bdd16ae4aeccc": {
@@ -3950,7 +3950,7 @@
  "txn_5dd1ba3e53c530c7": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_5def58fa32294dd0": {
@@ -4034,7 +4034,7 @@
  "txn_5fa5eb9ceed4345c": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_601fd83061b69f9d": {
@@ -4052,7 +4052,7 @@
  "txn_6092ee06cb3dea55": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_60b56d556e62fe5a": {
@@ -4124,7 +4124,7 @@
  "txn_622837a299b54f93": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_625b72b10278d077": {
@@ -4154,7 +4154,7 @@
  "txn_62c1de45b45e5eab": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_62de8de7a8783a19": {
@@ -4448,7 +4448,7 @@
  "txn_6a209c56c0b7d2c0": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_6a4606b92bf17aec": {
@@ -4538,7 +4538,7 @@
  "txn_6c573ae253cd5b22": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_6cb80f36c9348118": {
@@ -4556,7 +4556,7 @@
  "txn_6d901eae6f459a31": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_6d94be98be6cb14d": {
@@ -4580,7 +4580,7 @@
  "txn_6db6821955b536c2": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_6ddf744c5e363c1e": {
@@ -4850,7 +4850,7 @@
  "txn_743f0bb42324a53c": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_747e718c1a7666a9": {
@@ -4862,7 +4862,7 @@
  "txn_748d409e538de01d": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_74cc5cec39f1c6ea": {
@@ -4970,7 +4970,7 @@
  "txn_76ec828ad88aebf4": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_76f2a8ff8d0d018f": {
@@ -5156,7 +5156,7 @@
  "txn_7bb81a1dedb400e3": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_7bc7b651597b6120": {
@@ -5234,7 +5234,7 @@
  "txn_7d673a319853dffc": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_7d8ce4a65d1c71f7": {
@@ -5318,7 +5318,7 @@
  "txn_7ef3ddce040040cb": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_7f26ee3053a74a6a": {
@@ -5582,7 +5582,7 @@
  "txn_865610225246d6b1": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_86800b7f40764f80": {
@@ -5624,7 +5624,7 @@
  "txn_87c9621baac8b5aa": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_87e78012b780d52b": {
@@ -5702,7 +5702,7 @@
  "txn_89fe1bf4c926b65c": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_8a0a0e19cf692f95": {
@@ -5714,7 +5714,7 @@
  "txn_8a336f0be5c1e8c1": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_8a90d366e17ad0df": {
@@ -5768,7 +5768,7 @@
  "txn_8bb0ba641851bef9": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_8bb9bb14622e0b3a": {
@@ -5948,7 +5948,7 @@
  "txn_910bf5da2b1ac97f": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_9165ca8efce05f38": {
@@ -6002,7 +6002,7 @@
  "txn_926ca05a5458fe4f": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_9285658e776f860d": {
@@ -6098,7 +6098,7 @@
  "txn_9484ed32917784c8": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_948f845273b16acb": {
@@ -6182,7 +6182,7 @@
  "txn_962b87ce269cf108": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_962dc0e4ed42b375": {
@@ -6212,7 +6212,7 @@
  "txn_96d0ddcac287ceaf": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_971bf88fbe0af79a": {
@@ -6554,7 +6554,7 @@
  "txn_9fe29f307f8d1387": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_9fe3045929816346": {
@@ -6608,7 +6608,7 @@
  "txn_a2430a896db1ac16": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_a2594814ea63994f": {
@@ -7136,7 +7136,7 @@
  "txn_ae6ff7cf502590be": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_ae7c951ac490b959": {
@@ -7154,7 +7154,7 @@
  "txn_ae8198d6e014bfd2": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_aea66efc1df948e1": {
@@ -7166,7 +7166,7 @@
  "txn_aeac8252079de7c1": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_aed13f6d231150f3": {
@@ -7178,7 +7178,7 @@
  "txn_aef5290ec24875ac": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_af4fc77b28555834": {
@@ -7364,7 +7364,7 @@
  "txn_b2f98e7eea483e17": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_b300e28573470780": {
@@ -7418,7 +7418,7 @@
  "txn_b3a1ed335134cf50": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_b3ae9f79e8e5498a": {
@@ -7538,13 +7538,13 @@
  "txn_b625168b428d6283": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_b6297daacda078ce": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_b6481def74e69e17": {
@@ -7580,7 +7580,7 @@
  "txn_b6fbf7baf7071daa": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_b74893586cf723fc": {
@@ -8042,7 +8042,7 @@
  "txn_c1957ed4c94eb5b9": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_c1beca61ea1db421": {
@@ -8072,7 +8072,7 @@
  "txn_c275aec3b1607b0d": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_c27ac83196b8a9e5": {
@@ -8120,7 +8120,7 @@
  "txn_c37fff55cb8a4b66": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_c385ccb12417f77a": {
@@ -8216,7 +8216,7 @@
  "txn_c565304448cef121": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_c58dfd6cb7645590": {
@@ -8252,7 +8252,7 @@
  "txn_c640b562943ad15c": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_c691d6512227f2ef": {
@@ -8456,7 +8456,7 @@
  "txn_cb2b68d73222d839": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_cb2ca3d12d902c4b": {
@@ -8468,7 +8468,7 @@
  "txn_cb3c9bebc49eeb6e": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_cb8e81ca2d9954a2": {
@@ -8510,7 +8510,7 @@
  "txn_cc0ef131cf21bb57": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_cc25572773de880f": {
@@ -8600,7 +8600,7 @@
  "txn_ce0e3266313ad429": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_ce364f114d14dc76": {
@@ -8612,7 +8612,7 @@
  "txn_ce5366ecde8c6485": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_ce54faa4ea499b0c": {
@@ -8630,7 +8630,7 @@
  "txn_ce6168f9cddc9d93": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_ce966763a0609a06": {
@@ -8714,7 +8714,7 @@
  "txn_d0e2479f5f45d0bf": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_d0e6570b7e6c4468": {
@@ -8864,7 +8864,7 @@
  "txn_d5be06111ac388e7": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_d5c23ee9dd2b9fba": {
@@ -8900,7 +8900,7 @@
  "txn_d5fb5cf7c02d4bd0": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_d608a6ed48045b2e": {
@@ -9086,7 +9086,7 @@
  "txn_dae6b9835666bcd3": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_daf0d5214d739c42": {
@@ -9116,13 +9116,13 @@
  "txn_db544814aed34f12": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_db54517e4a1e99e2": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_db84b39f71843c36": {
@@ -9296,7 +9296,7 @@
  "txn_de46391aec84db64": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_ded7978425765b8c": {
@@ -9488,7 +9488,7 @@
  "txn_e3bdcb0a81216f66": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_e3c8a4e540cc0fdc": {
@@ -9500,7 +9500,7 @@
  "txn_e3c8f6e802841da5": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_e3f2bad67472fee8": {
@@ -9572,7 +9572,7 @@
  "txn_e56d7274e7c7aa9a": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_e5831541ee94485d": {
@@ -9632,7 +9632,7 @@
  "txn_e71995e7a060ba6d": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_e758ce98b6ef7e90": {
@@ -9782,13 +9782,13 @@
  "txn_eb090b5eaa1cbe05": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_eb2b8a8ad5eed0e0": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_eb9085e3e788c6a8": {
@@ -10010,7 +10010,7 @@
  "txn_f0d8a95d7398c2f8": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_f0da084b55437cde": {
@@ -10040,13 +10040,13 @@
  "txn_f2b04f6a0fedac2b": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_f2b3810e401844e6": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_f2befacd88c2f88a": {
@@ -10058,7 +10058,7 @@
  "txn_f2fdb2edc47b0ae8": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_f39a2acb78372bd2": {
@@ -10262,7 +10262,7 @@
  "txn_f696443147ae6064": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_f75c88c3724963a2": {
@@ -10400,7 +10400,7 @@
  "txn_fb9db196aba8525e": {
   "case": "check_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_fbafff4d4ddb89cc": {
@@ -10466,7 +10466,7 @@
  "txn_fd833ecbb277e6f5": {
   "case": "cash_deposit_revenue",
   "group": "NONE",
-  "hard_negative": false,
+  "hard_negative": true,
   "is_business": true
  },
  "txn_fdb779a41565c977": {

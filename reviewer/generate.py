@@ -287,7 +287,7 @@ def b05():
               case="government_customer_revenue", hard_negative=True)
     for d in b.some(14):
         b.add(d, -b.rng.uniform(2500, 9000), f"REMOTE DEPOSIT CHECK #{b.ref(4)} {b.ref(8)}",
-              pfc=P_DEP, case="check_deposit_revenue")
+              pfc=P_DEP, case="check_deposit_revenue", hard_negative=True)
     for d in b.monthly(10):
         b.add(d, 2850.00, f"CATERPILLAR FINANCIAL DES:PAYMENT ID:{b.ref(10)}", cp="Caterpillar Financial",
               cp_type="financial_institution", pfc=P_LOANPAY, group=G.UCC, case="equipment_finance")
@@ -365,7 +365,7 @@ def b08():
     b = Biz("B08", "QuickStop Mart", "Convenience store", "Anil Patel")
     for d in b.dates():
         b.add(d, -b.rng.uniform(600, 1600), f"ATM CASH DEPOSIT {b.ref(4)} {d:%m/%d}", pfc=P_DEP,
-              case="cash_deposit_revenue")
+              case="cash_deposit_revenue", hard_negative=True)
     daily_sales(b, lambda d: f"HEARTLAND PMT SYS DES:TXNS/FEES ID:{b.ref(10)} INDN:QUICKSTOP MART",
                 700, 1800, "Heartland", "Heartland Payment Systems", group=G.NONE, case="processor_sales_unknown")
     for d in b.weekly(1):
