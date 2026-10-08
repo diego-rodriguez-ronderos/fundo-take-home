@@ -53,6 +53,12 @@ write must not be able to change a decision by itself.
 4. The correction, applied alone, flips approve/decline or moves the offer more than $5,000
    → underwriter.
 5. Otherwise applied if confidence ≥ 0.95.
+6. Then the auto-applied set is checked as a whole. If together the corrections flip the
+   decision or move the offer more than $5,000, all of them go to the underwriter as one block.
+   Without this, a per-correction cap is beaten the way a per-transaction limit is: by
+   splitting. It happened in B04: eight customer-Zelle fixes, each under the cap, together
+   +$8,200. All eight were right, so this rule costs one block review there; it is still the
+   right trade, because the cap is the only thing between an unseen model error and the offer.
 
 **How the thresholds were chosen** (`python -m reviewer.sweep`): quality first, then cost.
 A configuration is admissible only if, on the development set, it auto-applies zero wrong
@@ -62,9 +68,9 @@ offer dollars the automation moves must stay under $500 per application (~1% of 
 offer). Among admissible configurations, the cheapest wins (LLM cost + 1 underwriter-minute at
 $1 per queued pattern), within a $3 per application budget. Then the choice is checked on the
 held-out set. The assumptions are flags on the command.
-- gpt-4.1: 120 of 140 configurations pass. Chosen: $5,000 cap, bars 0.95. Development: 0.9
-  queued patterns and $0.92 per application, $215 offer at risk. Held-out: 0 wrong, $1.02,
-  $400 at risk. The most permissive configuration also had 0 observed errors, and is rejected
+- gpt-4.1: 120 of 140 configurations pass. Chosen: $5,000 cap, bars 0.95. Development: 1.7
+  queued patterns and $1.72 per application (counting B04's block as 8 patterns; it is one
+  decision for the underwriter), $158 offer at risk. Held-out: 0 wrong, $1.02, $400 at risk. The most permissive configuration also had 0 observed errors, and is rejected
   anyway: $1,700 at risk per application on 29 material patterns is not enough evidence.
 - gpt-4.1-mini with prompt v3: 0 of 140 pass. No threshold makes that reviewer safe to automate.
 
@@ -99,9 +105,9 @@ development, 20 held-out): read 100% on held-out as "at least ~85%" at this samp
 |---|---|---|---|---|---|
 | Material errors caught (recall) | 72% | 100% | 100% | 48% | **100%** |
 | Proposed label right, when material | 71% | 99% | 100% | 99% | **100%** |
-| Auto-applied material fixes right | 30/141 | 17/17 | 252/252 | 39/39 | **244/244** |
+| Auto-applied material fixes right | 30/141 | 17/17 | 104/104 | 39/39 | **244/244** |
 | Hard negatives queued or changed | 2 changed | 1 queued | 0 | 0 | **0** |
-| Underwriter queue (patterns) | | 29 | 9 | 12 | **6** |
+| Underwriter queue (patterns) | | 29 | 17 (8 in one block) | 12 | **6** |
 | Σ abs monthly revenue error: legacy → after queue | | $144K → $0 | $144K → $0 | $35K → $2.8K | **$35K → $0** |
 
 v3 columns use the first gate (cash-flow share cap), the others the current one. "After queue" assumes the underwriter resolves every queued pattern correctly: an upper bound
@@ -109,6 +115,16 @@ on value, not a measurement of underwriters. Decisions that change: B02 (hidden 
 H02 (`RET ITEM CHG` ×7 plus an EIDL loan) are offered $38,361 and $78,292 by the legacy engine
 and should be declined; both reach the underwriter as decision flips. B09 (SBA loan plus a
 hidden MCA) goes from $141,268 to $64,749 after the queue.
+
+**Review is triggered by impact, and should be triggered by expected loss.** Two labels per
+pattern: the probability that its label is wrong, and whether a wrong label would change the
+decision. The second is computed in code (rules 4 and 6). The first is where the PoC stops: the
+model's confidence is not a probability (above), and a calibrated one needs underwriter outcomes
+per correction type. `out/<model>/decision_critical_agreed.csv` shows why both are needed: 19
+development patterns the reviewer agreed with would flip the decision or move the offer past
+the cap if they were wrong. Almost all are a merchant's main revenue stream (Square, Toast, city
+contracts). Impact alone would send them all to a human; impact times a calibrated P(error) is
+what production should queue on.
 
 **Errors I looked at.**
 - v3, gpt-4.1-mini, confidence 0.9: ATM cash deposits (B08) and check deposits (B05) called

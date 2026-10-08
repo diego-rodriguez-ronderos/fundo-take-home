@@ -34,7 +34,7 @@ def confirmed_corrections():
         legacy = {t["transaction_id"]: K.label(t) for t in b["transactions"]}
         pats = patterns.build(b, legacy)
         verdicts, _ = llm.parse_verdicts(recs[b["business"]["business_id"]]["response"], pats)
-        rows, labs = pipeline.process(b, legacy, pats, verdicts, "ok", gold)
+        rows, labs, _ = pipeline.process(b, legacy, pats, verdicts, "ok", gold, diagnose=False)
         txn = {t["transaction_id"]: t for t in b["transactions"]}
         seen = set()
         for r in rows:

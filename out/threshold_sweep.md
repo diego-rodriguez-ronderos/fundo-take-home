@@ -4,9 +4,9 @@ Assumptions: underwriter $1.0/min, 1.0 min per queued pattern, budget $3.0 per a
 
 ## gpt-4.1, prompt v4
 - development: 140 configurations, 120 pass the quality constraint, 120 also fit the budget
-- chosen: {'max_auto_offer_usd': 5000, 'tighten_bar': 0.95, 'loosen_bar': 0.95} -> queue 0.9 patterns/app, cost $0.917/app, 21 auto-applied, offer at risk $215/app
+- chosen: {'max_auto_offer_usd': 5000, 'tighten_bar': 0.95, 'loosen_bar': 0.95} -> queue 1.7 patterns/app, cost $1.717/app, 13 auto-applied, offer at risk $158/app
 - most permissive config {'max_auto_offer_usd': 1000000000, 'tighten_bar': 0.7, 'loosen_bar': 0.8}: wrong auto 0, offer at risk $1700/app, admissible=False
-- current defaults {'tighten_bar': 0.95, 'loosen_bar': 0.95, 'max_auto_offer_usd': 5000}: admissible=True, cost $0.917/app, offer at risk $215/app
+- current defaults {'tighten_bar': 0.95, 'loosen_bar': 0.95, 'max_auto_offer_usd': 5000}: admissible=True, cost $1.717/app, offer at risk $158/app
 - held-out with chosen config: wrong auto-applied 0, hard negatives changed 0, queue 1.0/app, cost $1.016/app, offer at risk $400/app
 
 ## gpt-4.1-mini, prompt v3

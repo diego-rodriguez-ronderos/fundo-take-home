@@ -8,7 +8,7 @@ from pathlib import Path
 
 from datetime import date
 
-from reviewer import consistency, gate, keywords as K, llm, patterns, rules
+from reviewer import consistency, gate, keywords as K, llm, patterns, pipeline, rules
 from reviewer import groups as G
 from reviewer import credit as C
 
@@ -86,6 +86,22 @@ class Validation(unittest.TestCase):
         out, status = llm.review_business("fake", b["business"], pats, cache, offline=True)
         self.assertEqual(list(out), [pats[0]["pid"]])
         self.assertTrue(status.startswith("partial"))
+
+
+class Cumulative(unittest.TestCase):
+    def test_small_fixes_that_add_up_are_queued(self):
+        """B04: each customer-Zelle fix moves the offer < $5,000 alone; together they move it more."""
+        b = load("B04")
+        legacy = {t["transaction_id"]: K.label(t) for t in b["transactions"]}
+        pats = patterns.build(b, legacy)
+        zelle = [p for p in pats if p["view"]["untrusted_bank_description_examples"][0].startswith("ZELLE PAYMENT FROM")
+                 and "MARIA" not in p["view"]["untrusted_bank_description_examples"][0]]
+        verdicts = {p["pid"]: llm.Verdict(pid=p["pid"], verdict="doubt", group=G.NONE, is_business=True,
+                                          confidence=0.99, reason="customer payment") for p in zelle}
+        rows, labs, _ = pipeline.process(b, legacy, pats, verdicts, "ok", diagnose=False)
+        gates = {r["pid"]: (r["gate"], r["gate_why"]) for r in rows if r["pid"] in verdicts}
+        self.assertTrue(all(g == "queued" and "together" in why for g, why in gates.values()))
+        self.assertEqual(labs["reviewed"], labs["legacy"])   # nothing auto-applied
 
 
 class Rules(unittest.TestCase):

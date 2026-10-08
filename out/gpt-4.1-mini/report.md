@@ -62,3 +62,19 @@ Sum of absolute monthly revenue error: legacy $144,151, reviewed $140,984, under
 | B08 | 1.0 / 0.9925 / 1.0 | 0 / 0 / 0 | 0 / 0 / 0 | 0.0 / 0.237 / 0.0 | 0.0 / 0.0 / 0.0 |
 | B09 | 0.4762 / 1.0 / 0.4762 | 0 / 0 / 0 | 0 / 0 / 0 | 0.0 / 0.0 / 0.0 | 125.94 / 0.0 / 125.94 |
 | B10 | 0.9197 / 0.9197 / 0.9197 | 0 / 0 / 0 | 2 / 3 / 2 | 0.0 / 0.0 / 0.0 | 0.0 / 0.0 / 0.0 |
+## Decision-critical patterns the reviewer agreed with (diagnostic, not queued)
+
+If one of these labels were wrong, the decision would flip or the offer would move more than the cap. Impact is computed in code; turning this into a queue needs a calibrated probability of error per correction type (expected loss = P(error) x impact), which needs underwriter history. 20 patterns, 2 of them decision flips; full list in decision_critical_agreed.csv.
+
+| business_id | pid | pattern | label | scenario | offer_now | offer_if_wrong | flips_decision |
+|---|---|---|---|---|---|---|---|
+| B01 | P001 | SQUARE INC DES:SQ260703 ID:T39414871466 INDN:JOES  | REVENUE_VERIFICATION | if not revenue | 96048 | 12000 | False |
+| B06 | P001 | TOAST INC DES:DEP 0703 ID:3067025084 INDN:CORNER P | REVENUE_VERIFICATION | if not revenue | 59957 | 0 | True |
+| B05 | P001 | CITY OF ROUND ROCK DES:VENDOR PMT ID:4995953136 IN | AUTO_DEPOSIT | if not revenue | 70128 | 21960 | False |
+| B08 | P000 | ATM CASH DEPOSIT 8816 07/03 | NONE | if not revenue | 70008 | 31874 | False |
+| B10 | P003 | STRIPE DES:PAYOUT ID:ST-3858271545 INDN:GREENEDGE  | REVENUE_VERIFICATION | if not revenue | 36445 | 6583 | False |
+| B05 | P002 | REMOTE DEPOSIT CHECK #1979 13346043 | NONE | if not revenue | 70128 | 42268 | False |
+| B02 | P002 | ACH CREDIT TQL TOTAL QUALITY LOGISTICS DES:EDI PYM | AUTO_DEPOSIT | if not revenue | 38361 | 15494 | False |
+| B09 | P003 | METLIFE DENTAL DES:HCCLAIMPMT ID:3749584574 INDN:B | AUTO_DEPOSIT | if not revenue | 141268 | 119858 | False |
+| B09 | P000 | CIGNA DENTAL DES:HCCLAIMPMT ID:8896666857 INDN:BRI | AUTO_DEPOSIT | if not revenue | 141268 | 123436 | False |
+| B02 | P001 | ACH CREDIT COYOTE LOGISTICS DES:EDI PYMNTS ID:1169 | AUTO_DEPOSIT | if not revenue | 38361 | 22359 | False |

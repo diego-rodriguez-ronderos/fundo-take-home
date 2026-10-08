@@ -27,6 +27,7 @@ What was wrong in AI output and got caught:
 - Windows run of the sensitivity simulation was too slow at 300 trials; reduced to 100.
 - First money brake capped cash-flow share; the sweep showed a $72 NSF fee moving $38,361 of offer. Replaced by an offer-impact cap.
 - First threshold sweep picked "auto-apply everything" because 0 errors were observed on 29 patterns; added the rule-of-three evidence bound.
+- Gate checked each correction alone; Diego asked whether decision impact could be checked before routing to a human. Checking the data showed eight sub-cap fixes in B04 adding up to +$8,200. Added the cumulative check and the decision-critical diagnostic.
 - First rules learner turned "Forward Financing credits were NSF returns" into a rule; NSF/OD are now learned only from bank fee text.
 
 Prompt history: `docs/runs/v3_gpt-4.1-mini_report.md` (before) and `out/*/report.md` (v4).

@@ -19,7 +19,8 @@ python run.py --offline
 
 `--offline` never calls a provider and exits with an error on any cache miss, so a clean
 run proves the output comes from `cache/llm_responses.jsonl`. Results land in
-`out/<model>/` (`report.md`, `per_business.csv`, `transactions.csv`, `underwriter_queue.csv`)
+`out/<model>/` (`report.md`, `per_business.csv`, `transactions.csv`, `underwriter_queue.csv`,
+`decision_critical_agreed.csv`)
 and `out/sensitivity.csv`, `out/pattern_impacts.csv`.
 
 The held-out set (6 businesses written after the prompt was frozen):

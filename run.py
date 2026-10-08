@@ -35,7 +35,7 @@ def main():
     cache = llm.load_cache()
     rule_idx = rules.index(rules.load(a.rules)) if a.rules else {}
 
-    rows, per_biz, statuses = [], [], {}
+    rows, per_biz, statuses, critical = [], [], {}, []
     for b in businesses:
         meta = b["business"]
         legacy = {t["transaction_id"]: rules.apply(t, K.label(t), meta["business_id"], rule_idx)
@@ -45,8 +45,9 @@ def main():
         statuses[meta["business_id"]] = status
         if a.offline and status == "cache_miss":
             raise SystemExit(f"cache miss for {meta['business_id']} with {a.model}; run with a key first")
-        rws, labs = pipeline.process(b, legacy, pats, verdicts, status, gold)
+        rws, labs, crit = pipeline.process(b, legacy, pats, verdicts, status, gold)
         rows += rws
+        critical += crit
         rec = {"business_id": meta["business_id"], "name": meta["name"], "review_status": status}
         for tag, lab in list(labs.items()) + ([("gold", gold)] if gold else []):
             if tag == "underwriter" and not gold:
@@ -61,7 +62,16 @@ def main():
     write_csv(out / "per_business.csv", per_biz)
     queue = [r for r in rows if r["gate"] in ("applied", "queued")]
     write_csv(out / "underwriter_queue.csv", dedupe_patterns(queue))
+    write_csv(out / "decision_critical_agreed.csv", critical)
     report = summarize(a.model, rows, per_biz, statuses, gold is not None, cache)
+    report += ("\n## Decision-critical patterns the reviewer agreed with (diagnostic, not queued)\n\n"
+               "If one of these labels were wrong, the decision would flip or the offer would move more than "
+               "the cap. Impact is computed in code; turning this into a queue needs a calibrated probability "
+               "of error per correction type (expected loss = P(error) x impact), which needs underwriter "
+               f"history. {len(critical)} patterns, {sum(c['flips_decision'] for c in critical)} of them "
+               "decision flips; full list in decision_critical_agreed.csv.\n\n"
+               + (md_table(sorted(critical, key=lambda c: -abs(c['offer_if_wrong'] - c['offer_now']))[:10])
+                  if critical else ""))
     if gold and not a.no_sensitivity:
         sens = sensitivity.run(businesses, gold)
         write_csv(Path(a.out) / "sensitivity.csv", sens)

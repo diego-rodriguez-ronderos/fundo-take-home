@@ -61,7 +61,7 @@ def evaluate(prepared, gold, recs, cfg, usd_per_min, min_per_pattern, risk_toler
         n += 1
         llm_usd += llm.spend({rec["key"]: rec})
         verdicts, _ = llm.parse_verdicts(rec["response"], pats)
-        rows, _ = pipeline.process(b, legacy, pats, verdicts, "ok", gold, cfg)
+        rows, _, _ = pipeline.process(b, legacy, pats, verdicts, "ok", gold, cfg, diagnose=False)
         seen = set()
         for r in rows:
             k = r["pid"]

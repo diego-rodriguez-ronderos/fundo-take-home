@@ -51,3 +51,19 @@ Sum of absolute monthly revenue error: legacy $34,662, reviewed $34,662, underwr
 | H04 | 0.768 / 0.768 / 0.768 | 0 / 0 / 0 | 0 / 0 / 0 | 0.0769 / 0.1874 / 0.0769 | 160.72 / 0.0 / 160.72 |
 | H05 | 0.927 / 0.927 / 0.927 | 3 / 3 / 3 | 4 / 4 / 4 | 0.0 / 0.0 / 0.0 | 446.88 / 446.88 / 446.88 |
 | H06 | 0.9796 / 0.9796 / 0.9796 | 5 / 0 / 5 | 0 / 0 / 0 | 0.0325 / 0.0 / 0.0325 | 310.0 / 310.0 / 310.0 |
+## Decision-critical patterns the reviewer agreed with (diagnostic, not queued)
+
+If one of these labels were wrong, the decision would flip or the offer would move more than the cap. Impact is computed in code; turning this into a queue needs a calibrated probability of error per correction type (expected loss = P(error) x impact), which needs underwriter history. 10 patterns, 2 of them decision flips; full list in decision_critical_agreed.csv.
+
+| business_id | pid | pattern | label | scenario | offer_now | offer_if_wrong | flips_decision |
+|---|---|---|---|---|---|---|---|
+| H05 | P002 | ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7805873 | NONE | if not revenue | 108482 | 51939 | False |
+| H05 | P001 | ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:91965201 | NONE | if not revenue | 108482 | 75523 | False |
+| H05 | P000 | ACH CREDIT FIESTA MART DES:PAYABLES ID:6110399539 | NONE | if not revenue | 108482 | 80563 | False |
+| H01 | P000 | CLOVER APP DES:SETTLEMENT ID:4939199626 INDN:MAMA  | NONE | if not revenue | 35599 | 10000 | False |
+| H06 | P000 | GYMDESK PAYMENTS DES:XFER ID:9084905037 | NONE | if not revenue | 23569 | 0 | True |
+| H03 | P006 | SQUARE INC DES:SQ260703 ID:T38657909966 INDN:LUX N | REVENUE_VERIFICATION | if not revenue | 11579 | 0 | True |
+| H02 | P000 | GEICO CLAIMS DES:CLAIMPMT ID:9112737408 INDN:PRECI | NONE | if not revenue | 78292 | 67791 | False |
+| H05 | P014 | KAPITUS SERVICING DES:DEBIT ID:07211762 | ACTIVE_ADVANCE | if not ACTIVE_ADVANCE | 108482 | 117419 | False |
+| H05 | P003 | TRANSFER FROM MONEY MARKET XXXX2231 | INTERNAL_TRANSFER | if revenue | 108482 | 116482 | False |
+| H06 | P013 | RAPID FINANCE DES:DEBIT ID:39451196 | ACTIVE_ADVANCE | if not ACTIVE_ADVANCE | 23569 | 29769 | False |
