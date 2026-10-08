@@ -21,6 +21,10 @@ def offer_move(b, base, p, v, base_offer):
 
 
 def outcome_for(p, v, move, cfg, status):
+    # First, whatever the verdict: instruction-like counterparty text is a fraud signal for a
+    # human even when the model resisted it and agreed with a correct legacy label.
+    if p["injection_alert"]:
+        return "queued", "counterparty text contains instructions; human decides"
     if v is None:
         return "not_reviewed", status
     voted = p["view"]["legacy_label"]["group"] if v.verdict == "agree" else v.group

@@ -1,6 +1,6 @@
 # Learned rules
 
-From 29 confirmed material corrections on the development set (gpt-4.1, prompt v4); 1 injection-flagged patterns excluded.
+From 29 confirmed material corrections on the development set (gpt-4.1, prompt v4); 2 injection-flagged patterns excluded.
 - rules: 28 (0 global, 28 merchant-scoped); keys not turned into rules: 1 (below)
 - size: 28 rows for 10 merchants and 1,760 transactions; it grows with distinct corrected counterparties, not with volume
 

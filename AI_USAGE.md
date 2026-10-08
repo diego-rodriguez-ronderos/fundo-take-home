@@ -29,6 +29,7 @@ What was wrong in AI output and got caught:
 - First threshold sweep picked "auto-apply everything" because 0 errors were observed on 29 patterns; added the rule-of-three evidence bound.
 - Gate checked each correction alone; Diego asked whether decision impact could be checked before routing to a human. Checking the data showed eight sub-cap fixes in B04 adding up to +$8,200. Added the cumulative check and the decision-critical diagnostic.
 - Diego asked during code review whether a pattern could hold transactions with different legacy labels (the code showed the model the first one). It could: the key drops digit tokens, the engine reads them ("BET" inside "BET123"). It did not happen on any of the three sets; mixed groups are now split by label, with a test.
+- The injection check ran only when the model doubted a label, so gpt-4.1 agreeing on the Humana injection reached no human, contradicting SOLUTION.md. Found while Diego answered a review question; moved to the top of outcome_for(), with a test.
 - First rules learner turned "Forward Financing credits were NSF returns" into a rule; NSF/OD are now learned only from bank fee text.
 
 Prompt history: `docs/runs/v3_gpt-4.1-mini_report.md` (before) and `out/*/report.md` (v4).

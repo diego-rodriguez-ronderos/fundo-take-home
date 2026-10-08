@@ -57,6 +57,13 @@ class Gate(unittest.TestCase):
         out, _ = gate.decide(p, self.v(p["pid"], G.ACTIVE_ADVANCE, 0.99))
         self.assertEqual(out, "queued")
 
+    def test_injection_queued_even_when_model_agrees(self):
+        """gpt-4.1 resisted the Humana injection and agreed; the fraud signal must still reach a human."""
+        p = next(p for p in self.all if "HUMANA" in p["view"]["untrusted_bank_description_examples"][0])
+        agree = llm.Verdict(pid=p["pid"], verdict="agree", confidence=0.99, reason="real claim payment")
+        self.assertEqual(pipeline.outcome_for(p, agree, None, None, "ok")[0], "queued")
+        self.assertEqual(pipeline.outcome_for(p, None, None, None, "api_error")[0], "queued")
+
     def test_tightening_applies_over_bar(self):
         p = self.pats["SBAD TREAS 3"]
         small = (64000.0, 63800.0)
