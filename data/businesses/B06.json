@@ -1,0 +1,5096 @@
+{
+ "business": {
+  "business_id": "B06",
+  "name": "Corner Pocket Bar",
+  "industry": "Bar",
+  "owner_name": "Ray Mitchell",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "0664",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_839cbd58bd9bbce8",
+   "amount": 4875.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GUSTO DES:NET 070326 ID:00131250 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 070326 ID:00131250 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_9666c6353b5748f5",
+   "amount": -1821.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0703 ID:3067025084 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0703 ID:3067025084 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ac36a53defd91d1e",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_8c2c493b60fd7829",
+   "amount": -1055.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-04",
+   "authorized_date": "2026-07-04",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0704 ID:3267595620 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0704 ID:3267595620 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f54b7cae7a193564",
+   "amount": -2113.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-05",
+   "authorized_date": "2026-07-05",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0705 ID:9452979056 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0705 ID:9452979056 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_3273194fe3dcd1b9",
+   "amount": 250,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "DK*SPORTSBK 188018 BOSTON MA",
+   "original_description": "DK*SPORTSBK 188018 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_5c8ba16226c6b22e",
+   "amount": -2270.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0706 ID:0660635120 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0706 ID:0660635120 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_473827e9908b48b9",
+   "amount": 400,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "DK*SPORTSBK 613016 BOSTON MA",
+   "original_description": "DK*SPORTSBK 613016 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_6ec09ca05ea31052",
+   "amount": -1487.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0707 ID:6942043119 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0707 ID:6942043119 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_3a160b23df7624d5",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b7cb43cabc072572",
+   "amount": -1743.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0708 ID:3281027766 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0708 ID:3281027766 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e758ce98b6ef7e90",
+   "amount": 2696.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:84955548",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:84955548",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_460fd9e73faf954f",
+   "amount": -1619.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0709 ID:5120686187 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0709 ID:5120686187 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_78d5c681ef912b7c",
+   "amount": -1331.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0710 ID:1959456319 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0710 ID:1959456319 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_fbafff4d4ddb89cc",
+   "amount": 5286.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GUSTO DES:NET 071026 ID:94810452 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 071026 ID:94810452 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_1928b794f9f98877",
+   "amount": -1146.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-11",
+   "authorized_date": "2026-07-11",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0711 ID:2781330472 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0711 ID:2781330472 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_713beabb18285171",
+   "amount": 400,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-11",
+   "authorized_date": "2026-07-11",
+   "pending": false,
+   "name": "DK*SPORTSBK 123224 BOSTON MA",
+   "original_description": "DK*SPORTSBK 123224 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_3e0e7ab76dd4c005",
+   "amount": 343.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 6184730709",
+   "original_description": "AUSTIN ENERGY WEB PMT 6184730709",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_baa6a0275642bf08",
+   "amount": -2289.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0712 ID:1193616189 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0712 ID:1193616189 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_551cfb948cb08b15",
+   "amount": -2440.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0713 ID:5635151129 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0713 ID:5635151129 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_1445d221a3da4af4",
+   "amount": -1509.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0714 ID:7128740146 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0714 ID:7128740146 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_191985abea277971",
+   "amount": -1406.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0715 ID:7963781154 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0715 ID:7963781154 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_411a8c420958c54d",
+   "amount": 1184.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:4338120406 INDN:RAY MITCHELL C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:4338120406 INDN:RAY MITCHELL CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d1b0b405aecd1497",
+   "amount": 2112.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:33217345",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:33217345",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_3a4c5c413f5bb882",
+   "amount": 347.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "AMAZON MKTPL*3364AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3364AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ddbbaf915644b8ad",
+   "amount": -2370.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0716 ID:7663202108 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0716 ID:7663202108 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_03dd0a78c6b8571b",
+   "amount": -1047.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0717 ID:7010937644 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0717 ID:7010937644 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_7a2c75ef4147989e",
+   "amount": 5551.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GUSTO DES:NET 071726 ID:23067964 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 071726 ID:23067964 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e3834e4efb13d7d7",
+   "amount": 1233.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "COINBASE.COM 888-908-7930 CA",
+   "original_description": "COINBASE.COM 888-908-7930 CA",
+   "merchant_name": "Coinbase",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "TRANSFER_OUT",
+    "detailed": "TRANSFER_OUT_INVESTMENT_AND_RETIREMENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Coinbase",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_c2874cd06a20cde9",
+   "amount": -1345.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-18",
+   "authorized_date": "2026-07-18",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0718 ID:1978191977 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0718 ID:1978191977 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_230d8c00aa471b90",
+   "amount": -1342.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-19",
+   "authorized_date": "2026-07-19",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0719 ID:6270333889 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0719 ID:6270333889 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_990f437b3983f95d",
+   "amount": 295.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-19",
+   "authorized_date": "2026-07-19",
+   "pending": false,
+   "name": "AMAZON MKTPL*9942AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9942AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_660571dbf8691f7d",
+   "amount": 50.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMAZON MKTPL*6951AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6951AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_72832b4af86b150f",
+   "amount": 918.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W9204",
+   "original_description": "AMEX EPAYMENT ACH PMT W9204",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_a062fa63c6bd50e9",
+   "amount": -974.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0720 ID:1379569835 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0720 ID:1379569835 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4a493dfbedec31a1",
+   "amount": -1575.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0721 ID:1398102391 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0721 ID:1398102391 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_beefeefc7737fc6f",
+   "amount": 1906.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:88946314",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:88946314",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ec863aa383950082",
+   "amount": 200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f182e55e7658ef50",
+   "amount": -990.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0722 ID:0231335795 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0722 ID:0231335795 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_1e07839d50351e50",
+   "amount": 250,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "DK*SPORTSBK 877508 BOSTON MA",
+   "original_description": "DK*SPORTSBK 877508 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_c6c09450c536a371",
+   "amount": -2419.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0723 ID:3615206642 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0723 ID:3615206642 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_306d1450965061b0",
+   "amount": 5445.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GUSTO DES:NET 072426 ID:38198185 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 072426 ID:38198185 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d5d3b4d9fb9dfb6b",
+   "amount": -2245.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0724 ID:3573225591 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0724 ID:3573225591 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_800d0bd0bb8f1db9",
+   "amount": -1190.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-25",
+   "authorized_date": "2026-07-25",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0725 ID:6529875821 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0725 ID:6529875821 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_10f193b2be6ccb74",
+   "amount": -2165.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-26",
+   "authorized_date": "2026-07-26",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0726 ID:0839503740 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0726 ID:0839503740 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_70acf497efa8de0c",
+   "amount": -2319.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0727 ID:8901956448 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0727 ID:8901956448 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_bb93665bdacc7d24",
+   "amount": 300,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e8ec5d872f9047aa",
+   "amount": -2550.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0728 ID:6607285091 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0728 ID:6607285091 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_09b264cdaca30a06",
+   "amount": 1887.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:78758932",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:78758932",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_68c1ba19eb0efdff",
+   "amount": -1364.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0729 ID:3660707729 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0729 ID:3660707729 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d16107e8b009b614",
+   "amount": -1387.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0730 ID:2839075574 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0730 ID:2839075574 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_0671b6cc6a897de3",
+   "amount": 5670.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GUSTO DES:NET 073126 ID:94471788 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 073126 ID:94471788 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_69d757abc4668abe",
+   "amount": -1624.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0731 ID:5285886993 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0731 ID:5285886993 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_30f58a8f555ba3b2",
+   "amount": 333.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "AMAZON MKTPL*0498AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*0498AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e434cd317c937262",
+   "amount": 4800,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "ACH DEBIT 1343 LANDMARK PROPERTIES RENT 0826",
+   "original_description": "ACH DEBIT 1343 LANDMARK PROPERTIES RENT 0826",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f04c3004fc53fd52",
+   "amount": -1328.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0801 ID:1132520720 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0801 ID:1132520720 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_93a7c89be140f35f",
+   "amount": -1005.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-02",
+   "authorized_date": "2026-08-02",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0802 ID:2870754372 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0802 ID:2870754372 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_45f5c7fd1c8438f1",
+   "amount": 300,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_acd824f5d4ef84ca",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e55c9e953eb85cfa",
+   "amount": -1753.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0803 ID:4574844610 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0803 ID:4574844610 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_854324d294f251a8",
+   "amount": -2165.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0804 ID:3756468058 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0804 ID:3756468058 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_2a501fe9a555986b",
+   "amount": -2145.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0805 ID:7896211597 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0805 ID:7896211597 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4f20354d4846d7f6",
+   "amount": 2470.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:20802224",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:20802224",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_7c7c137771366404",
+   "amount": -934.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0806 ID:5817794637 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0806 ID:5817794637 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_971bf88fbe0af79a",
+   "amount": -935.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0807 ID:8555018512 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0807 ID:8555018512 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_c48d4a426d69010f",
+   "amount": 5156.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GUSTO DES:NET 080726 ID:63020329 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 080726 ID:63020329 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4df18b5b92e14c38",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_547c766ec603bab1",
+   "amount": 215.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "H-E-B #263 AUSTIN TX",
+   "original_description": "H-E-B #263 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_9b4154eae72903f1",
+   "amount": -1993.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0808 ID:8206107443 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0808 ID:8206107443 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f7b3cf044631d3e8",
+   "amount": -2581.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-09",
+   "authorized_date": "2026-08-09",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0809 ID:9417985098 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0809 ID:9417985098 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_41659c817761c206",
+   "amount": -1729.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0810 ID:5051507090 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0810 ID:5051507090 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_2071745c01f70f28",
+   "amount": -1734.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0811 ID:8882809202 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0811 ID:8882809202 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_5396b768b607ac2a",
+   "amount": 200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_035e02b3edaf0420",
+   "amount": 250,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "DK*SPORTSBK 248474 BOSTON MA",
+   "original_description": "DK*SPORTSBK 248474 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_dcd7d90eb406261e",
+   "amount": 2542.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:80867320",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:80867320",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_eeed0bcd22bbd0c5",
+   "amount": 815.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 9422737404",
+   "original_description": "AUSTIN ENERGY WEB PMT 9422737404",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_fd153ef28e9606f7",
+   "amount": -2156.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0812 ID:9175362097 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0812 ID:9175362097 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_98d43ca9b54c976f",
+   "amount": -2249.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0813 ID:7671242938 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0813 ID:7671242938 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_20eebd3bbd18fbd7",
+   "amount": -1031.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0814 ID:5428955705 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0814 ID:5428955705 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_666b05fd8ad78f88",
+   "amount": 5713.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GUSTO DES:NET 081426 ID:64429963 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 081426 ID:64429963 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_184a5651e00c885b",
+   "amount": 272.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "AMAZON MKTPL*2743AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2743AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_185eea39ca6ddfdc",
+   "amount": 2338.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:1457097692 INDN:RAY MITCHELL C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:1457097692 INDN:RAY MITCHELL CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_a64943d96ab6fd6a",
+   "amount": -1391.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0815 ID:5183252883 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0815 ID:5183252883 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b259223018a05931",
+   "amount": -1069.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-16",
+   "authorized_date": "2026-08-16",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0816 ID:2765546150 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0816 ID:2765546150 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b2a81a829cac3be1",
+   "amount": 500,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-16",
+   "authorized_date": "2026-08-16",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_63227de74f8a3361",
+   "amount": -1289.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0817 ID:0872440053 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0817 ID:0872440053 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_279b0d6e16e942f0",
+   "amount": -1236.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0818 ID:9612378895 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0818 ID:9612378895 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_6df06ab6271b7875",
+   "amount": -1910.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0819 ID:8161946645 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0819 ID:8161946645 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_bd0b8fcb31256aff",
+   "amount": 2602.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:25516489",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:25516489",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_58cb7134656a281f",
+   "amount": -1527.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0820 ID:8489665669 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0820 ID:8489665669 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_c1ea08f921df1cea",
+   "amount": 102.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "H-E-B #025 AUSTIN TX",
+   "original_description": "H-E-B #025 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_dbae298cbfd0db22",
+   "amount": 782.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8286",
+   "original_description": "AMEX EPAYMENT ACH PMT W8286",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_167af839b11f683b",
+   "amount": 500,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_45d3328484f47b32",
+   "amount": -1695.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0821 ID:1512525264 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0821 ID:1512525264 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_7404a0e917ea7f0a",
+   "amount": 5481.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GUSTO DES:NET 082126 ID:61046285 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 082126 ID:61046285 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_625b72b10278d077",
+   "amount": -1321.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-22",
+   "authorized_date": "2026-08-22",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0822 ID:1949025364 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0822 ID:1949025364 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ae7d3cbfa8d7b717",
+   "amount": -1087.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-23",
+   "authorized_date": "2026-08-23",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0823 ID:0209168860 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0823 ID:0209168860 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_7dd5e3a0e371da10",
+   "amount": -1868.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0824 ID:1692712542 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0824 ID:1692712542 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_cd9bc65b808ee27d",
+   "amount": -1597.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0825 ID:0440816262 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0825 ID:0440816262 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_2dd1e1d64aa2b10d",
+   "amount": 2940.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:20516265",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:20516265",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b3c47d33889ce77e",
+   "amount": -1356.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0826 ID:5405812001 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0826 ID:5405812001 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_39077541adc9a785",
+   "amount": -1620.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0827 ID:2348734307 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0827 ID:2348734307 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_33419d23682cf274",
+   "amount": -1726.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0828 ID:9403099635 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0828 ID:9403099635 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_44264dc27b1550c7",
+   "amount": 80.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "H-E-B #531 AUSTIN TX",
+   "original_description": "H-E-B #531 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b5206fd70fcaa3a8",
+   "amount": 500,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f4177839209282bd",
+   "amount": 5101.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GUSTO DES:NET 082826 ID:86757319 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 082826 ID:86757319 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4751755390ad48e2",
+   "amount": 600,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-29",
+   "authorized_date": "2026-08-29",
+   "pending": false,
+   "name": "DK*SPORTSBK 263400 BOSTON MA",
+   "original_description": "DK*SPORTSBK 263400 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b3144a48aacb1443",
+   "amount": -2171.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-29",
+   "authorized_date": "2026-08-29",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0829 ID:4429922161 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0829 ID:4429922161 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_06f44ae8b4a81008",
+   "amount": -2477.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-30",
+   "authorized_date": "2026-08-30",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0830 ID:1372603131 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0830 ID:1372603131 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_a4f1e1364bd4d394",
+   "amount": -2500.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-30",
+   "authorized_date": "2026-08-30",
+   "pending": false,
+   "name": "DRAFTKINGS WITHDRAWAL DES:PAYOUT ID:4077309057",
+   "original_description": "DRAFTKINGS WITHDRAWAL DES:PAYOUT ID:4077309057",
+   "merchant_name": "DraftKings",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_6da39e28718edc8d",
+   "amount": -1190.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0831 ID:1426309573 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0831 ID:1426309573 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_2061fe412f498dc1",
+   "amount": 183.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "H-E-B #546 AUSTIN TX",
+   "original_description": "H-E-B #546 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_43977315d54c65d5",
+   "amount": -1784.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0901 ID:4661476307 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0901 ID:4661476307 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_a6a7543a9ab5d033",
+   "amount": 4800,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH DEBIT 1420 LANDMARK PROPERTIES RENT 0926",
+   "original_description": "ACH DEBIT 1420 LANDMARK PROPERTIES RENT 0926",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_1a939694c0da7c8a",
+   "amount": -2095.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0902 ID:8722903293 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0902 ID:8722903293 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e6046b2f222771d1",
+   "amount": 2604.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:49606423",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:49606423",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_3e99230ae2d992e3",
+   "amount": -1145.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0903 ID:9645702184 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0903 ID:9645702184 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_7b7a4ace9b7bd647",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ad5dbf2ba5e60de6",
+   "amount": 5314.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 090426 ID:48645353 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 090426 ID:48645353 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_c45d8cd89a47f4e8",
+   "amount": -1721.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0904 ID:7446196080 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0904 ID:7446196080 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4b7f43b51de7314d",
+   "amount": -1237.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-05",
+   "authorized_date": "2026-09-05",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0905 ID:4572235069 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0905 ID:4572235069 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_373fddacc624c0cd",
+   "amount": -1044.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-06",
+   "authorized_date": "2026-09-06",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0906 ID:6572387127 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0906 ID:6572387127 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_6844567a3c332c3c",
+   "amount": -2034.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0907 ID:1674982611 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0907 ID:1674982611 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f4a5353ccc939336",
+   "amount": 1078.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "COINBASE.COM 888-908-7930 CA",
+   "original_description": "COINBASE.COM 888-908-7930 CA",
+   "merchant_name": "Coinbase",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "TRANSFER_OUT",
+    "detailed": "TRANSFER_OUT_INVESTMENT_AND_RETIREMENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Coinbase",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_304e7f352eec5e2a",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_cb9a7afc7d87305d",
+   "amount": -1402.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0908 ID:9025648458 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0908 ID:9025648458 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_28876e9b2251db6f",
+   "amount": -1585.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0909 ID:9625705169 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0909 ID:9625705169 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4ce3dd0678035699",
+   "amount": 3173.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:19459604",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:19459604",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ca9e409857b1fec5",
+   "amount": -1318.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0910 ID:5443041889 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0910 ID:5443041889 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_a52f5dbac687c7bc",
+   "amount": -939.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0911 ID:5872512147 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0911 ID:5872512147 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f7bc297ccf4ae6f6",
+   "amount": 5354.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 091126 ID:36625222 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 091126 ID:36625222 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e42fe63db6ebfc56",
+   "amount": 563.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 0451307177",
+   "original_description": "AUSTIN ENERGY WEB PMT 0451307177",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_ed6074a1e0fb2743",
+   "amount": -2549.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0912 ID:6385815442 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0912 ID:6385815442 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_651d67c43e059491",
+   "amount": 750,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-13",
+   "authorized_date": "2026-09-13",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_b3e4687fb4373304",
+   "amount": -1245.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-13",
+   "authorized_date": "2026-09-13",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0913 ID:6304493757 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0913 ID:6304493757 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d92f86f5ae60c60b",
+   "amount": -1499.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0914 ID:3898839230 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0914 ID:3898839230 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_0268e71baea472ac",
+   "amount": 600,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "DK*SPORTSBK 969479 BOSTON MA",
+   "original_description": "DK*SPORTSBK 969479 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_8a0a0e19cf692f95",
+   "amount": -1680.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0915 ID:3006670863 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0915 ID:3006670863 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_9394e56e8ce7e37b",
+   "amount": 1406.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:2524498754 INDN:RAY MITCHELL C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:2524498754 INDN:RAY MITCHELL CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_2a4660870fc11225",
+   "amount": 1954.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:91114645",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:91114645",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f841535796cb74e6",
+   "amount": -2535.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0916 ID:4931228499 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0916 ID:4931228499 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_f3ea1f6a6f85df47",
+   "amount": -2336.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0917 ID:7243052007 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0917 ID:7243052007 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_278505f6e20f5227",
+   "amount": 259.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "H-E-B #389 AUSTIN TX",
+   "original_description": "H-E-B #389 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_65847f7086143b6b",
+   "amount": 5453.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 091826 ID:07964450 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 091826 ID:07964450 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_8ef7980ec8bf4f91",
+   "amount": -2343.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0918 ID:6070727480 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0918 ID:6070727480 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_3224a3f2027e61d5",
+   "amount": -1217.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-19",
+   "authorized_date": "2026-09-19",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0919 ID:1290459944 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0919 ID:1290459944 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_572971f2b5b3c17d",
+   "amount": -942.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0920 ID:0508220123 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0920 ID:0508220123 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_9eae179f4ddfe4df",
+   "amount": 1005.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "COINBASE.COM 888-908-7930 CA",
+   "original_description": "COINBASE.COM 888-908-7930 CA",
+   "merchant_name": "Coinbase",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "TRANSFER_OUT",
+    "detailed": "TRANSFER_OUT_INVESTMENT_AND_RETIREMENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Coinbase",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d266c4fc794b1fb4",
+   "amount": 987.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W5537",
+   "original_description": "AMEX EPAYMENT ACH PMT W5537",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_380c2dc1df28e2a7",
+   "amount": -906.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0921 ID:0411684329 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0921 ID:0411684329 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_9a9acb8e85d1b69e",
+   "amount": -2352.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0922 ID:8830129356 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0922 ID:8830129356 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_e98ace6495e7155b",
+   "amount": 396.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "AMAZON MKTPL*9360AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9360AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_40a4f522a9d1007b",
+   "amount": 1967.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:73847965",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:73847965",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_519d78cf11a82bcd",
+   "amount": -1537.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0923 ID:9309726122 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0923 ID:9309726122 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_5e5ccf6333d7b521",
+   "amount": 300,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_1363b3bcb19f92ef",
+   "amount": -1611.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0924 ID:0405171600 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0924 ID:0405171600 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_8317af0ef023927e",
+   "amount": 200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "original_description": "DRAFTKINGS*SPORTSBOOK 617-986-6744 MA",
+   "merchant_name": "DraftKings",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DraftKings",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d2e761abb582ddd2",
+   "amount": 4800.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 092526 ID:09533622 INDN:CORNER POCKET BAR CO I",
+   "original_description": "GUSTO DES:NET 092526 ID:09533622 INDN:CORNER POCKET BAR CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_edc6741429e627b1",
+   "amount": -1170.39,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0925 ID:7221056011 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0925 ID:7221056011 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_795195c5b2fec2ea",
+   "amount": -2555.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-26",
+   "authorized_date": "2026-09-26",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0926 ID:4874044546 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0926 ID:4874044546 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_864018ee9a7ed68a",
+   "amount": -2137.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-27",
+   "authorized_date": "2026-09-27",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0927 ID:7155591176 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0927 ID:7155591176 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_4425c3b6b32787f7",
+   "amount": -968.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0928 ID:1381037985 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0928 ID:1381037985 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_95444aae0d505435",
+   "amount": 600,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "DK*SPORTSBK 262023 BOSTON MA",
+   "original_description": "DK*SPORTSBK 262023 BOSTON MA",
+   "merchant_name": null,
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_CASINOS_AND_GAMBLING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_d1c5412d2b7065aa",
+   "amount": -2271.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0929 ID:4036987498 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0929 ID:4036987498 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_5380d1dc114996e8",
+   "amount": 2857.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "BETTER BEVERAGE DIST DES:INV PMT ID:92351753",
+   "original_description": "BETTER BEVERAGE DIST DES:INV PMT ID:92351753",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Better Beverage Distributors",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_4edc4c4508ee",
+   "transaction_id": "txn_7007a759b199c0fb",
+   "amount": -2283.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "TOAST INC DES:DEP 0930 ID:5455658162 INDN:CORNER POCKET BAR",
+   "original_description": "TOAST INC DES:DEP 0930 ID:5455658162 INDN:CORNER POCKET BAR",
+   "merchant_name": "Toast",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Toast",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 166,
+ "request_id": "synthetic-B06"
+}
