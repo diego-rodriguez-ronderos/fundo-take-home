@@ -35,7 +35,7 @@ Threshold choice and worst-case spend, and learned rules (both offline, no API c
 ```bash
 python -m reviewer.sweep             # out/threshold_sweep.md: quality first, then cost; worst case
 python -m reviewer.learn             # rules/learned_rules.json + out/rules_report.md (renewal, held-out)
-python run.py --offline --rules rules/learned_rules.json   # keyword engine + learned rules, then review
+python run.py --rules rules/learned_rules.json   # engine + rules, then review (needs a key: new prompts)
 ```
 
 ## Run against the API
