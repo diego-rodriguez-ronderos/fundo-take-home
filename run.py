@@ -166,8 +166,11 @@ def summarize(model, rows, per_biz, statuses, has_gold, cache):
           f"{pct(sum(not r['final_materially_wrong'] for r in rows if r['gate'] == 'applied'), sum(r['gate'] == 'applied' for r in rows))}",
           f"- materially wrong after auto-apply: {sum(r['final_materially_wrong'] for r in rows)} (legacy {len(mat)})",
           f"- underwriter queue: {len(queued_p)} patterns across {len({k[0] for k in queued_p})} businesses",
-          f"- hard negatives: {len(hn)} txns, flagged by reviewer: {sum(r['verdict'] == 'doubt' for r in hn)}, "
-          f"materially changed after auto-apply: {sum(r['final_materially_wrong'] for r in hn)}",
+          f"- hard negatives: {len(hn)} txns; doubted: {sum(r['verdict'] == 'doubt' for r in hn)} "
+          f"(cosmetic, applied silently: {sum(r['gate'] == 'applied_silent' for r in hn)}; "
+          f"sent to underwriter: {sum(r['gate'] == 'queued' for r in hn)}; "
+          f"material change auto-applied: {sum(r['gate'] == 'applied' for r in hn)}); "
+          f"materially wrong after auto-apply: {sum(r['final_materially_wrong'] for r in hn)}",
           "", "Confidence calibration (material doubts, by stated confidence):", ""]
     buckets = {}
     for r in mat_doubt:
