@@ -1,0 +1,4896 @@
+{
+ "business": {
+  "business_id": "H05",
+  "name": "Sunrise Produce Wholesale",
+  "industry": "Produce wholesale",
+  "owner_name": "Grace Kim",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_a72a58543d15",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "4551",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_297871e9976addcc",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_61f074469aff8fbc",
+   "amount": -6500.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:9196520105",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:9196520105",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c5c40482612ffe1e",
+   "amount": 5452.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:87780051",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:87780051",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_ca27ef6fcb647700",
+   "amount": 10143.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GUSTO DES:NET 070326 ID:51656592 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 070326 ID:51656592 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_d120c3eb3ba6d7ea",
+   "amount": 35.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-05",
+   "authorized_date": "2026-07-05",
+   "pending": false,
+   "name": "INSUFFICIENT FUNDS ITEM FEE 454865",
+   "original_description": "INSUFFICIENT FUNDS ITEM FEE 454865",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_40c6ad219c61338d",
+   "amount": -4478.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:1742049086",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:1742049086",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6aca715fbcb1ba5e",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:07211762",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:07211762",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_26e8bcf15a981e1c",
+   "amount": -4816.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:8667823780",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:8667823780",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3b1cde38eba7ac67",
+   "amount": 5162.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:32087787",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:32087787",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_925d481f53cb96c1",
+   "amount": -3617.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7805873642",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7805873642",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_fd50ba99eed04af6",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_1e90f957f814123c",
+   "amount": -2538.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:3004643707",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:3004643707",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_77b0c7a5bc23a752",
+   "amount": 7777.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:44094891",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:44094891",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e1bd96b3fdb5ffb0",
+   "amount": 132.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "AMAZON MKTPL*4970AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*4970AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_864c537c21d5a3d1",
+   "amount": 10768.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GUSTO DES:NET 071026 ID:39113166 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 071026 ID:39113166 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9a4cc43eaa2223a8",
+   "amount": -3904.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:8031680952",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:8031680952",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_370aead0525fba8b",
+   "amount": 355.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 6338148242",
+   "original_description": "AUSTIN ENERGY WEB PMT 6338148242",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_33adcf184ce33448",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:22258186",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:22258186",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6e2934d3087efe26",
+   "amount": 6757.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:39699559",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:39699559",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_df9ddb87b5627bc4",
+   "amount": -4710.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4799002283",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4799002283",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c6dee7c5300330cb",
+   "amount": -5747.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:6978918285",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:6978918285",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_24455db1955138be",
+   "amount": 6220.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:34969597",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:34969597",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_5e69f833e7b3a379",
+   "amount": 1250.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:9959902826 INDN:GRACE KIM CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:9959902826 INDN:GRACE KIM CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_b0a7d6f7065fe43f",
+   "amount": -5397.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:3160969626",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:3160969626",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_7277e099430af966",
+   "amount": -5656.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:5664360827",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:5664360827",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_0f3b50b5ee47d2d5",
+   "amount": 9144.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GUSTO DES:NET 071726 ID:38824348 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 071726 ID:38824348 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2848695af5db3500",
+   "amount": -5283.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:0435635590",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:0435635590",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_a015e617a410863d",
+   "amount": 7402.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:50483311",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:50483311",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_1dd40ef1a54daec4",
+   "amount": 359.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-19",
+   "authorized_date": "2026-07-19",
+   "pending": false,
+   "name": "AMAZON MKTPL*3296AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3296AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_29e9938192fa8e19",
+   "amount": 893.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8954",
+   "original_description": "AMEX EPAYMENT ACH PMT W8954",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_535c82938f1a0e77",
+   "amount": -5098.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:5354652072",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:5354652072",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_ed290a9b5fd9be7a",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:89864317",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:89864317",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_1f7a3fc8b2569644",
+   "amount": 38.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "EXTENDED OVERDRAFT CHARGE 964542",
+   "original_description": "EXTENDED OVERDRAFT CHARGE 964542",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OVERDRAFT_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_af42619ecd89b7c2",
+   "amount": 5866.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:99670042",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:99670042",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c10ffa5f070767e6",
+   "amount": -5746.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:6962058177",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:6962058177",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_36f80a67e06772d8",
+   "amount": 250.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "H-E-B #728 AUSTIN TX",
+   "original_description": "H-E-B #728 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_37d33bf46b731216",
+   "amount": -2981.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6528378107",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6528378107",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3ea64c69825e451a",
+   "amount": -3807.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:0474856760",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:0474856760",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_ec05f0000552837d",
+   "amount": 3373.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:14586453",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:14586453",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_0a86e3ce9fdb6e61",
+   "amount": -3373.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:9970848184",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:9970848184",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_8ba6057b8e37735e",
+   "amount": 8921.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GUSTO DES:NET 072426 ID:86333160 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 072426 ID:86333160 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_34a76e62258ac2e8",
+   "amount": 3535.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:00609377",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:00609377",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_693f14458e787190",
+   "amount": -4473.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6347897481",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6347897481",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_748d33bdd1535a77",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:89882779",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:89882779",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_b3ab838b99ba45c3",
+   "amount": -5592.73,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:4982849171",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:4982849171",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2832b1a3bb182f36",
+   "amount": -5922.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:5583738289",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:5583738289",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_cd163f8f9f45e5f1",
+   "amount": 4019.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:25970897",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:25970897",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_aea384b3558db6ed",
+   "amount": -5942.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:6110399539",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:6110399539",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3e2b1a525b546558",
+   "amount": -2569.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1483351247",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1483351247",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6b43fa8c721d36cf",
+   "amount": 4832.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:11459449",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:11459449",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_77ea97e0ff835e68",
+   "amount": 9856.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GUSTO DES:NET 073126 ID:47197540 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 073126 ID:47197540 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_d3cc46d2ae5f5f0d",
+   "amount": -10000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "TRANSFER FROM MONEY MARKET XXXX2231",
+   "original_description": "TRANSFER FROM MONEY MARKET XXXX2231",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_53c6483e1149be46",
+   "amount": 5200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "ACH DEBIT 3168 LANDMARK PROPERTIES RENT 0826",
+   "original_description": "ACH DEBIT 3168 LANDMARK PROPERTIES RENT 0826",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3280606f1f60a7fc",
+   "amount": 112.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-02",
+   "authorized_date": "2026-08-02",
+   "pending": false,
+   "name": "H-E-B #174 AUSTIN TX",
+   "original_description": "H-E-B #174 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_24f1f87aecf1692f",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3a93c75a5ab30be5",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:18859408",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:18859408",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c75a77867a84c75b",
+   "amount": -4661.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:9683004660",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:9683004660",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3fb6a1f19a04e40c",
+   "amount": 3335.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:77899370",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:77899370",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_5c5656bf3f1a2a1e",
+   "amount": -4520.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:8646689553",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:8646689553",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_b830b22738008603",
+   "amount": -6049.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2220511694",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2220511694",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9bb3c1bbeaf89c6f",
+   "amount": -3346.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2263938200",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2263938200",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_b187dff5c91f0896",
+   "amount": 7648.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:42790259",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:42790259",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_db4d24c412b1baa5",
+   "amount": 206.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "AMAZON MKTPL*3129AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3129AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_490b06abd45a6fbd",
+   "amount": 9312.39,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GUSTO DES:NET 080726 ID:81266797 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 080726 ID:81266797 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_8570ede7eb5a07bd",
+   "amount": -5958.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4753690139",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4753690139",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_aad26f457d288ed2",
+   "amount": 153.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "AMAZON MKTPL*3759AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3759AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_40c82a760d070f3c",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_360a66dee482f028",
+   "amount": -5312.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1309972306",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1309972306",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_497f5bb37c1e5ff7",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:41644385",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:41644385",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_fab0ec69a96140b7",
+   "amount": 3633.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:26132869",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:26132869",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9033b9177246d256",
+   "amount": -2911.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9504335602",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9504335602",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_68a91fb88aa853a6",
+   "amount": 533.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 9370899079",
+   "original_description": "AUSTIN ENERGY WEB PMT 9370899079",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_7772f642ba147467",
+   "amount": 6926.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:24006532",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:24006532",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_d4127844fec06ea3",
+   "amount": -4342.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9846069041",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9846069041",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_287964d46e01816b",
+   "amount": -4616.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7864924555",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7864924555",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_202ea2e5898846d8",
+   "amount": 83.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "H-E-B #877 AUSTIN TX",
+   "original_description": "H-E-B #877 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_60e0b545babc1f44",
+   "amount": 3882.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:05698982",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:05698982",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9f712f588ca657f4",
+   "amount": -3100.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "TX COMPTROLLER DES:REFUND ID:2978734322",
+   "original_description": "TX COMPTROLLER DES:REFUND ID:2978734322",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_TAX_REFUND",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_d65394018c960ff6",
+   "amount": -4463.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:4783302850",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:4783302850",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_f13ea124dc99c48f",
+   "amount": 8945.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GUSTO DES:NET 081426 ID:93361361 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 081426 ID:93361361 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_07cdf9c49eea7e83",
+   "amount": 2075.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6872312190 INDN:GRACE KIM CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6872312190 INDN:GRACE KIM CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c2cd8680f547c8ef",
+   "amount": 38.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "EXTENDED OVERDRAFT CHARGE 261026",
+   "original_description": "EXTENDED OVERDRAFT CHARGE 261026",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OVERDRAFT_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_1f65fcaf1dc5fb4f",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:88214177",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:88214177",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_1ff3fc13c7d54e91",
+   "amount": -3446.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2141051547",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2141051547",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e621a85618f33ffa",
+   "amount": -4450.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1602233394",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1602233394",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_fff032e64eb190e2",
+   "amount": 5817.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:42116289",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:42116289",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_32cd0906614eed0d",
+   "amount": -4345.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7076857875",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7076857875",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_eac31f66c59c787d",
+   "amount": 373.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "AMAZON MKTPL*6964AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6964AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_06c30298427ad0b1",
+   "amount": 1318.65,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W4149",
+   "original_description": "AMEX EPAYMENT ACH PMT W4149",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_256bf4b5fc7b5b8e",
+   "amount": 7319.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:53032518",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:53032518",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_7719f648d43a65b3",
+   "amount": -5882.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4076275675",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4076275675",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_5517b63896b3a21a",
+   "amount": 9899.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GUSTO DES:NET 082126 ID:23258404 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 082126 ID:23258404 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_f0dd4c1eeef00ed3",
+   "amount": -3807.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:0281971599",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:0281971599",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2384e32d4da729ff",
+   "amount": 6986.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:65440968",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:65440968",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_313785b2350bfcb3",
+   "amount": -5166.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:7052491832",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:7052491832",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_373a847a0f24b757",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:50015839",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:50015839",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_66be17fc2fdbdd0d",
+   "amount": 229.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "H-E-B #484 AUSTIN TX",
+   "original_description": "H-E-B #484 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_78a51d9cf4167408",
+   "amount": 35.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "INSUFFICIENT FUNDS ITEM FEE 464431",
+   "original_description": "INSUFFICIENT FUNDS ITEM FEE 464431",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c1ef39f81c6ccd7a",
+   "amount": -2544.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:8521404169",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:8521404169",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3f5053a57fafddef",
+   "amount": 6100.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:93731450",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:93731450",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6e56627ed65acedc",
+   "amount": -6597.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:5779931422",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:5779931422",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_22bf49310c694e1f",
+   "amount": -3269.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:0637474394",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:0637474394",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_0da64e3dfc7dd909",
+   "amount": 10044.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GUSTO DES:NET 082826 ID:78708691 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 082826 ID:78708691 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2e4c62b23103e946",
+   "amount": -6111.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6985195525",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6985195525",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_83a4208b20790d12",
+   "amount": 5305.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:23061303",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:23061303",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_cda85d99c2961b3e",
+   "amount": 35.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-29",
+   "authorized_date": "2026-08-29",
+   "pending": false,
+   "name": "INSUFFICIENT FUNDS ITEM FEE 376062",
+   "original_description": "INSUFFICIENT FUNDS ITEM FEE 376062",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_378632512cc03d62",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:08553662",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:08553662",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_cb880e92657c3928",
+   "amount": -2849.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:9080722000",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:9080722000",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_f1085c50846e12f3",
+   "amount": 38.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "EXTENDED OVERDRAFT CHARGE 344587",
+   "original_description": "EXTENDED OVERDRAFT CHARGE 344587",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OVERDRAFT_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_080ce852341129ac",
+   "amount": 4923.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:33056138",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:33056138",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_0bd24937ae7465e4",
+   "amount": 219.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "H-E-B #075 AUSTIN TX",
+   "original_description": "H-E-B #075 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_5418b852d6945c9d",
+   "amount": 5200,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH DEBIT 8994 LANDMARK PROPERTIES RENT 0926",
+   "original_description": "ACH DEBIT 8994 LANDMARK PROPERTIES RENT 0926",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_58f7d97cdcdcbab2",
+   "amount": -2802.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6419398831",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:6419398831",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2b8b226172d68371",
+   "amount": -10000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "TRANSFER FROM MONEY MARKET XXXX2231",
+   "original_description": "TRANSFER FROM MONEY MARKET XXXX2231",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e0a6d747566f1787",
+   "amount": -5718.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:3565918339",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:3565918339",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_49773506722694e6",
+   "amount": 3659.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:96732671",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:96732671",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6acb77105953b732",
+   "amount": -4511.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9823805139",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9823805139",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e158346c75b22d96",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_0c4e571e93ab5eac",
+   "amount": 10610.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 090426 ID:87923553 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 090426 ID:87923553 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_23fc41ae51c34782",
+   "amount": -3570.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:1944571100",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:1944571100",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_65d395a156ec4efb",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:26418360",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:26418360",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_a1299975f24bc663",
+   "amount": -6817.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4745033617",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4745033617",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_f6cf6cbae4065fb4",
+   "amount": 3284.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:00217405",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:00217405",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6318ae36ad8ef45b",
+   "amount": -5542.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2839459161",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:2839459161",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_d2abd2115bd1bfdd",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_6be94a88d1393164",
+   "amount": 299.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "AMAZON MKTPL*1028AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1028AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_98581540f632fc3a",
+   "amount": -5887.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:9678498477",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:9678498477",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e97b6ff64fca30ea",
+   "amount": 5731.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:20903811",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:20903811",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9cd0872c9e19f5ee",
+   "amount": -4702.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:7803425698",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:7803425698",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_8698bbd151cc7395",
+   "amount": 9113.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 091126 ID:37994355 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 091126 ID:37994355 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9d82cc6cb11d7560",
+   "amount": 7816.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:29334295",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:29334295",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e28cae75b8a4b3e0",
+   "amount": -2555.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:3854920829",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:3854920829",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_4d6e3549c3c7f977",
+   "amount": 394.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 0838073267",
+   "original_description": "AUSTIN ENERGY WEB PMT 0838073267",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c0aa836bdc5e9bfc",
+   "amount": -4098.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1127938414",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:1127938414",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c55ab3b9ad215e08",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:19752006",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:19752006",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_01f28589bd7dad3b",
+   "amount": 3731.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:31826831",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:31826831",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_81ff2d235707c10f",
+   "amount": -6969.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4928553506",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4928553506",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_b219d6160b8ea29f",
+   "amount": 1424.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:4879599373 INDN:GRACE KIM CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:4879599373 INDN:GRACE KIM CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2b50aacd9b10c383",
+   "amount": -6140.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7492627342",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:7492627342",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_8d98b8d31ac3a6eb",
+   "amount": 7568.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:50206037",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:50206037",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_ae0f1a1640cfde57",
+   "amount": -3289.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:6666520106",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:6666520106",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_3c4418ecafbed6d3",
+   "amount": 9362.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 091826 ID:59442052 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 091826 ID:59442052 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_cbe36881c15d437f",
+   "amount": -4406.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:4408202016",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:4408202016",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_24047370a9236cb1",
+   "amount": 1314.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W4988",
+   "original_description": "AMEX EPAYMENT ACH PMT W4988",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_2609d15434a789be",
+   "amount": 7653.6,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:58994023",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:58994023",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_42feb699154119e7",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:45813865",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:45813865",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_8db45e869cf23a03",
+   "amount": -3001.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4262433184",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:4262433184",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_80ad43da0631c787",
+   "amount": -6821.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:3340486239",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:3340486239",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_58ed5eb24e324f16",
+   "amount": 4385.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:52471710",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:52471710",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_5ae9c0320275cbf6",
+   "amount": -3452.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:3849042631",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:3849042631",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_9275aa5e586837ff",
+   "amount": -2769.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:0612999833",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:0612999833",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_88f66955b9612815",
+   "amount": 9262.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 092526 ID:15719080 INDN:SUNRISE PRODUCE WHOLES",
+   "original_description": "GUSTO DES:NET 092526 ID:15719080 INDN:SUNRISE PRODUCE WHOLESALE CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_8ba95a046ecddb9a",
+   "amount": -2528.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:6301672731",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:6301672731",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_bec3b8dac8b8936f",
+   "amount": 6986.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:08744449",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:08744449",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_24ddca974f0d4b0c",
+   "amount": 2200.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "KAPITUS SERVICING DES:DEBIT ID:89029556",
+   "original_description": "KAPITUS SERVICING DES:DEBIT ID:89029556",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Kapitus",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_4b8cb39b16b4ecd5",
+   "amount": -4880.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9842232483",
+   "original_description": "ACH CREDIT WHOLE FOODS MKT DES:PAYABLES ID:9842232483",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Whole Foods Mkt",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_c0bf701ac1a01129",
+   "amount": -6194.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "ACH CREDIT FIESTA MART DES:PAYABLES ID:7918451726",
+   "original_description": "ACH CREDIT FIESTA MART DES:PAYABLES ID:7918451726",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Fiesta Mart",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_f655ff37b6a52f55",
+   "amount": 4266.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "RIO GRANDE FARMS DES:PAYMENT ID:10335973",
+   "original_description": "RIO GRANDE FARMS DES:PAYMENT ID:10335973",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rio Grande Farms",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_4805468df33a726e",
+   "amount": -4076.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:4803620348",
+   "original_description": "ACH CREDIT HEB GROCERY CO DES:PAYABLES ID:4803620348",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Heb Grocery Co",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_a72a58543d15",
+   "transaction_id": "txn_e8c8e74c29105f24",
+   "amount": 38.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "EXTENDED OVERDRAFT CHARGE 628356",
+   "original_description": "EXTENDED OVERDRAFT CHARGE 628356",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OVERDRAFT_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 160,
+ "request_id": "synthetic-H05"
+}

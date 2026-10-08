@@ -14,7 +14,7 @@ from reviewer import gate, llm, patterns, sensitivity
 from reviewer import groups as G
 from reviewer import keywords as K
 
-DEFAULT_MODEL = "gpt-5-mini"
+DEFAULT_MODEL = "gpt-4.1"  # chosen after comparing with gpt-4.1-mini; see SOLUTION.md
 
 
 def sig(d, lab):
@@ -145,7 +145,7 @@ def dedupe_patterns(rows):
 
 def summarize(model, rows, per_biz, statuses, has_gold, cache):
     s = [f"# Review report: {model}\n", f"prompt {llm.PROMPT_VERSION}; review status per business: {statuses}",
-         f"total LLM spend in cache (all models): ${llm.spend(cache)}\n"]
+         f"LLM spend recorded in cache: total ${llm.spend(cache)}; by model {llm.spend_by_model(cache)}\n"]
     if not has_gold:
         return "\n".join(s)
     n = len(rows)

@@ -1,0 +1,3787 @@
+{
+ "business": {
+  "business_id": "H02",
+  "name": "Precision Auto Works",
+  "industry": "Auto repair",
+  "owner_name": "Kevin Brooks",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_fe2e176f238b",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "6656",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_60a0d78bd8af42b9",
+   "amount": -2290.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:9112737408 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:9112737408 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_6f1377ad1ed7016f",
+   "amount": -741.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 55874907",
+   "original_description": "MOBILE CHECK DEP 55874907",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_73543542c79bdf0b",
+   "amount": 5206.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GUSTO DES:NET 070326 ID:27440036 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 070326 ID:27440036 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_f6dcc642d34d2e1e",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_427b0e3be3d8604c",
+   "amount": -1876.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 22887713",
+   "original_description": "MOBILE CHECK DEP 22887713",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_3bd7e089a81d50ed",
+   "amount": -2131.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 97691771",
+   "original_description": "MOBILE CHECK DEP 97691771",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_2d60063778348ccb",
+   "amount": -1082.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 58064842",
+   "original_description": "MOBILE CHECK DEP 58064842",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_67d7633668e8aae5",
+   "amount": 2881.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 563542",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 563542",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_708b196d4a128bd6",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0c9b8b59e2023f22",
+   "amount": -1003.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 58478883",
+   "original_description": "MOBILE CHECK DEP 58478883",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_528886e976ed2123",
+   "amount": -1565.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 29493650",
+   "original_description": "MOBILE CHECK DEP 29493650",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_7168f8961ff22a6a",
+   "amount": 4909.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GUSTO DES:NET 071026 ID:60762285 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 071026 ID:60762285 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_86096029ce9bc46a",
+   "amount": 881.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 9572893130",
+   "original_description": "AUSTIN ENERGY WEB PMT 9572893130",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_7889c40f7df8981a",
+   "amount": 232.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "H-E-B #927 AUSTIN TX",
+   "original_description": "H-E-B #927 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_ff66c75258e7aceb",
+   "amount": -1014.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 85469135",
+   "original_description": "MOBILE CHECK DEP 85469135",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0cf8988f521814cd",
+   "amount": -723.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 48716654",
+   "original_description": "MOBILE CHECK DEP 48716654",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_7e606aeed65d48cf",
+   "amount": 1754.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:1697542461 INDN:KEVIN BROOKS C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:1697542461 INDN:KEVIN BROOKS CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_9b873514afc6b5ff",
+   "amount": -1070.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 50499878",
+   "original_description": "MOBILE CHECK DEP 50499878",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_9fc933866c93b6ed",
+   "amount": 2220.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 367982",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 367982",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_459cd613ba93f776",
+   "amount": -1494.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 62926805",
+   "original_description": "MOBILE CHECK DEP 62926805",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_56ff74f55a05b83f",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "RET ITEM CHG 919161",
+   "original_description": "RET ITEM CHG 919161",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_a031bca531ed5352",
+   "amount": -948.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 75404431",
+   "original_description": "MOBILE CHECK DEP 75404431",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e7bd032e3af889ff",
+   "amount": 4780.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GUSTO DES:NET 071726 ID:12053913 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 071726 ID:12053913 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0e592d44302558a3",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-18",
+   "authorized_date": "2026-07-18",
+   "pending": false,
+   "name": "RET ITEM CHG 653449",
+   "original_description": "RET ITEM CHG 653449",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_3380e7c583563a95",
+   "amount": 1240.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-18",
+   "authorized_date": "2026-07-18",
+   "pending": false,
+   "name": "SNAP-ON CREDIT DES:PAYMENT ID:395373750",
+   "original_description": "SNAP-ON CREDIT DES:PAYMENT ID:395373750",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Snap-on Credit",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_d1792e95e82af12c",
+   "amount": -1504.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 51085743",
+   "original_description": "MOBILE CHECK DEP 51085743",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_ef368a59aa94dece",
+   "amount": 965.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W2670",
+   "original_description": "AMEX EPAYMENT ACH PMT W2670",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_60f0ffb1c9fc49dc",
+   "amount": -1860.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 89271780",
+   "original_description": "MOBILE CHECK DEP 89271780",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0c116ce8224b1627",
+   "amount": -1763.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 23645698",
+   "original_description": "MOBILE CHECK DEP 23645698",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_15d0bc6c1b916982",
+   "amount": 1824.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 070911",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 070911",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_9b64d931d1951988",
+   "amount": -80000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "US SMALL BUS ADMIN DES:EIDL LOAN ID:768107357670",
+   "original_description": "US SMALL BUS ADMIN DES:EIDL LOAN ID:768107357670",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_CASH_ADVANCES_AND_LOANS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "U.S. Small Business Administration",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_8de1ff2a493df329",
+   "amount": -1821.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 76541933",
+   "original_description": "MOBILE CHECK DEP 76541933",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_2cc5bbb9718f32b5",
+   "amount": -1761.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 00950517",
+   "original_description": "MOBILE CHECK DEP 00950517",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_4014bd0781e13235",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "RET ITEM CHG 219208",
+   "original_description": "RET ITEM CHG 219208",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_859bc2cb4f290a30",
+   "amount": 4843.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GUSTO DES:NET 072426 ID:75324482 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 072426 ID:75324482 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_69b2c946c4df9a81",
+   "amount": -2192.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 74480579",
+   "original_description": "MOBILE CHECK DEP 74480579",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_108f38391bbdb540",
+   "amount": -1753.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 90842485",
+   "original_description": "MOBILE CHECK DEP 90842485",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_ba075cadacbd83ab",
+   "amount": -1833.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:1607694561 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:1607694561 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_6717a90b28f651a7",
+   "amount": -811.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 49811864",
+   "original_description": "MOBILE CHECK DEP 49811864",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_67a350ed56a52751",
+   "amount": 2103.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 170321",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 170321",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_db551964a47c22bf",
+   "amount": -1156.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 95529333",
+   "original_description": "MOBILE CHECK DEP 95529333",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_479b700cefd40606",
+   "amount": 5113.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GUSTO DES:NET 073126 ID:32186484 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 073126 ID:32186484 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_fe12ee4ece3bbaff",
+   "amount": -1602.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 61773287",
+   "original_description": "MOBILE CHECK DEP 61773287",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_12eea9ad10459f9d",
+   "amount": 3600,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "ACH DEBIT 8058 LANDMARK PROPERTIES RENT 0826",
+   "original_description": "ACH DEBIT 8058 LANDMARK PROPERTIES RENT 0826",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_8edb1fd1f971e044",
+   "amount": 118.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "AMAZON MKTPL*9846AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9846AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_ea7bef753aaefa8b",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_f46a7ea69f2e954e",
+   "amount": -544.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 83048809",
+   "original_description": "MOBILE CHECK DEP 83048809",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_1c982fbab32c9b78",
+   "amount": 167.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "H-E-B #841 AUSTIN TX",
+   "original_description": "H-E-B #841 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_4ab85a48f5959a9d",
+   "amount": -1942.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 54448933",
+   "original_description": "MOBILE CHECK DEP 54448933",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_62d2ee65bac93734",
+   "amount": -1852.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:5038643509 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:5038643509 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_46a815332ca93afe",
+   "amount": -1062.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 52301704",
+   "original_description": "MOBILE CHECK DEP 52301704",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_bcc0532cfdc85df6",
+   "amount": 1296.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 196986",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 196986",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_c9d6911947d8d48e",
+   "amount": -1967.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 30082000",
+   "original_description": "MOBILE CHECK DEP 30082000",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_558d92625f3ff0cf",
+   "amount": -1294.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 06499459",
+   "original_description": "MOBILE CHECK DEP 06499459",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_c7769ddff2b33451",
+   "amount": 5426.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GUSTO DES:NET 080726 ID:78832926 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 080726 ID:78832926 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_59ac8fb1cd04b954",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_2d177dea5d8bad72",
+   "amount": -525.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 65105272",
+   "original_description": "MOBILE CHECK DEP 65105272",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_38615d5bba6202a7",
+   "amount": -1884.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 64162325",
+   "original_description": "MOBILE CHECK DEP 64162325",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_41d0a265d572df02",
+   "amount": 111.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AMAZON MKTPL*2068AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2068AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_6a4adf66d425e688",
+   "amount": -1334.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 39403496",
+   "original_description": "MOBILE CHECK DEP 39403496",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_74cd48125c86b865",
+   "amount": 758.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 5473055071",
+   "original_description": "AUSTIN ENERGY WEB PMT 5473055071",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_daf29827ac74b486",
+   "amount": 2538.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 666328",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 666328",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_7feab0d8e374f70e",
+   "amount": -1809.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 46523356",
+   "original_description": "MOBILE CHECK DEP 46523356",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0228190e10f1ad6d",
+   "amount": 4708.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GUSTO DES:NET 081426 ID:24429380 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 081426 ID:24429380 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_33a700fad6dde846",
+   "amount": -3582.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:2763029074 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:2763029074 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_9102ab6fac86933f",
+   "amount": -1243.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 43575101",
+   "original_description": "MOBILE CHECK DEP 43575101",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_8df8e57aef363633",
+   "amount": 1220.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:0714801993 INDN:KEVIN BROOKS C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:0714801993 INDN:KEVIN BROOKS CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_9d4e22f04e87602d",
+   "amount": -1294.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 00415438",
+   "original_description": "MOBILE CHECK DEP 00415438",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_86224c18b1b21fbd",
+   "amount": 1240.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "SNAP-ON CREDIT DES:PAYMENT ID:003698702",
+   "original_description": "SNAP-ON CREDIT DES:PAYMENT ID:003698702",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Snap-on Credit",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_95c8af4d28dc3055",
+   "amount": -503.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 71210452",
+   "original_description": "MOBILE CHECK DEP 71210452",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_54129f5af97b2db2",
+   "amount": -1059.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 83193690",
+   "original_description": "MOBILE CHECK DEP 83193690",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_a3738cf4c8a87088",
+   "amount": 1517.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 966679",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 966679",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_315b5fdd771b41c6",
+   "amount": -1642.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 77928353",
+   "original_description": "MOBILE CHECK DEP 77928353",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_6b1cadb2a0e42804",
+   "amount": 738.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W0612",
+   "original_description": "AMEX EPAYMENT ACH PMT W0612",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_1fc26421a5ddbea1",
+   "amount": 5004.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GUSTO DES:NET 082126 ID:10990342 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 082126 ID:10990342 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_b45122f8a8ef340b",
+   "amount": -1409.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 12823954",
+   "original_description": "MOBILE CHECK DEP 12823954",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_3b18c94894849984",
+   "amount": -1383.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 64126398",
+   "original_description": "MOBILE CHECK DEP 64126398",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e458b4778589a923",
+   "amount": 149.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "H-E-B #194 AUSTIN TX",
+   "original_description": "H-E-B #194 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e711481a11ded34c",
+   "amount": -1975.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 29231370",
+   "original_description": "MOBILE CHECK DEP 29231370",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_c65f3e1ebaba85b3",
+   "amount": 2490.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 162935",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 162935",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_c6ac9bf7667bfe89",
+   "amount": -1425.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 38707452",
+   "original_description": "MOBILE CHECK DEP 38707452",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_4ad2ad2b8e528cc4",
+   "amount": -1755.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 07296306",
+   "original_description": "MOBILE CHECK DEP 07296306",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_2584fedf6d302a49",
+   "amount": 5540.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GUSTO DES:NET 082826 ID:63517238 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 082826 ID:63517238 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_8c263ded0cb48b77",
+   "amount": -801.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 00247686",
+   "original_description": "MOBILE CHECK DEP 00247686",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_103ed7155f5b3109",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-29",
+   "authorized_date": "2026-08-29",
+   "pending": false,
+   "name": "RET ITEM CHG 822158",
+   "original_description": "RET ITEM CHG 822158",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_43a2b371973291d3",
+   "amount": -3298.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:6735302329 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:6735302329 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_fe7ad530941bd49a",
+   "amount": -847.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 17470173",
+   "original_description": "MOBILE CHECK DEP 17470173",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_025ff4e5f5d2e4d7",
+   "amount": 3600,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH DEBIT 5348 LANDMARK PROPERTIES RENT 0926",
+   "original_description": "ACH DEBIT 5348 LANDMARK PROPERTIES RENT 0926",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e05c062c8782b477",
+   "amount": -1973.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 86098206",
+   "original_description": "MOBILE CHECK DEP 86098206",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_73a5ab55d472dcf5",
+   "amount": 2087.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 309141",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 309141",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_cf2dba9e8e24d491",
+   "amount": -2032.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 63119995",
+   "original_description": "MOBILE CHECK DEP 63119995",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_623c84d1ab9cf29d",
+   "amount": 40.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "AMAZON MKTPL*9447AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9447AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_a3143e5f36292646",
+   "amount": -1200.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 91144491",
+   "original_description": "MOBILE CHECK DEP 91144491",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_b5853858e4b2f915",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_7541a8ec9e6e0d46",
+   "amount": -570.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 93836605",
+   "original_description": "MOBILE CHECK DEP 93836605",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_d33a90c43a81d4b3",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "RET ITEM CHG 487791",
+   "original_description": "RET ITEM CHG 487791",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e6a24dea9fd8cb5e",
+   "amount": 4844.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 090426 ID:06995972 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 090426 ID:06995972 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_4e53ddbd3bc65ad9",
+   "amount": -2099.39,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 49820508",
+   "original_description": "MOBILE CHECK DEP 49820508",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_fe82f42f377f7f43",
+   "amount": 111.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "H-E-B #183 AUSTIN TX",
+   "original_description": "H-E-B #183 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_058a468b0a3d06f8",
+   "amount": -3805.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:5750853333 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:5750853333 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_18a5d4db4a4170dd",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_b1e1e9231188186f",
+   "amount": -1602.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 41309469",
+   "original_description": "MOBILE CHECK DEP 41309469",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_7c3ce5d39401e909",
+   "amount": -2507.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:1208738352 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:1208738352 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_d05182913484fd96",
+   "amount": -1589.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 20943552",
+   "original_description": "MOBILE CHECK DEP 20943552",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_d2674a2a8c108cfe",
+   "amount": 2445.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 134715",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 134715",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_445b634a3dbf0dab",
+   "amount": 147.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "H-E-B #262 AUSTIN TX",
+   "original_description": "H-E-B #262 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_c7807e1a27fb68f9",
+   "amount": -872.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 28750302",
+   "original_description": "MOBILE CHECK DEP 28750302",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e9ef96eb25d11ac9",
+   "amount": 5655.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 091126 ID:55972958 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 091126 ID:55972958 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_f45d5e312288dfbc",
+   "amount": -906.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 52253014",
+   "original_description": "MOBILE CHECK DEP 52253014",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_07a5a0cbab38c7c9",
+   "amount": 466.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 4366191517",
+   "original_description": "AUSTIN ENERGY WEB PMT 4366191517",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_71a65cb596cea55d",
+   "amount": -2058.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 68726856",
+   "original_description": "MOBILE CHECK DEP 68726856",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_196f2e9e84edff75",
+   "amount": 1716.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:9265134599 INDN:KEVIN BROOKS C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:9265134599 INDN:KEVIN BROOKS CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_e5da92d02b1e2186",
+   "amount": -2012.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 17262346",
+   "original_description": "MOBILE CHECK DEP 17262346",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_a2ef74710eafdf7c",
+   "amount": 2073.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 002615",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 002615",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_dd2a354978abbe0c",
+   "amount": -1600.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 94925565",
+   "original_description": "MOBILE CHECK DEP 94925565",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_17571b75addd313b",
+   "amount": -2032.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 31841757",
+   "original_description": "MOBILE CHECK DEP 31841757",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_71a4eb2a7d0265b5",
+   "amount": 1240.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "SNAP-ON CREDIT DES:PAYMENT ID:733123631",
+   "original_description": "SNAP-ON CREDIT DES:PAYMENT ID:733123631",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Snap-on Credit",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_ced2f86504befc8b",
+   "amount": -1610.93,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 60556470",
+   "original_description": "MOBILE CHECK DEP 60556470",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_d4b5828cd4c8a807",
+   "amount": 5203.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 091826 ID:33170371 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 091826 ID:33170371 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0988afec80bc73d6",
+   "amount": 824.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W7548",
+   "original_description": "AMEX EPAYMENT ACH PMT W7548",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_79661159e15e8716",
+   "amount": -3623.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:2701352257 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:2701352257 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_966eb9dbd7500ca3",
+   "amount": 203.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "AMAZON MKTPL*0878AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*0878AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_96ebaeb552e4e74e",
+   "amount": -1785.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 41675336",
+   "original_description": "MOBILE CHECK DEP 41675336",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0a8b7171317fbe3b",
+   "amount": -772.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 80933846",
+   "original_description": "MOBILE CHECK DEP 80933846",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_30c44a42b05b99e0",
+   "amount": -610.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 04463803",
+   "original_description": "MOBILE CHECK DEP 04463803",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_a9e04ff13712fa1b",
+   "amount": 2758.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 419589",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 419589",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_f19982c1643bcaae",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "RET ITEM CHG 910508",
+   "original_description": "RET ITEM CHG 910508",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0f68fe9519595259",
+   "amount": -1789.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 28393147",
+   "original_description": "MOBILE CHECK DEP 28393147",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_441bc2cd019d950e",
+   "amount": 143.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "AMAZON MKTPL*2258AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2258AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0216e7b3097e50ae",
+   "amount": -1029.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 54200975",
+   "original_description": "MOBILE CHECK DEP 54200975",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_8906dd03cada7be1",
+   "amount": 5492.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 092526 ID:55144101 INDN:PRECISION AUTO WORKS C",
+   "original_description": "GUSTO DES:NET 092526 ID:55144101 INDN:PRECISION AUTO WORKS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_f49f97ae54c17249",
+   "amount": 32.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "RET ITEM CHG 504846",
+   "original_description": "RET ITEM CHG 504846",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_INSUFFICIENT_FUNDS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_cfa3994d402a472f",
+   "amount": 323.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-26",
+   "authorized_date": "2026-09-26",
+   "pending": false,
+   "name": "AMAZON MKTPL*2994AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2994AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_f021af5cc362b7a3",
+   "amount": -3458.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-26",
+   "authorized_date": "2026-09-26",
+   "pending": false,
+   "name": "GEICO CLAIMS DES:CLAIMPMT ID:9292911388 INDN:PRECISION AUTO",
+   "original_description": "GEICO CLAIMS DES:CLAIMPMT ID:9292911388 INDN:PRECISION AUTO",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "GEICO",
+     "type": "income_source",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_ceb9cb8d0e867b1a",
+   "amount": -1098.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 39110205",
+   "original_description": "MOBILE CHECK DEP 39110205",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_25c5775219e2ce8b",
+   "amount": -1972.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 61058486",
+   "original_description": "MOBILE CHECK DEP 61058486",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0955bf086cd1ab41",
+   "amount": -667.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "MOBILE CHECK DEP 64071882",
+   "original_description": "MOBILE CHECK DEP 64071882",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_fe2e176f238b",
+   "transaction_id": "txn_0cd4f620526f47d1",
+   "amount": 2497.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "CAPITAL CITY AUTO PARTS DES:INV 895793",
+   "original_description": "CAPITAL CITY AUTO PARTS DES:INV 895793",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital City Auto Parts",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 138,
+ "request_id": "synthetic-H02"
+}

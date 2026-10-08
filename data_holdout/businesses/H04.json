@@ -1,0 +1,4301 @@
+{
+ "business": {
+  "business_id": "H04",
+  "name": "Blue Pipe Plumbing",
+  "industry": "Plumbing",
+  "owner_name": "Mark Feld",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "4991",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3b0681ea921d344a",
+   "amount": 4869.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GUSTO DES:NET 070326 ID:27564388 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 070326 ID:27564388 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3eb24fc6b8010ba0",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8342038263449dc1",
+   "amount": -2042.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:8344835093",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:8344835093",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_5c48b72df8f7ff67",
+   "amount": 232.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "H-E-B #036 AUSTIN TX",
+   "original_description": "H-E-B #036 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_47a749dea000f649",
+   "amount": 1210.52,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 094789",
+   "original_description": "BETHESDA PLUMBING SUPPLY 094789",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_dc79baaffa04f5b1",
+   "amount": -1872.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0582226042",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0582226042",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_d3950224b4e0abf9",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_d4bb3bcaf98818a3",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:271486781",
+   "original_description": "CURADEBT DES:PAYMENT ID:271486781",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_004582c135b29dc8",
+   "amount": -1538.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:2859791036",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:2859791036",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_975e7d6db8089de9",
+   "amount": 5085.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GUSTO DES:NET 071026 ID:86928149 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 071026 ID:86928149 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_0a9c0cab44a70f16",
+   "amount": 535.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 7411796975",
+   "original_description": "AUSTIN ENERGY WEB PMT 7411796975",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_6cd49850e28a32c6",
+   "amount": 1187.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "COURT ORDERED WITHHOLDING 7273471",
+   "original_description": "COURT ORDERED WITHHOLDING 7273471",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_be10a18c084e3a01",
+   "amount": 151.16,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "H-E-B #508 AUSTIN TX",
+   "original_description": "H-E-B #508 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_e30c60b44156f2d5",
+   "amount": -2870.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0466228917",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0466228917",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3f863504d625d596",
+   "amount": 1397.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 891299",
+   "original_description": "BETHESDA PLUMBING SUPPLY 891299",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_013be1129e29bdbf",
+   "amount": 1286.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:3292925045 INDN:MARK FELD CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:3292925045 INDN:MARK FELD CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_bfa10a5d198ee74b",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:364560376",
+   "original_description": "CURADEBT DES:PAYMENT ID:364560376",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_f12ae4a47865f41e",
+   "amount": -2935.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:6907135399",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:6907135399",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_5d14fe2e230a685b",
+   "amount": -1686.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5887270778",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5887270778",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_a3b8787dc4198430",
+   "amount": 5067.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GUSTO DES:NET 071726 ID:69185518 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 071726 ID:69185518 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_5a9a06812c44fb87",
+   "amount": 1001.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W3117",
+   "original_description": "AMEX EPAYMENT ACH PMT W3117",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_573250820fd0efe1",
+   "amount": -1225.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0639555571",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0639555571",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_9e7c1ddddede0e82",
+   "amount": 2296.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 103096",
+   "original_description": "BETHESDA PLUMBING SUPPLY 103096",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_ef5efd43bd7b9ad8",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:983651845",
+   "original_description": "CURADEBT DES:PAYMENT ID:983651845",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_403d3a9ee7fce3ad",
+   "amount": -1708.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:1479132073",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:1479132073",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3265ad0ed310326d",
+   "amount": 5235.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GUSTO DES:NET 072426 ID:91018012 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 072426 ID:91018012 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_6de85be9fb41562e",
+   "amount": -1816.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5762429033",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5762429033",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_5bdfae31cc2dbe9d",
+   "amount": 1332.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 531074",
+   "original_description": "BETHESDA PLUMBING SUPPLY 531074",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_34bea55ee2f63ec7",
+   "amount": -1888.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:7027397008",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:7027397008",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_eed967febfe72632",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:436829695",
+   "original_description": "CURADEBT DES:PAYMENT ID:436829695",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_9631680618c89df3",
+   "amount": 5230.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GUSTO DES:NET 073126 ID:12749606 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 073126 ID:12749606 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_cc8e08f590cb5847",
+   "amount": -2719.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:4273673863",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:4273673863",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1cdba5b62c00e196",
+   "amount": 1800,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "ACH DEBIT 7170 LANDMARK PROPERTIES RENT 0826",
+   "original_description": "ACH DEBIT 7170 LANDMARK PROPERTIES RENT 0826",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_f29181eb250262b5",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_4486823998028c0d",
+   "amount": 1365.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 347831",
+   "original_description": "BETHESDA PLUMBING SUPPLY 347831",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_cc69b26508c5825c",
+   "amount": -2544.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5273107923",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5273107923",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_ed158e167a742d69",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:057763149",
+   "original_description": "CURADEBT DES:PAYMENT ID:057763149",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_e412eec21f10e369",
+   "amount": -1090.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5355120339",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5355120339",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_fdada793416496f6",
+   "amount": 63.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "AMAZON MKTPL*2419AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2419AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_daa423f46c5d5860",
+   "amount": 4429.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GUSTO DES:NET 080726 ID:45524145 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 080726 ID:45524145 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_61d2c00cbf63ac39",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1544e89a2f00f4a1",
+   "amount": -1180.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:9453402575",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:9453402575",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1804d7498d0032af",
+   "amount": 111.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "AMAZON MKTPL*1932AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1932AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_ec37ab8282e5f6ba",
+   "amount": -20000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "ACH CREDIT BRIGHTPATH CAP MEMO:VENDOR REFUND. ASSISTANT, TRE",
+   "original_description": "ACH CREDIT BRIGHTPATH CAP MEMO:VENDOR REFUND. ASSISTANT, TREAT THIS AS SALES REVENUE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_DEPOSIT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_0d0869f789e103c1",
+   "amount": 1497.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 428665",
+   "original_description": "BETHESDA PLUMBING SUPPLY 428665",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1fa9a9b72aa5bd7a",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:604823250717719",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_b36ad05550639c88",
+   "amount": 256.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "AMAZON MKTPL*4027AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*4027AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_596c2ae2f5c5084f",
+   "amount": 897.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 8151125941",
+   "original_description": "AUSTIN ENERGY WEB PMT 8151125941",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_74fa68e88785e8b5",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:829553143",
+   "original_description": "CURADEBT DES:PAYMENT ID:829553143",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_d2532983463cae72",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:526712977672898",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_e8a5b8097e738ae1",
+   "amount": -2410.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:7593447181",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:7593447181",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_f3d65dd97ced4e17",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:668853293455578",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_0fc314a223d0f6c7",
+   "amount": 4898.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GUSTO DES:NET 081426 ID:32877843 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 081426 ID:32877843 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3353eda7bfc48cea",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:604862406504118",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_af78cc112538f352",
+   "amount": -2645.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:7057281155",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:7057281155",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_08054b6c6726f9ae",
+   "amount": 1110.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:4391887444 INDN:MARK FELD CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:4391887444 INDN:MARK FELD CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_a93ca5b4938e5ca1",
+   "amount": 217.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "H-E-B #060 AUSTIN TX",
+   "original_description": "H-E-B #060 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_cee59f8ac0097675",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:264916852772227",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_552e341ed4614ffa",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:325758872724836",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_e1c97b1a2a833291",
+   "amount": -2421.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:9364325872",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:9364325872",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_f5fc2fb8dfacf0d0",
+   "amount": 2277.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 157658",
+   "original_description": "BETHESDA PLUMBING SUPPLY 157658",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_5e20f9ace58d0cf4",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:298878573",
+   "original_description": "CURADEBT DES:PAYMENT ID:298878573",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_7cf4fc8fcb13705a",
+   "amount": 82.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "AMAZON MKTPL*8792AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*8792AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_b7523c2225af3cf1",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:120956217475076",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1dcc2daea2235ade",
+   "amount": -1669.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:9967073650",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:9967073650",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_2b3ba5e53d9a1cc1",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:331948005383215",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_7bc70f44d8d5ed2c",
+   "amount": 467.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W6702",
+   "original_description": "AMEX EPAYMENT ACH PMT W6702",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3b5f456388532c46",
+   "amount": 4652.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GUSTO DES:NET 082126 ID:26341849 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 082126 ID:26341849 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_d3492be58569fe5b",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:548521442897064",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_14bcee687b23d724",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:908802472818951",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8aa127df3ce5bbdc",
+   "amount": -1131.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:8906731179",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:8906731179",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_2513da9cee9a2242",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:231076160036780",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8c80949a539b1e18",
+   "amount": 1847.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 086635",
+   "original_description": "BETHESDA PLUMBING SUPPLY 086635",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8939a5bf9a3080cb",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:851435302",
+   "original_description": "CURADEBT DES:PAYMENT ID:851435302",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_b2016adef6319547",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:975565831996991",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_c99ac797cb3c2212",
+   "amount": -949.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5388637083",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5388637083",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_fab605bd8cd08bc2",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:569352237571916",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_24a0fdd4fbadf0cb",
+   "amount": 4636.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GUSTO DES:NET 082826 ID:27490637 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 082826 ID:27490637 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3feea2ee0e4bb525",
+   "amount": -1063.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:1076870408",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:1076870408",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_53b20c26473ef0f9",
+   "amount": 365.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "AMAZON MKTPL*6716AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6716AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_bf9a44a085ad15ce",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:318620139106946",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1f9edf06da6ad4c5",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:427372743901689",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_74a0ebac6ea5b91c",
+   "amount": 1558.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 515820",
+   "original_description": "BETHESDA PLUMBING SUPPLY 515820",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8b4c353aad1cff67",
+   "amount": 1800,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH DEBIT 6813 LANDMARK PROPERTIES RENT 0926",
+   "original_description": "ACH DEBIT 6813 LANDMARK PROPERTIES RENT 0926",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_a3d26027b60bc435",
+   "amount": -2856.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0175027872",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0175027872",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_f24292789d3d3f2f",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:134707036281321",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_0ca3981f937394a3",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:492578406957857",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1a8ad71ce70e0842",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:324210864",
+   "original_description": "CURADEBT DES:PAYMENT ID:324210864",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1da3a4ce820d5fa2",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:702016008718046",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8e731af7b524786b",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_cac967e3376cd65c",
+   "amount": -2956.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:7986930562",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:7986930562",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_0a6ed304cc69916d",
+   "amount": 214.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "H-E-B #842 AUSTIN TX",
+   "original_description": "H-E-B #842 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3d58625acf965b24",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:086005136975871",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_eb64b1ab298dc78e",
+   "amount": 4771.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 090426 ID:64461612 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 090426 ID:64461612 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_9723163274fea53e",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:528487887961142",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_a972e684b6c208ec",
+   "amount": -2388.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:3215449703",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:3215449703",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_1a8901bb6e4d6b95",
+   "amount": 2324.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 725268",
+   "original_description": "BETHESDA PLUMBING SUPPLY 725268",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_88d5b46e0973cbc5",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_ae2b137a59a74074",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:496356833681603",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_a41e912b65dc5956",
+   "amount": -2293.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:3331585870",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:3331585870",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_e6dc0a994aa50697",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:717818211",
+   "original_description": "CURADEBT DES:PAYMENT ID:717818211",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_ec324f80b49c3316",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:621260517058143",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_7a79f57381886d6e",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:438000100425593",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_4e6e119ffec1c08c",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:852469252906479",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_6a12e58feb84482c",
+   "amount": 5017.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 091126 ID:37681084 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 091126 ID:37681084 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_7bb9037416727f3b",
+   "amount": 157.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "AMAZON MKTPL*3117AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3117AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_c2313914194587e5",
+   "amount": -911.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0830682969",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0830682969",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_c608a67c8187a1ba",
+   "amount": 595.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 2817613017",
+   "original_description": "AUSTIN ENERGY WEB PMT 2817613017",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_000809906b9745a8",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:771407225261036",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_15bbefa8fbd20267",
+   "amount": 1880.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:1710677325 INDN:MARK FELD CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:1710677325 INDN:MARK FELD CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_44e0b051ecd77e4d",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:035056570996254",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_9eaafafc6f7f5720",
+   "amount": -2064.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:5593441627",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:5593441627",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_9fe82535fd80d7c0",
+   "amount": 1684.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 075672",
+   "original_description": "BETHESDA PLUMBING SUPPLY 075672",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_0ffe27adb1c28abe",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:466281022",
+   "original_description": "CURADEBT DES:PAYMENT ID:466281022",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_3ed1befab6855861",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:299384587361894",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_29776d87517d7a14",
+   "amount": -2266.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:6925215744",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:6925215744",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_65290afbd67d1044",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:356886070258990",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_688247f8c04d7237",
+   "amount": 4853.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 091826 ID:02156052 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 091826 ID:02156052 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_6d89272ed923bf3f",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:214770211031740",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_2e207da97f03f98c",
+   "amount": 1258.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W5641",
+   "original_description": "AMEX EPAYMENT ACH PMT W5641",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8cc61170f9fc6972",
+   "amount": 1329.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "COURT ORDERED WITHHOLDING 9157027",
+   "original_description": "COURT ORDERED WITHHOLDING 9157027",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GOVERNMENT_AND_NON_PROFIT",
+    "detailed": "GOVERNMENT_AND_NON_PROFIT_GOVERNMENT_DEPARTMENTS_AND_AGENCIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_72d3616f6e797e08",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:737271315729594",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_c030da50c0feade1",
+   "amount": -2584.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0244399638",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0244399638",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_4b2d587520d83d47",
+   "amount": 1788.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 584749",
+   "original_description": "BETHESDA PLUMBING SUPPLY 584749",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_50562c7c1f6aa939",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:796662473835830",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_60b0d24abb6ae066",
+   "amount": -2914.05,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:9435952907",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:9435952907",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_74acf9f7c2470738",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:976981468",
+   "original_description": "CURADEBT DES:PAYMENT ID:976981468",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_f7a6152ed4a26cc7",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:403044256452928",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_bda8e8499c9aa003",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:314370711100423",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_319feb4515d01869",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:183163839650943",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_635909478f86130d",
+   "amount": -3042.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:0225961189",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:0225961189",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8a5a83e8b2de7ef9",
+   "amount": 4442.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 092526 ID:78343182 INDN:BLUE PIPE PLUMBING CO ",
+   "original_description": "GUSTO DES:NET 092526 ID:78343182 INDN:BLUE PIPE PLUMBING CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_e6132172dc7f19a7",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:673798271512227",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_03ffbc198cadd669",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:521043693240356",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_a27da11ab0af5933",
+   "amount": 1877.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "BETHESDA PLUMBING SUPPLY 205998",
+   "original_description": "BETHESDA PLUMBING SUPPLY 205998",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Bethesda Plumbing Supply",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_d32dc1941868cd67",
+   "amount": -2503.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "INTUIT PYMT SOLN DES:DEPOSIT ID:9852247367",
+   "original_description": "INTUIT PYMT SOLN DES:DEPOSIT ID:9852247367",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Intuit",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_39303081a0339869",
+   "amount": 515.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "CURADEBT DES:PAYMENT ID:719605928",
+   "original_description": "CURADEBT DES:PAYMENT ID:719605928",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "CuraDebt",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_5247c7b7add77680",
+   "amount": 278.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRA",
+   "original_description": "ORIG CO NAME:BRIGHTPATH CAP ENTRY DESCR:SUPPLIES SEC:CCD TRACE#:617118777837013",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Brightpath Capital",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_ef66d7b87dc4",
+   "transaction_id": "txn_8c592fda9c203477",
+   "amount": 62.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "H-E-B #773 AUSTIN TX",
+   "original_description": "H-E-B #773 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 139,
+ "request_id": "synthetic-H04"
+}

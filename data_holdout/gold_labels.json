@@ -1,0 +1,6542 @@
+{
+ "txn_000809906b9745a8": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_001a4bb95e954ada": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_00312cfc6768e6a4": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_004582c135b29dc8": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_00517c19105a6c26": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_00ae2f9783d29038": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0113e4450b2ef590": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_013be1129e29bdbf": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_01f28589bd7dad3b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0216e7b3097e50ae": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0228190e10f1ad6d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_025ff4e5f5d2e4d7": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_028c8630c1ee5993": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_02f9cbe3a92d6b39": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0308e4563ee3ddd4": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_038e510e96ae81b4": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_03ffbc198cadd669": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_05377cd716461acc": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0579b411a6e0cf87": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_058a468b0a3d06f8": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_05d770adb6dc11f6": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_06be7c5a74f88800": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_06c30298427ad0b1": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0707c27c71da5b26": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_075f060ede58173c": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_077c05b5f319feb8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_07a5a0cbab38c7c9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_07cdf9c49eea7e83": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_08054b6c6726f9ae": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_080ce852341129ac": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0873f89edd6900cf": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0876006a315ca5c1": {
+  "case": "owner_transfer_from_personal",
+  "group": "INTERNAL_TRANSFER",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0955bf086cd1ab41": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_09656ad54d049c35": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0988afec80bc73d6": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_09ed7fe9076003df": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0a29aeaedc06c47a": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0a6ed304cc69916d": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_0a86e3ce9fdb6e61": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0a8b7171317fbe3b": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0a9c0cab44a70f16": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0b6c0ac72bac122c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0bb5373a95b84a9d": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0bd24937ae7465e4": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_0c116ce8224b1627": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0c4e571e93ab5eac": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0c9b8b59e2023f22": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0ca3981f937394a3": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0cc046215efb08f8": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0cd4f620526f47d1": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0cf8988f521814cd": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0d0869f789e103c1": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0d12af43d4e9250e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0d5267e7ee6321fb": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0d59053621bae18a": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0da64e3dfc7dd909": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0dc5778d8dcf565e": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0dc6c3ba6f4c633c": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0dd40ddf89fe20dd": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0e592d44302558a3": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0e8a90fb737e2461": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0ef9eed7352bffcb": {
+  "case": "gambling",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_0f3b50b5ee47d2d5": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0f3d8970b0da8c02": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0f68fe9519595259": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_0fa0cc1a51b0328c": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0fc314a223d0f6c7": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_0ffe27adb1c28abe": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_103ed7155f5b3109": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_108f38391bbdb540": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_10948ac209f400ef": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_11b71f888afa7bf7": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_11bd2099564df3f7": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_1201d2f27d9087aa": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_128a25b14487db5d": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_12964cd3ae1607e0": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_12da92829cef2fbe": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_12eea9ad10459f9d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_130240d8eef1987d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_132499b58d4b1e96": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1457dbbc1b61fa04": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_148277939ed0c5ea": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_14baa5199a5dae1d": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_14bcee687b23d724": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_14c209a3271c7300": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_153d58ed044adc8e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1544e89a2f00f4a1": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_15bbefa8fbd20267": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_15c8b3ff42b88c55": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_15d0bc6c1b916982": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_15dcad9e381800f3": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_166116bb4ad7e984": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_166f87d477dc6879": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_16adfb50b5f14e84": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_173145c7d82dd0a8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_17571b75addd313b": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_178ae3efe5d4408d": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_17f39c3286d4ef60": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1804d7498d0032af": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_18594a8ed5739f6b": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1895e9d356cca7d4": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_18a5d4db4a4170dd": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_193232b8b5378e59": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_19584f4e67cfa9fb": {
+  "case": "returned_item_no_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_196f2e9e84edff75": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_198290ef6e79058c": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_19d28d46bed46681": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1a3b9caf5cfcb0cd": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1a4791c353c3655a": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_1a8901bb6e4d6b95": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1a8ad71ce70e0842": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1abec1fd0b764a3c": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_1b2f844f61252b0a": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1b3d9e17741772d4": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1bcff1fdb2d96e16": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1c03fd080c5c1b76": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_1c19a594102a7762": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1c38bd219d381f6b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1c7fdb7f0e1e1691": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1c982fbab32c9b78": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_1cdba5b62c00e196": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1ce649ea322e5450": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1d02b6e6373ce1b0": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_1d39b7bdb2efcea1": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1d765ebd8cb103bd": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1d9fa325663815b5": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1da3a4ce820d5fa2": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1dcc2daea2235ade": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1dd40ef1a54daec4": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1e90f957f814123c": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_1f0f9126fac7a5d0": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1f65fcaf1dc5fb4f": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1f7a3fc8b2569644": {
+  "case": "overdraft_fee",
+  "group": "OVERDRAFT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1f9edf06da6ad4c5": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1fa9a9b72aa5bd7a": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1fc26421a5ddbea1": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1fcc208bebee96a9": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_1ff3fc13c7d54e91": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_1ffd39982bc80d3d": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_202ea2e5898846d8": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_209b46eb2b6894da": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_20ffd913a255d6b6": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_22217e370e7765c9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_22bf49310c694e1f": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2384e32d4da729ff": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_23fc41ae51c34782": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_24047370a9236cb1": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_241184d654289846": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_24455db1955138be": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2463e7094ec4a981": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_24a0fdd4fbadf0cb": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_24ddca974f0d4b0c": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_24f1f87aecf1692f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2513da9cee9a2242": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_256bf4b5fc7b5b8e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2584fedf6d302a49": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_25c5775219e2ce8b": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2609d15434a789be": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_264987a76bf01dd7": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_26530df4bf53b8a7": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_26e8bcf15a981e1c": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_272f6e64549f89a8": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_276e92a27a6a508c": {
+  "case": "payday_lender_missed",
+  "group": "HIGH_RISK_OTHER",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_27df063eac4ee449": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_2832b1a3bb182f36": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2848695af5db3500": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_287964d46e01816b": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_28a5096ee2eb9120": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_292d70ca323b654a": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_29776d87517d7a14": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_297871e9976addcc": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_29a8f80b78dece20": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_29e9938192fa8e19": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_29ed6328751b7619": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2aeac4b888affd7b": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2b3ba5e53d9a1cc1": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2b4307020d957e45": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2b50aacd9b10c383": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2b6751a17219e672": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2b8b226172d68371": {
+  "case": "real_internal_transfer",
+  "group": "INTERNAL_TRANSFER",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2bf88689998b5cb8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2cc5bbb9718f32b5": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2cfca3db2b6d2098": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2d177dea5d8bad72": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2d32bcdc05afd203": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2d60063778348ccb": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2dbc196cb3488a83": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2dcd76ba5c8bb8d9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2df573f114d7257e": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2e207da97f03f98c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_2e4c62b23103e946": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_2f9c09dbba4d72ab": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_30077ea64b4840e4": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_302409dd46870233": {
+  "case": "payday_lender_missed",
+  "group": "HIGH_RISK_OTHER",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_30a0b6a1e64980e1": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_30b0dfe3ee4de59b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_30c44a42b05b99e0": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_30e221261bcf9309": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_313785b2350bfcb3": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_315b5fdd771b41c6": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_319d2c8777249c8b": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_319feb4515d01869": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_31dfa27a36bce401": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_320968e77d5f7e98": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_324a9bfa6d8ac628": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_324edf538cc064cb": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3265ad0ed310326d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3280606f1f60a7fc": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_32cd0906614eed0d": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_32f789beb503c002": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_330d72d139305a44": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_333fa617d7a9ad7a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3353eda7bfc48cea": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3380e7c583563a95": {
+  "case": "equipment_finance",
+  "group": "UCC",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_33a700fad6dde846": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_33adcf184ce33448": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3415467d8b9c0da9": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_34a76e62258ac2e8": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_34bea55ee2f63ec7": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_35aac44339ccbe13": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_35d3fde7af2584e3": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_35f18eb1ed947b7a": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_360a66dee482f028": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_360e29470972db2d": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_362907fe844bfb3b": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_36f80a67e06772d8": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_370aead0525fba8b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_373a847a0f24b757": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_375f95601b677bee": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_378632512cc03d62": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_37d33bf46b731216": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_38590f8e0fd71d03": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_38615d5bba6202a7": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_38ad62933c9253cc": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_390320078079c9f8": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_39303081a0339869": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_39739e61f92f420f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_39906235cfb630c8": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3a0ee7f577b3895e": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3a59ae9b6c5c54e9": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3a93c75a5ab30be5": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3ac9427ce6fe4fb3": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3af7db8314335577": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3b0681ea921d344a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3b18c94894849984": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3b1cde38eba7ac67": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3b5bf23b7bb2dbbf": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3b5f456388532c46": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3b9fb943148edb74": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3bd7e089a81d50ed": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3c181cf2f65fc714": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3c37b4923b5387d9": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3c4418ecafbed6d3": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3d58625acf965b24": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3d86d22feb107661": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3d8ba6ab76e38fb5": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3db899bd7861dd2b": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3e28b7022fcb9dd5": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3e2b1a525b546558": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3ea64c69825e451a": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_3eb24fc6b8010ba0": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3ed1befab6855861": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3f096c55b89b1cc7": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3f10bc2819c91024": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3f5053a57fafddef": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3f863504d625d596": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3fb6a1f19a04e40c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3feea2ee0e4bb525": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_3ff3f12ac5ef1ba4": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4014bd0781e13235": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_401af8feab8308f8": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_403d3a9ee7fce3ad": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_40997b727df44588": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_40a5d39257ea9c77": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_40ba4a2b2f2633f9": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_40c40e6f9b63dc2e": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_40c6ad219c61338d": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_40c82a760d070f3c": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_41548ed44eb10025": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_419c0c35cd0f18e5": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_41d0a265d572df02": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_424b53fb62da21db": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_426056585f7d021a": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_42768179c31cb7cf": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_427b0e3be3d8604c": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_42a43dc7d4e0472c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_42eef48be89b2d8d": {
+  "case": "returned_item_no_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_42feb699154119e7": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_43256f63feaf4571": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4342fa12128440ca": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_43a2b371973291d3": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_43b87b28a9e03d39": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_43c02955700e6c3d": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_43dd4b94572fc0f1": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_441bc2cd019d950e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_44417cadff7bca82": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_445b634a3dbf0dab": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_4486823998028c0d": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_44aab54e2cb4bc49": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_44add838aa82b039": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_44ceb7dee360c1ba": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_44d74e007cd5d84a": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_44e0b051ecd77e4d": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4578d03e0bf5e6e6": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_459cd613ba93f776": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_465ef4d544758015": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_469d5a1633b229a4": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_46a815332ca93afe": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_46f5f1a77ca5cf4f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4746ee5b2b12dbad": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_47481fd9abed76ab": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_479b700cefd40606": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_47a749dea000f649": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4805468df33a726e": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4889f89a49bff511": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_48f3a46baa34695b": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_490b06abd45a6fbd": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_492af26cf18d5b48": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_49773506722694e6": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_497f5bb37c1e5ff7": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_49cf73ceaf33ca40": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4a0ba38ba33a9228": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4a197fb420e672d9": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4a77874934082ed7": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4a86c7dff338d334": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4ab85a48f5959a9d": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4ad2ad2b8e528cc4": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4b2d587520d83d47": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4b4cfd79da3bbd6a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4b8cb39b16b4ecd5": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4b9ba2ca286d1648": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4bd9dc7fe1a227e0": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4c2b49d7dfc4ab8a": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4c34f6e877a718bb": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4c5502db865cffa8": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4cd80d7d77c3bb8d": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4d6e3549c3c7f977": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4e53ddbd3bc65ad9": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4e6e119ffec1c08c": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4ea8f80b0089e955": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4ec7977e80b07749": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_4ed9c68a5ab91d00": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4ff330a178fb1a3c": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_4ffab34c14d2e95e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_50562c7c1f6aa939": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_50b02c8d08ac05dd": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_50bed05a384a7563": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_50e9c383779383c3": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5160b449c1906f93": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_516dd1cfe01ee995": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_51cee7977aae62d0": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_51f71f720b218ac9": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5210c698149ce2cc": {
+  "case": "returned_item_no_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_521aad18c0a7c91b": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5247c7b7add77680": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_528886e976ed2123": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_52a5547704032652": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_533069fbb225258c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_535c82938f1a0e77": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_538f84e0a97e5077": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_53b20c26473ef0f9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_53c495cfd8b82e77": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_53c6483e1149be46": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_53e7b5b0e6c968b7": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_54129f5af97b2db2": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5418b852d6945c9d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5517b63896b3a21a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5526d6fb8497bed7": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_552e341ed4614ffa": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_558d92625f3ff0cf": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_56ff74f55a05b83f": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_573250820fd0efe1": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_57598ba3a23636cf": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_578e9bb41383f01a": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_57ac3f20c75b6c06": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5850ffd260dea08d": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_58ed5eb24e324f16": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_58ef6cdd7a10715f": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_58f7d97cdcdcbab2": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_59460e6cf13bcbee": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_594d6e78a72a9d97": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_596c2ae2f5c5084f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_59ac8fb1cd04b954": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_59afbca13506178b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5a1428b89cd8863b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5a8e48f5a3ff7c2b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5a9a06812c44fb87": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5ae20327ac4edd6d": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5ae9c0320275cbf6": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5b21ee261131120a": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5b377a2b7a8ee424": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5bd18571ccee81b8": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5bdfae31cc2dbe9d": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5bf2dcc97aad1d5d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5c476808aeedf922": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5c48b72df8f7ff67": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_5c5656bf3f1a2a1e": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5c59a5a3e14dd41e": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_5c7cc7a9da00979f": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5c7cd1c33fc42125": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5c9157d5cf0b060e": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5c9a5a4779e28dad": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5d14fe2e230a685b": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5d3cc8b07c5d37c3": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5e20f9ace58d0cf4": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_5e3de0d9a2ec333c": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5e69f833e7b3a379": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_5f419e9f5e57c13c": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_60262405923839ca": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_603f89d53a3bc3ff": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6065d49036cc20a7": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_608febdcb5dda8d2": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_60a0d78bd8af42b9": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_60a8a647821bfde1": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_60b0d24abb6ae066": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_60e0b545babc1f44": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_60f0ffb1c9fc49dc": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6106d2a53d442c27": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_614d50b12d547391": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_616daea7679ecfc5": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6186c948dc9967ab": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_61d2c00cbf63ac39": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_61f074469aff8fbc": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_623c84d1ab9cf29d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_62d2ee65bac93734": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6300f8d1a0edb809": {
+  "case": "crypto_missed",
+  "group": "HIGH_RISK_OTHER",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_6318ae36ad8ef45b": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_635909478f86130d": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_63673be386132f27": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_637bdbfcf02acabd": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6399c7e469a3c3d5": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_64093b93a46f623a": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6442c7b1cdc0d2ce": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_645ca917e472287d": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_651fc76c492d9eef": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_65290afbd67d1044": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_65639102fbcc0f89": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6582017b82ee0256": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_65ab7f2227c9953a": {
+  "case": "gambling",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_65d395a156ec4efb": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_66be17fc2fdbdd0d": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_6717a90b28f651a7": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_674ab424a02331df": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_679605ddd312611b": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_67a350ed56a52751": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_67d7633668e8aae5": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6813ee5bbe0066b7": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_68401ece49f00480": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_686e27b10fa3f3da": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_688247f8c04d7237": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_68a91fb88aa853a6": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_693164929f7367b9": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6936be20d655cb66": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_693f14458e787190": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_69b2c946c4df9a81": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_69c01d85613a7d7d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_69dad19e32ad0df6": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_69db64385cc9758b": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6a12e58feb84482c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6a4adf66d425e688": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6aca715fbcb1ba5e": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6acb77105953b732": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6afc2cd84e426412": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6b1cadb2a0e42804": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6b2254225338b10d": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6b43fa8c721d36cf": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6b773de7b87d2996": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6be94a88d1393164": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6c9d20303317758f": {
+  "case": "gambling",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_6cc4c9d8be5d7f3d": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6cd49850e28a32c6": {
+  "case": "court_withholding_missed",
+  "group": "HIGH_RISK_GARNISHMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6cf55bdc44d357a2": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6d89272ed923bf3f": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6de85be9fb41562e": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6deea85914ef15bc": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6e1a4ecd9e0f680a": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6e22648de7aadb30": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6e2934d3087efe26": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6e56627ed65acedc": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6f12a6700d08e05a": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6f1377ad1ed7016f": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6f260b15e3366650": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6f2ea85bbf05fd04": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_6f67314bb155f551": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_6f9f275c09e6aabf": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_700e43ad3aa2f2ea": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7037e4e41e439579": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7068df3a795dfde0": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_708b196d4a128bd6": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_7168f8961ff22a6a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_719e5be8b10d3663": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_71a4eb2a7d0265b5": {
+  "case": "equipment_finance",
+  "group": "UCC",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_71a65cb596cea55d": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_71f8374db1fd8522": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_72715e26909195b8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7277e099430af966": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_72d3616f6e797e08": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_73543542c79bdf0b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_73a5ab55d472dcf5": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_743efa4821907502": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_748d33bdd1535a77": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_74a0ebac6ea5b91c": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_74acf9f7c2470738": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_74cd48125c86b865": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_74fa68e88785e8b5": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7511e5a78e1d3718": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7515be753892d94a": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7541a8ec9e6e0d46": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_757848fbfeaaf066": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_758993bc94733788": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_76bf1532981a84d8": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_76c4d3bb1c002c95": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_76c89fbc8a447533": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_76d32897f83c0855": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_76dc1f7456fdaf18": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_76e823eb1a07a15d": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_770c3f5fd6a4fac7": {
+  "case": "mca_funding_as_revenue",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7719f648d43a65b3": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7731ba154155a9d9": {
+  "case": "gambling_abbreviation_missed",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_7772f642ba147467": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_77768bc662b8a1a5": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_77b0c7a5bc23a752": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_77c1d54ada83b5a6": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_77ea97e0ff835e68": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_78716d2dbfb5b521": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7889c40f7df8981a": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_78a51d9cf4167408": {
+  "case": "nsf_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_78e806c361d75f82": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_79491a056d7a1f74": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_794e3a675f2123b2": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_79661159e15e8716": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_796d33e2938dc516": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_79af26604a1162f9": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_79d9d61d199b3708": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7a6ea948e3cfa037": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7a79f57381886d6e": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7a8373bf42c21389": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7b101dbba9eea119": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7b2eb3bed997eb2b": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7b604d021c3514ab": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7bb9037416727f3b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7bbe9fb6c5b97a0e": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7bc70f44d8d5ed2c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7c3ce5d39401e909": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7cd5989b9b2c7a43": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7cd731a0894900ce": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7cded46b7c98245d": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7cf4fc8fcb13705a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7d072d7e2dad8c4a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7d2d8f685ea62216": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7da5ed50c652e304": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7dcdb7b9554ac00c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7e2b5e3c24eef3a2": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7e606aeed65d48cf": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_7e6841c0724f36b3": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7fb7b5044af923a8": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7fe80f063f30bc98": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_7feab0d8e374f70e": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8061f82fcce8e226": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_80ad43da0631c787": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_80d0206d4f946d5c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8115e4fea5abc1e6": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_816130926e7bb9fe": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_81833b0de62f9b37": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_81ff2d235707c10f": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_821b59f723d49ab4": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8249f3a3540f32e0": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8342038263449dc1": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_83a16301d1be6f03": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_83a4208b20790d12": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_83c8860f2dbe0bbe": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_84dd040c2b04faf4": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8570ede7eb5a07bd": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_85940f56c0102e64": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_859bc2cb4f290a30": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_85b5bc1bd7bdf171": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_86096029ce9bc46a": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_86224c18b1b21fbd": {
+  "case": "equipment_finance",
+  "group": "UCC",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_862b420479573bf4": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_864c537c21d5a3d1": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_86573030ae43c34c": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8667d83a4239f7b0": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8698bbd151cc7395": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_86d723adf68fa820": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8703d04a5bfeec88": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_870de42ea34cb530": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8748afdef44f256d": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_875e4df8a572b2e6": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8898ba123df219b3": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_88d5b46e0973cbc5": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_88f66955b9612815": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8906dd03cada7be1": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8910698a49bd6e2f": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8939a5bf9a3080cb": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_89b07034eaa8503d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_89db6990e2ea2c24": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8a5a83e8b2de7ef9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8aa127df3ce5bbdc": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8ab68644b07a25d7": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8b4c353aad1cff67": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8b9878643f029090": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8ba6057b8e37735e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8ba95a046ecddb9a": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8c071ed300972298": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8c263ded0cb48b77": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8c45cb2f6bb6b277": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8c592fda9c203477": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_8c80949a539b1e18": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8c8c3a2254a9b2d0": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8cc61170f9fc6972": {
+  "case": "court_withholding_missed",
+  "group": "HIGH_RISK_GARNISHMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8cc68ead4566bd27": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8d3a05fc5fbc1f8e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8d98b8d31ac3a6eb": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8d9929eda09ca203": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8db45e869cf23a03": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8de1ff2a493df329": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8df8e57aef363633": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_8e731af7b524786b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8edb1fd1f971e044": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_8fa0b1bee0efbc97": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9033452004c02b35": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9033b9177246d256": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9102ab6fac86933f": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_910938b1c1152f8c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_91bd9e30f814be6f": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_922c048b975d2962": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_925d481f53cb96c1": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9275aa5e586837ff": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_92c9e4a961bbba76": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_92d11d3789b9fafd": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_92fbb79779d9bfbd": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_93b1808bdd3d5d63": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_941adf6498818f2f": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_95334eba4533f2eb": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_95c8af4d28dc3055": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_95eac4138ca4fdfb": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9626163bc125942a": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9631680618c89df3": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_96344dc872f65c4f": {
+  "case": "crypto_missed",
+  "group": "HIGH_RISK_OTHER",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_965acba6ae06ce19": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_966eb9dbd7500ca3": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_967ad1229e9917c5": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_96bd7c17e2006d1f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_96e23a5471490d3f": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_96ebaeb552e4e74e": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_970c45b35219ac91": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_9723163274fea53e": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_975e7d6db8089de9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_978b6c57bfe0b03e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_98581540f632fc3a": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_98aa91272da9714a": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_98fe69dbd25f1e87": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9921023fef22f6f5": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_995bd525698ed2f4": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9a04b7be63787026": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9a24c75d92d20b83": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9a3727f570b6fb0f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9a40d44ba3aadd80": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9a4cc43eaa2223a8": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9ae7f4519f835f4b": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9b64d931d1951988": {
+  "case": "eidl_loan_as_revenue",
+  "group": "NOT_AVG_MONTHLY_REVENUE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9b7bb92030c63f7f": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9b80a6ba285a41e4": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9b873514afc6b5ff": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9b96df5a5efd3478": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9bb3c1bbeaf89c6f": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9bdd4a1110d455e0": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9c14203d23463b17": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9cbc040e72268c01": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9cc982fe54839a7f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9cd0872c9e19f5ee": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9d4e22f04e87602d": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9d57168ee0739af0": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9d82cc6cb11d7560": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9df550979f2714a6": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9e13249f8411ed57": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9e2c3b27de02dd7c": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9e7c1ddddede0e82": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9e834e91c1700b9d": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9eaafafc6f7f5720": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9f2a325d28c22e2e": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9f712f588ca657f4": {
+  "case": "tax_refund",
+  "group": "NOT_AVG_MONTHLY_REVENUE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9fc933866c93b6ed": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_9fe28f3b653076c5": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9fe82535fd80d7c0": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_9ff5585c04ed362c": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a015e617a410863d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a031bca531ed5352": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a05b9b702f007121": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a0bd62eade4f81b0": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a0c2e6f45ddb212c": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a1299975f24bc663": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a1e6145e2874b94d": {
+  "case": "owner_transfer_from_personal",
+  "group": "INTERNAL_TRANSFER",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a27da11ab0af5933": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a28dabd05e69e359": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a2bc14ab032b76ef": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a2e4c902a9211f92": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a2ef74710eafdf7c": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a3143e5f36292646": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a3321bd788c57410": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a36ea3a5f818337d": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a3738cf4c8a87088": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a39abcc774fef0c7": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a3b8787dc4198430": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a3c06d86a09cc350": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a3d26027b60bc435": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a3dda2d0a3e61304": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a3f875d2e16d9ca0": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a41e912b65dc5956": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a4690bcd62b94ca5": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a537b7369f590bd7": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a5aa9400f16424ba": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_a6254a9a5a79e2bc": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a6c13c09bade486f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a7b5500d6515a35f": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a7cfce93a39ded53": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a93ca5b4938e5ca1": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_a972e684b6c208ec": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_a9e04ff13712fa1b": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_a9e7e22e36014280": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_aa2aa8086d36a0f0": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_aad26f457d288ed2": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_aae00ea6048a4ab4": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ab54ff3f721e8f47": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ab7269850d540777": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ab7759612bde6df5": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_abcec388ee752124": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_acaff75ec1c6af44": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_accbf7135326267c": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_acf6266f32b59d5d": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ae0f1a1640cfde57": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ae2b137a59a74074": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ae40a6d689c8dfc6": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_aea384b3558db6ed": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_aecbaf273c11e2d6": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_af42619ecd89b7c2": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_af78cc112538f352": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_afd784ef4b85c0b4": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b02fcc7b19b81cbe": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b06132a47cb0ee04": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b0a7d6f7065fe43f": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b17637514b263c8b": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_b187dff5c91f0896": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b1d7f9d3e5907e6d": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_b1e1e9231188186f": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b1e969776293c0e9": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b1f31803909022da": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b2016adef6319547": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b219d6160b8ea29f": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b291e40ba0ba58ee": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b2de60298ebddc7c": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_b36ad05550639c88": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b394b484cc8ff6a1": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b3ab838b99ba45c3": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b3d3a19ec84b48c4": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b45122f8a8ef340b": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b458028a34259330": {
+  "case": "returned_item_no_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b4eb128440028876": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b5464c5ba77a2837": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b5853858e4b2f915": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b596e686cfaa9725": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b5e6371c75e0239b": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b61c3b6cae019f23": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b63c8eb66ac18d45": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b63e1cf528c6ac8e": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b64ab1ad66f39f32": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b64d43be21391b90": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b651e6e4c524195d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b663915d7c0b21d3": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b71e1b0fcc5ae72e": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b7523c2225af3cf1": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b785a74da06b2afb": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b7a04aa56fe2158a": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_b7eaaa08ce517fd3": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b830b22738008603": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b843997a7d500202": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b882f94d5918ad1d": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b88e3b7eb71e1f48": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b9282c44fc449274": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_b931f596167d95f1": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b9ba283359ebd425": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_b9eeea1bfa771e3f": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ba075cadacbd83ab": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bb179c576221ce3c": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bb227e13f75ba912": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_bb6151c6683b54c9": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bb8bb71461f2eab8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_bbaa84f981a8086c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bbc5ccf3f13e662a": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bbe386c3bb2aaef1": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_bc23117e4d770b70": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bc60d9a44dac4732": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bcc0532cfdc85df6": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_bd1df3780ba5d419": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bd3796fc7e6a4e30": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bd801c90ff2779be": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bda8e8499c9aa003": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bdd906bc30e723da": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_bdfd4b798186adff": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_be10a18c084e3a01": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_beadd3a7c7d172ce": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bec3b8dac8b8936f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_beca6557309ad15f": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_beee31c014ac01d2": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bf04a459d8dbd627": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bf1f99bedb38f3e9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bf9a44a085ad15ce": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bf9dc4078de6e7ad": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_bfa10a5d198ee74b": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c030da50c0feade1": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c03b014f689c8aa7": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c0624365ad50ba2f": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c0785d99afa33f07": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c0aa836bdc5e9bfc": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c0bf701ac1a01129": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c10bf310995f327b": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c10ffa5f070767e6": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c11104a76a274abc": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c16706da56e7fc7b": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c1eb2efca29b7713": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c1ef39f81c6ccd7a": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c2313914194587e5": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c24c72dabf25b423": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c26d6f98cabc8d8e": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c27187b82a2e1840": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c2cd8680f547c8ef": {
+  "case": "overdraft_fee",
+  "group": "OVERDRAFT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c3b543d95c887dd6": {
+  "case": "gambling_abbreviation_missed",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_c42dfbb1e7490c17": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c44466a9216d46d1": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c48574c5e5662ed4": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c50fcf109baf06bf": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c55ab3b9ad215e08": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c59549cd57a45998": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c5c2998d4d5cd5ec": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c5c40482612ffe1e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c5cf16627e632867": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c608a67c8187a1ba": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c64b91a666140910": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c65f3e1ebaba85b3": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c6ac9bf7667bfe89": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c6dee7c5300330cb": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c7306756e56fb81a": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c75a77867a84c75b": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c7769ddff2b33451": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c7807e1a27fb68f9": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c78883886c1f7934": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c7e045c3beda3e91": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_c854821c58ec0611": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c897f5ba74329af4": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c89ec041fc8563ed": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c99ac797cb3c2212": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c9c677c97b61507d": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_c9d6911947d8d48e": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ca27ef6fcb647700": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ca4caaf5f76ceea3": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cac967e3376cd65c": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_caca7f8706c9cefb": {
+  "case": "owner_transfer_from_personal",
+  "group": "INTERNAL_TRANSFER",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_caec2c5ef61ba742": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cb6b778bdc8bf5ff": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cb880e92657c3928": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cbe36881c15d437f": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cc31db5300baaa69": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cc69b26508c5825c": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cc773308ffd0fc65": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cc8e08f590cb5847": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cd163f8f9f45e5f1": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cd3ad647eb52f028": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cda4ae3bc05ec2f1": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cda85d99c2961b3e": {
+  "case": "nsf_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cdf0a10a0a0dfe6a": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ce8fa9c4bb1172b2": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ceb9cb8d0e867b1a": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ced2f86504befc8b": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cee59f8ac0097675": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cf2dba9e8e24d491": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cf598475b5e8048f": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_cf7d3ea6c84c1fc1": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_cfa3994d402a472f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d05182913484fd96": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d0b853beb516f751": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d0c3dbc539ffc2a6": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d0e9d88c70b65f50": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d0e9e00a6ed9e637": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d0f10822a8ae32fe": {
+  "case": "gambling_abbreviation_missed",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_d120c3eb3ba6d7ea": {
+  "case": "nsf_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d1792e95e82af12c": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d17aa5fc2aee2a56": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d212f17a8506784f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d21a73f61f50a4d8": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d24528671e699588": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d251a87e71888b17": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d2532983463cae72": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d256858f6c1553bb": {
+  "case": "gambling_abbreviation_missed",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_d2582bbac092751f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d25a4ea7b1d4e0c8": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d2674a2a8c108cfe": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d2abd2115bd1bfdd": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_d2f0a003114975b8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d32dc1941868cd67": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d33a90c43a81d4b3": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d3492be58569fe5b": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d3950224b4e0abf9": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_d3b0654f6afe998d": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d3cc46d2ae5f5f0d": {
+  "case": "real_internal_transfer",
+  "group": "INTERNAL_TRANSFER",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d3dfbd5ccedceba8": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d3ff021eab8f32f9": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d4127844fec06ea3": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d417c8137d5dbd39": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d47410f1651cf20e": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d4b5828cd4c8a807": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d4bb3bcaf98818a3": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d5063a61048426c2": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d65394018c960ff6": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d6d3969c650c47ef": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d764279251ed1146": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d7bc0e58abf823a0": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d803b04c191e36ae": {
+  "case": "gambling",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_d86e18a431ab4948": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_d87b5e241a3dc38f": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d90621f8b73b8e07": {
+  "case": "gambling",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_d91cee3adeb38036": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d9aa7971ac3b8da3": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d9dcae6b75c81aea": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_d9dd747f7260795c": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_da0c7b5f0429c132": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_da1a14d15563682c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_da4c48a4b231c2ef": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_da68848217c493e4": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_daa423f46c5d5860": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_daf29827ac74b486": {
+  "case": "supplier_name_contains_capital",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_db089e60579afc33": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_db4d24c412b1baa5": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_db551964a47c22bf": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_dbcbbc01a6b0cd37": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_dc79baaffa04f5b1": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_dd2a354978abbe0c": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_dd9a17be391bc493": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ddb71285b5d8b426": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ddda96f1c5a1fe7c": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_dddd1a0900d443b9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_de5444c9fe271640": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_df8635be3142e893": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_df9ddb87b5627bc4": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_dfb146eb4411408c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e00499865f179954": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e05c062c8782b477": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e0a6d747566f1787": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e0f2b90a6af09925": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e158346c75b22d96": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e1bd96b3fdb5ffb0": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e1c97b1a2a833291": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e1d82e830e985b26": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e1e89f127c87f160": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e231f42be0137059": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e28cae75b8a4b3e0": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e29942fb996d6219": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e2b76e4d995990bd": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e30c60b44156f2d5": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e349cf99008bddae": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e38112237887f518": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e3c722ea9585406b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e3e6bb993d523fb6": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e3fe2b4953deef5d": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e412eec21f10e369": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e458b4778589a923": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_e45f20991fbafdf3": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e50fd19d31d964df": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e54c8c04e1416ffd": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e574c89f67fc00db": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e581abd652da9c20": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e5da92d02b1e2186": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e6132172dc7f19a7": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e621a85618f33ffa": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e661eace6f82507c": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e667b5d11e5aaf58": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e69dd25dc7e1beab": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e6a157259a0e6e5c": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e6a24dea9fd8cb5e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e6a2d67a3ff36c7e": {
+  "case": "returned_item_no_fee",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e6cf12f38c1b77e7": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e6dc0a994aa50697": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e711481a11ded34c": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e7bd032e3af889ff": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e879abdfb7921d19": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e8a5b8097e738ae1": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e8c8e74c29105f24": {
+  "case": "overdraft_fee",
+  "group": "OVERDRAFT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e8fc6493af22d3e4": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e90f851f67dc369e": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e9222d4d69159224": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_e97b6ff64fca30ea": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e9e9ac7feab99472": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_e9ef96eb25d11ac9": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ea19b2f166d8f1ab": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ea342f28814c76f5": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ea7bef753aaefa8b": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ea9262eb019f8597": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_eaa4b4d7d58b4532": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_eac007cd18e4b176": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_eac31f66c59c787d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_eb10a897f110ffae": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_eb12c356d80c3b5c": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_eb37c19ece204e4d": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_eb64b1ab298dc78e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ebf8b5897b8e5a1c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ec05f0000552837d": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ec324f80b49c3316": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ec37ab8282e5f6ba": {
+  "case": "injection_mca_funding_as_revenue",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ec8acad06fa11b4d": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ecb47cb4e08fc6df": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_ed05fa18507ed7e2": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ed158e167a742d69": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ed290a9b5fd9be7a": {
+  "case": "mca_weekly_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ed2ec97b1fc62d19": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ed689f70de3cc6c8": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ed724683e01ef6c0": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_edd82fbffde36d05": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_ee0e3d5f96e9c71a": {
+  "case": "gambling_abbreviation_missed",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_ee13da6b05c1fa1c": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_eed4835af7bf60a4": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_eed967febfe72632": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ef368a59aa94dece": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ef5efd43bd7b9ad8": {
+  "case": "debt_settlement_missed",
+  "group": "HIGH_RISK_DEBT_SETTLEMENT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f021af5cc362b7a3": {
+  "case": "insurer_customer_revenue",
+  "group": "AUTO_DEPOSIT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f03084853cc35512": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f0d9ab04bdaddf05": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f0dd4c1eeef00ed3": {
+  "case": "b2b_customer_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f0f28293f569f27f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f1085c50846e12f3": {
+  "case": "overdraft_fee",
+  "group": "OVERDRAFT",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f12ae4a47865f41e": {
+  "case": "quickbooks_payments_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f13ea124dc99c48f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f19982c1643bcaae": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f24292789d3d3f2f": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f2547d043b023fc9": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f29181eb250262b5": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f2bc57c9b020f3e1": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f307afdf467700fe": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f33187867caaef3e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f38f7d2f1f370ef9": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f3affeb862f56230": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_f3d65dd97ced4e17": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f4122b280de258f4": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f45d5e312288dfbc": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f46a7ea69f2e954e": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f49de1ed885a3c60": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f49f97ae54c17249": {
+  "case": "nsf_abbrev_missed",
+  "group": "NSF",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f4e9714d4ac5d155": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f532d9da8d4ee594": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f5fc2fb8dfacf0d0": {
+  "case": "supplier_name_contains_bet",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f6101e0c7a502c9d": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f641f02be888afce": {
+  "case": "mca_daily_debit",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f655ff37b6a52f55": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f6aff32e4e88f150": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f6cf6cbae4065fb4": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f6dcc642d34d2e1e": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f701a98504069dc0": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_f718d6574e573373": {
+  "case": "customer_cashapp_revenue",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f7333b2fafba7551": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f7a6152ed4a26cc7": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f84d59781c60cfec": {
+  "case": "crypto_missed",
+  "group": "HIGH_RISK_OTHER",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_f8a478c8b2409d16": {
+  "case": "gambling",
+  "group": "HIGH_RISK_GAMBLING",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_f8e311d9c0338285": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f9726d04c3bc4506": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_f9a0bb2f50763d6f": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fa861dddc5ef6e7a": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fab0ec69a96140b7": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fab605bd8cd08bc2": {
+  "case": "mca_disguised_memo",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fb0501b373d93ce4": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fb395f9653c42cac": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fb9f0e078b02b1c1": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fc5eff5a51fc377e": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fc69050ef6575391": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fc7066e61b28e4b4": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fc919bb0bf8baf67": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fcaae02c4656a4e8": {
+  "case": "mca_daily_debit_missed",
+  "group": "ACTIVE_ADVANCE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fcd4a6858a6b8c7b": {
+  "case": "unknown_processor_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fd233953eaf0c542": {
+  "case": "capital_one_card_payment",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fd50ba99eed04af6": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_fd7436e1df37337f": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fdada793416496f6": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fdd08f038147144c": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fe12ee4ece3bbaff": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fe5c5b4daa9ec274": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fe78e1df9c4ba405": {
+  "case": "processor_sales_unknown",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fe7ad530941bd49a": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fe82f42f377f7f43": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ },
+ "txn_fea7d94ea96d8fea": {
+  "case": "processor_sales",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_ff66c75258e7aceb": {
+  "case": "check_deposit_revenue",
+  "group": "NONE",
+  "hard_negative": true,
+  "is_business": true
+ },
+ "txn_fff032e64eb190e2": {
+  "case": "ordinary",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fff2af28bee520bc": {
+  "case": "delivery_payout_marked_personal",
+  "group": "REVENUE_VERIFICATION",
+  "hard_negative": false,
+  "is_business": true
+ },
+ "txn_fffa946c3781dcfc": {
+  "case": "personal_spend",
+  "group": "NONE",
+  "hard_negative": false,
+  "is_business": false
+ }
+}

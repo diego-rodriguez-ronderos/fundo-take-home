@@ -20,13 +20,21 @@ python run.py --offline
 `--offline` never calls a provider and exits with an error on any cache miss, so a clean
 run proves the output comes from `cache/llm_responses.jsonl`. Results land in
 `out/<model>/` (`report.md`, `per_business.csv`, `transactions.csv`, `underwriter_queue.csv`)
-and `out/sensitivity.csv`.
+and `out/sensitivity.csv`, `out/pattern_impacts.csv`.
+
+The held-out set (6 businesses written after the prompt was frozen):
+
+```bash
+python run.py --offline --data data_holdout --out out_holdout --no-sensitivity
+```
+
+Compare models from cache: add `--model gpt-4.1-mini` to either command.
 
 ## Run against the API
 
 ```bash
 export OPENAI_API_KEY=sk-...         # PowerShell: $env:OPENAI_API_KEY="sk-..."
-python run.py                        # default model gpt-5-mini; only cache misses are sent
+python run.py                        # default model gpt-4.1; only cache misses are sent
 python run.py --model gpt-5          # any OpenAI model, or claude-* with ANTHROPIC_API_KEY
 ```
 
@@ -37,7 +45,7 @@ creates new keys; old entries stay for comparison.
 ## Other commands
 
 ```bash
-python -m reviewer.generate          # rebuild data/ (deterministic, same files)
+python -m reviewer.generate          # rebuild data/ and data_holdout/ (deterministic, same files)
 python -m unittest discover -s tests # offline tests of the code side of the boundary
 python run.py --data path/to/dir     # your own Plaid /transactions/get JSON files in dir/businesses/
 ```

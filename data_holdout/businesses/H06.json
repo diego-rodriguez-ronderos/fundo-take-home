@@ -1,0 +1,5534 @@
+{
+ "business": {
+  "business_id": "H06",
+  "name": "IronWorks Fitness",
+  "industry": "Gym",
+  "owner_name": "Sam Ortiz",
+  "bank": "Lone Star Credit Union",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_e8b399caac2c",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "5046",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_148277939ed0c5ea",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_538f84e0a97e5077",
+   "amount": -1356.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9084905037",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9084905037",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_616daea7679ecfc5",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:39451196",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:39451196",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_8c45cb2f6bb6b277",
+   "amount": 265.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "AMAZON MKTPL*7251AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7251AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_a6c13c09bade486f",
+   "amount": 5462.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GUSTO DES:NET 070326 ID:29493305 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 070326 ID:29493305 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_59460e6cf13bcbee",
+   "amount": -904.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9846281105",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9846281105",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_7d2d8f685ea62216",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:46655161",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:46655161",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9e834e91c1700b9d",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:42919689",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:42919689",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_aae00ea6048a4ab4",
+   "amount": -1067.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:4213982451",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:4213982451",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f84d59781c60cfec",
+   "amount": 1150.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "KRAKEN.COM SAN FRANCISCO CA",
+   "original_description": "KRAKEN.COM SAN FRANCISCO CA",
+   "merchant_name": "Kraken",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_075f060ede58173c",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:03496336",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:03496336",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1abec1fd0b764a3c",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6936be20d655cb66",
+   "amount": -1331.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3246814069",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3246814069",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_ddb71285b5d8b426",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:70933819",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:70933819",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f701a98504069dc0",
+   "amount": -991.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3952027348",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3952027348",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_173145c7d82dd0a8",
+   "amount": -942.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1111745956",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1111745956",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_77768bc662b8a1a5",
+   "amount": 5113.98,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GUSTO DES:NET 071026 ID:55714107 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 071026 ID:55714107 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f641f02be888afce",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:87102050",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:87102050",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_fb0501b373d93ce4",
+   "amount": 88.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-11",
+   "authorized_date": "2026-07-11",
+   "pending": false,
+   "name": "AMAZON MKTPL*4059AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*4059AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_166f87d477dc6879",
+   "amount": 325.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 9261701077",
+   "original_description": "AUSTIN ENERGY WEB PMT 9261701077",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_42768179c31cb7cf",
+   "amount": -720.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:5486301075",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:5486301075",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f2bc57c9b020f3e1",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:05957055",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:05957055",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_c854821c58ec0611",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:48640129",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:48640129",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_d2f0a003114975b8",
+   "amount": -1056.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:0458813288",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:0458813288",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f3affeb862f56230",
+   "amount": 230.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "H-E-B #354 AUSTIN TX",
+   "original_description": "H-E-B #354 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_68401ece49f00480",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:73528932",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:73528932",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9921023fef22f6f5",
+   "amount": 2465.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6107671287 INDN:SAM ORTIZ CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6107671287 INDN:SAM ORTIZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_edd82fbffde36d05",
+   "amount": -1288.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:0721143563",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:0721143563",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_362907fe844bfb3b",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:69103512",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:69103512",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_5e3de0d9a2ec333c",
+   "amount": -878.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:4850151314",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:4850151314",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b663915d7c0b21d3",
+   "amount": -808.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:8687613470",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:8687613470",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_c50fcf109baf06bf",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:64205425",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:64205425",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f7333b2fafba7551",
+   "amount": 5950.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GUSTO DES:NET 071726 ID:79697370 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 071726 ID:79697370 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_424b53fb62da21db",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:30663173",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:30663173",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_4a77874934082ed7",
+   "amount": 385.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8506",
+   "original_description": "AMEX EPAYMENT ACH PMT W8506",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_50e9c383779383c3",
+   "amount": -1529.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2674965521",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2674965521",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_64093b93a46f623a",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:52233101",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:52233101",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9b80a6ba285a41e4",
+   "amount": -1530.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6037660175",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6037660175",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_077c05b5f319feb8",
+   "amount": -961.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:4041412289",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:4041412289",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9a40d44ba3aadd80",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:85129716",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:85129716",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_700e43ad3aa2f2ea",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:12116189",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:12116189",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_bb8bb71461f2eab8",
+   "amount": -1411.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:8019081074",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:8019081074",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_16adfb50b5f14e84",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:87102017",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:87102017",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_eac007cd18e4b176",
+   "amount": 6093.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GUSTO DES:NET 072426 ID:43879767 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 072426 ID:43879767 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_fcd4a6858a6b8c7b",
+   "amount": -1576.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1183464079",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1183464079",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_e879abdfb7921d19",
+   "amount": 327.71,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-25",
+   "authorized_date": "2026-07-25",
+   "pending": false,
+   "name": "AMAZON MKTPL*2026AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2026AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b458028a34259330",
+   "amount": -310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-26",
+   "authorized_date": "2026-07-26",
+   "pending": false,
+   "name": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 09454896",
+   "original_description": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 09454896",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1201d2f27d9087aa",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:38841563",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:38841563",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_15c8b3ff42b88c55",
+   "amount": -853.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3938304010",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3938304010",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_0f3d8970b0da8c02",
+   "amount": -1267.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2506275456",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2506275456",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b1f31803909022da",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:42112176",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:42112176",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3d8ba6ab76e38fb5",
+   "amount": -1292.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:0389555823",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:0389555823",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_796d33e2938dc516",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:77331498",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:77331498",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_7bbe9fb6c5b97a0e",
+   "amount": -1446.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3930484826",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3930484826",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_a3c06d86a09cc350",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:47879639",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:47879639",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_44ceb7dee360c1ba",
+   "amount": -756.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2727452466",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2727452466",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_cda4ae3bc05ec2f1",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:34555882",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:34555882",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_d17aa5fc2aee2a56",
+   "amount": 5437.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GUSTO DES:NET 073126 ID:41870684 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 073126 ID:41870684 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_eb10a897f110ffae",
+   "amount": 4400,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "ACH DEBIT 2242 LANDMARK PROPERTIES RENT 0826",
+   "original_description": "ACH DEBIT 2242 LANDMARK PROPERTIES RENT 0826",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_594d6e78a72a9d97",
+   "amount": 83.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-02",
+   "authorized_date": "2026-08-02",
+   "pending": false,
+   "name": "H-E-B #893 AUSTIN TX",
+   "original_description": "H-E-B #893 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_15dcad9e381800f3",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3f096c55b89b1cc7",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:94102610",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:94102610",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6b2254225338b10d",
+   "amount": -776.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:8694717632",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:8694717632",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3a59ae9b6c5c54e9",
+   "amount": -1561.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:0862909749",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:0862909749",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9b7bb92030c63f7f",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:76758890",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:76758890",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9626163bc125942a",
+   "amount": -1338.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3197636515",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3197636515",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_c0624365ad50ba2f",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:92476247",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:92476247",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_5f419e9f5e57c13c",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:22043390",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:22043390",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_8fa0b1bee0efbc97",
+   "amount": -1110.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6527872206",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6527872206",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_29ed6328751b7619",
+   "amount": 5850.78,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GUSTO DES:NET 080726 ID:91211834 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 080726 ID:91211834 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_a0c2e6f45ddb212c",
+   "amount": -1523.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9435391038",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9435391038",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b63e1cf528c6ac8e",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:21869509",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:21869509",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b1d7f9d3e5907e6d",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_50b02c8d08ac05dd",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:27069222",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:27069222",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_816130926e7bb9fe",
+   "amount": -1411.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3209592253",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3209592253",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9cc982fe54839a7f",
+   "amount": 357.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "AMAZON MKTPL*1541AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1541AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_8061f82fcce8e226",
+   "amount": -1354.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:0319203035",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:0319203035",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_cf7d3ea6c84c1fc1",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:73011999",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:73011999",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_5210c698149ce2cc",
+   "amount": -310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 06778938",
+   "original_description": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 06778938",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_53c495cfd8b82e77",
+   "amount": 532.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 8693561365",
+   "original_description": "AUSTIN ENERGY WEB PMT 8693561365",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6cf55bdc44d357a2",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:54437503",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:54437503",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_a3321bd788c57410",
+   "amount": -1427.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:5166952065",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:5166952065",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_44add838aa82b039",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:64676889",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:64676889",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_c10bf310995f327b",
+   "amount": -1468.08,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1892937082",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1892937082",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_390320078079c9f8",
+   "amount": 5930.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GUSTO DES:NET 081426 ID:29864741 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 081426 ID:29864741 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_96344dc872f65c4f",
+   "amount": 671.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "KRAKEN.COM SAN FRANCISCO CA",
+   "original_description": "KRAKEN.COM SAN FRANCISCO CA",
+   "merchant_name": "Kraken",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_bf9dc4078de6e7ad",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:83672022",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:83672022",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_de5444c9fe271640",
+   "amount": -711.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6793893356",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6793893356",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_fd233953eaf0c542",
+   "amount": 1300.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6814876199 INDN:SAM ORTIZ CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6814876199 INDN:SAM ORTIZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_2df573f114d7257e",
+   "amount": -957.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2659636121",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2659636121",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6afc2cd84e426412",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:50554776",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:50554776",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9b96df5a5efd3478",
+   "amount": -1558.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:3042951531",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:3042951531",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9d57168ee0739af0",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:30017664",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:30017664",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6e22648de7aadb30",
+   "amount": -1361.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9425554911",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9425554911",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f6101e0c7a502c9d",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:63269671",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:63269671",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3c37b4923b5387d9",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:62613504",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:62613504",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3d86d22feb107661",
+   "amount": -1194.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1778148547",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1778148547",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_a28dabd05e69e359",
+   "amount": 979.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W4168",
+   "original_description": "AMEX EPAYMENT ACH PMT W4168",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_2f9c09dbba4d72ab",
+   "amount": 5087.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GUSTO DES:NET 082126 ID:40440564 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 082126 ID:40440564 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_862b420479573bf4",
+   "amount": -1590.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:5120458716",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:5120458716",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_9ae7f4519f835f4b",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:68996396",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:68996396",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_48f3a46baa34695b",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:36151544",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:36151544",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6cc4c9d8be5d7f3d",
+   "amount": -1354.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6604499862",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6604499862",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_276e92a27a6a508c",
+   "amount": 450.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "ADVANCE AMERICA DES:PAYMENT ID:63844766",
+   "original_description": "ADVANCE AMERICA DES:PAYMENT ID:63844766",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Advance America",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_4ed9c68a5ab91d00",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:21801418",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:21801418",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b882f94d5918ad1d",
+   "amount": -745.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:4749466163",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:4749466163",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_41548ed44eb10025",
+   "amount": -1575.49,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:5733763310",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:5733763310",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_42eef48be89b2d8d",
+   "amount": -310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 57163735",
+   "original_description": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 57163735",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_821b59f723d49ab4",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:61161377",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:61161377",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_0dd40ddf89fe20dd",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:18070022",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:18070022",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1c03fd080c5c1b76",
+   "amount": -996.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2800456905",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2800456905",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_302409dd46870233",
+   "amount": 450.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "ADVANCE AMERICA DES:PAYMENT ID:42424075",
+   "original_description": "ADVANCE AMERICA DES:PAYMENT ID:42424075",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Advance America",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_19584f4e67cfa9fb",
+   "amount": -310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 62379946",
+   "original_description": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 62379946",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_cc31db5300baaa69",
+   "amount": 5450.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GUSTO DES:NET 082826 ID:92359466 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 082826 ID:92359466 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_d3b0654f6afe998d",
+   "amount": -1011.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1824351169",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1824351169",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_ea342f28814c76f5",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:63273030",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:63273030",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_ecb47cb4e08fc6df",
+   "amount": 144.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "H-E-B #994 AUSTIN TX",
+   "original_description": "H-E-B #994 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_76dc1f7456fdaf18",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:35377560",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:35377560",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_ed689f70de3cc6c8",
+   "amount": -1038.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:7658623217",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:7658623217",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1d02b6e6373ce1b0",
+   "amount": -1577.03,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6067114700",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6067114700",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_2dcd76ba5c8bb8d9",
+   "amount": 4400,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH DEBIT 0920 LANDMARK PROPERTIES RENT 0926",
+   "original_description": "ACH DEBIT 0920 LANDMARK PROPERTIES RENT 0926",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_d5063a61048426c2",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:84783236",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:84783236",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1a4791c353c3655a",
+   "amount": -879.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:4130209174",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:4130209174",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_5526d6fb8497bed7",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:07282959",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:07282959",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_e6a2d67a3ff36c7e",
+   "amount": -310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 53618208",
+   "original_description": "RETURN ITEM UNPAID ACH DEBIT RAPID FINANCE 53618208",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_ACCOUNT_TRANSFER",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_166116bb4ad7e984",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:42149539",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:42149539",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_4ec7977e80b07749",
+   "amount": -1473.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2768890778",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2768890778",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_dddd1a0900d443b9",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_fffa946c3781dcfc",
+   "amount": 195.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "H-E-B #549 AUSTIN TX",
+   "original_description": "H-E-B #549 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1f0f9126fac7a5d0",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:64968969",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:64968969",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_42a43dc7d4e0472c",
+   "amount": 5185.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 090426 ID:56247234 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 090426 ID:56247234 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_72715e26909195b8",
+   "amount": -1397.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:2113483402",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:2113483402",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_7a8373bf42c21389",
+   "amount": 341.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "AMAZON MKTPL*9053AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*9053AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_dd9a17be391bc493",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:47053235",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:47053235",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_fc5eff5a51fc377e",
+   "amount": -1031.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6017836949",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6017836949",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_7da5ed50c652e304",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:08379037",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:08379037",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_86d723adf68fa820",
+   "amount": -964.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:7971547693",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:7971547693",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b2de60298ebddc7c",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_12da92829cef2fbe",
+   "amount": -1489.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:0250490489",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:0250490489",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_30077ea64b4840e4",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:96354074",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:96354074",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_0cc046215efb08f8",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:90109775",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:90109775",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_0d5267e7ee6321fb",
+   "amount": -1031.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1663602408",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1663602408",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_8249f3a3540f32e0",
+   "amount": 5783.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 091126 ID:07796177 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 091126 ID:07796177 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b394b484cc8ff6a1",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:46903804",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:46903804",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_c27187b82a2e1840",
+   "amount": -1589.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9163099975",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9163099975",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_00517c19105a6c26",
+   "amount": 796.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 8018762967",
+   "original_description": "AUSTIN ENERGY WEB PMT 8018762967",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6300f8d1a0edb809",
+   "amount": 1088.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "KRAKEN.COM SAN FRANCISCO CA",
+   "original_description": "KRAKEN.COM SAN FRANCISCO CA",
+   "merchant_name": "Kraken",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_5160b449c1906f93",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:91967795",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:91967795",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_96e23a5471490d3f",
+   "amount": -892.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:6432218026",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:6432218026",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_59afbca13506178b",
+   "amount": 260.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "AMAZON MKTPL*1884AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*1884AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6f2ea85bbf05fd04",
+   "amount": -756.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:7649119217",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:7649119217",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_bdd906bc30e723da",
+   "amount": 1133.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:2115742838 INDN:SAM ORTIZ CO I",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:2115742838 INDN:SAM ORTIZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_bf04a459d8dbd627",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:13042538",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:13042538",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_57598ba3a23636cf",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:50231605",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:50231605",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_a3dda2d0a3e61304",
+   "amount": -1136.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:7533954742",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:7533954742",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_83a16301d1be6f03",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:02812512",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:02812512",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b9eeea1bfa771e3f",
+   "amount": -774.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1816879652",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1816879652",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_8c071ed300972298",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:35132169",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:35132169",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_8cc68ead4566bd27",
+   "amount": -1056.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1945162942",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1945162942",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_d21a73f61f50a4d8",
+   "amount": 6104.41,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 091826 ID:49433295 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 091826 ID:49433295 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_84dd040c2b04faf4",
+   "amount": 770.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W9024",
+   "original_description": "AMEX EPAYMENT ACH PMT W9024",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f2547d043b023fc9",
+   "amount": -1102.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:1650011696",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:1650011696",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_f532d9da8d4ee594",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:13332196",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:13332196",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3415467d8b9c0da9",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:92547801",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:92547801",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_b7a04aa56fe2158a",
+   "amount": 189.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "H-E-B #190 AUSTIN TX",
+   "original_description": "H-E-B #190 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_d86e18a431ab4948",
+   "amount": -1311.4,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:8310803046",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:8310803046",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_6442c7b1cdc0d2ce",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:14501165",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:14501165",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_cf598475b5e8048f",
+   "amount": -823.67,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9356263809",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9356263809",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_2bf88689998b5cb8",
+   "amount": -927.13,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:8982999616",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:8982999616",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_ea19b2f166d8f1ab",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:37674276",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:37674276",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_0a29aeaedc06c47a",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:58912093",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:58912093",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_3b9fb943148edb74",
+   "amount": -707.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:7187180114",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:7187180114",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_da1a14d15563682c",
+   "amount": 6025.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 092526 ID:65878751 INDN:IRONWORKS FITNESS CO I",
+   "original_description": "GUSTO DES:NET 092526 ID:65878751 INDN:IRONWORKS FITNESS CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_1ce649ea322e5450",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:22418279",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:22418279",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_7b2eb3bed997eb2b",
+   "amount": -1054.3,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:8230285722",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:8230285722",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_324edf538cc064cb",
+   "amount": -1594.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:9196371635",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:9196371635",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_645ca917e472287d",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:39996574",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:39996574",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_198290ef6e79058c",
+   "amount": -809.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "GYMDESK PAYMENTS DES:XFER ID:7629134225",
+   "original_description": "GYMDESK PAYMENTS DES:XFER ID:7629134225",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gymdesk",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_e8b399caac2c",
+   "transaction_id": "txn_caec2c5ef61ba742",
+   "amount": 310.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "RAPID FINANCE DES:DEBIT ID:70982252",
+   "original_description": "RAPID FINANCE DES:DEBIT ID:70982252",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Rapid Finance",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 179,
+ "request_id": "synthetic-H06"
+}

@@ -22,6 +22,7 @@ PRICES = {
     "gpt-5-mini": (0.25, 2.0),
     "gpt-5": (1.25, 10.0),
     "gpt-4.1-mini": (0.40, 1.60),
+    "gpt-4.1": (2.00, 8.00),
     "claude-haiku-4-5": (1.0, 5.0),
     "claude-sonnet-4-5": (3.0, 15.0),
 }
@@ -221,3 +222,10 @@ def spend(cache):
         pin, pout = PRICES.get(r["model"].rsplit("-2025", 1)[0], (0, 0))
         total += r["usage"]["input_tokens"] / 1e6 * pin + r["usage"]["output_tokens"] / 1e6 * pout
     return round(total, 4)
+
+
+def spend_by_model(cache):
+    out = {}
+    for r in cache.values():
+        out.setdefault(r["model"], {}).update({r["key"]: r})
+    return {m: spend(rs) for m, rs in sorted(out.items())}

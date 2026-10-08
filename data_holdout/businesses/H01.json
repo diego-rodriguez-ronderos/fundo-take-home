@@ -1,0 +1,6857 @@
+{
+ "business": {
+  "business_id": "H01",
+  "name": "Mama Rosa Food Truck",
+  "industry": "Food truck",
+  "owner_name": "Rosa Alvarez",
+  "bank": "Chase",
+  "days_of_history": 90
+ },
+ "accounts": [
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "name": "Business Checking",
+   "type": "depository",
+   "subtype": "checking",
+   "mask": "8943",
+   "balances": {
+    "current": 0.0,
+    "iso_currency_code": "USD"
+   }
+  }
+ ],
+ "transactions": [
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_0d59053621bae18a",
+   "amount": -475.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:5052944837 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:5052944837 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_333fa617d7a9ad7a",
+   "amount": 2180.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "GUSTO DES:NET 070326 ID:50119573 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 070326 ID:50119573 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_40c40e6f9b63dc2e",
+   "amount": -1034.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:4939199626 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:4939199626 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8d3a05fc5fbc1f8e",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_aa2aa8086d36a0f0",
+   "amount": -458.53,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-03",
+   "authorized_date": "2026-07-03",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:7776472807 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:7776472807 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bbe386c3bb2aaef1",
+   "amount": -1137.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1799865075 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1799865075 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e54c8c04e1416ffd",
+   "amount": -835.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:5048743830 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:5048743830 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f4122b280de258f4",
+   "amount": -457.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-06",
+   "authorized_date": "2026-07-06",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:0841610313 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:0841610313 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_0113e4450b2ef590",
+   "amount": -1193.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8743079131 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8743079131 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_46f5f1a77ca5cf4f",
+   "amount": 318.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "AMAZON MKTPL*2664AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2664AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c5cf16627e632867",
+   "amount": 1994.96,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-07",
+   "authorized_date": "2026-07-07",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #529 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #529 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_43b87b28a9e03d39",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_686e27b10fa3f3da",
+   "amount": -634.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-08",
+   "authorized_date": "2026-07-08",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:2844525331 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:2844525331 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_ab7759612bde6df5",
+   "amount": -530.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:0124331976 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:0124331976 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f0d9ab04bdaddf05",
+   "amount": -987.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:3450066147 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:3450066147 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f4e9714d4ac5d155",
+   "amount": -327.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-09",
+   "authorized_date": "2026-07-09",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:6794118307 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:6794118307 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_57ac3f20c75b6c06",
+   "amount": -767.85,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1489219467 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1489219467 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_98fe69dbd25f1e87",
+   "amount": 2609.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-10",
+   "authorized_date": "2026-07-10",
+   "pending": false,
+   "name": "GUSTO DES:NET 071026 ID:25302367 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 071026 ID:25302367 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_60a8a647821bfde1",
+   "amount": -802.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:4684939201 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:4684939201 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c11104a76a274abc",
+   "amount": 694.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 1423583319",
+   "original_description": "AUSTIN ENERGY WEB PMT 1423583319",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d417c8137d5dbd39",
+   "amount": -1086.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-12",
+   "authorized_date": "2026-07-12",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:0410580740 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:0410580740 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_58ef6cdd7a10715f",
+   "amount": -709.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-13",
+   "authorized_date": "2026-07-13",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:2245557709 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:2245557709 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_272f6e64549f89a8",
+   "amount": -1345.66,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5195381361 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5195381361 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_910938b1c1152f8c",
+   "amount": 1894.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-14",
+   "authorized_date": "2026-07-14",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #188 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #188 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_49cf73ceaf33ca40",
+   "amount": 2188.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:7989947355 INDN:ROSA ALVAREZ C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:7989947355 INDN:ROSA ALVAREZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_6186c948dc9967ab",
+   "amount": -594.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:2588363495 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:2588363495 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_a05b9b702f007121",
+   "amount": -925.97,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6205237803 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6205237803 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e581abd652da9c20",
+   "amount": -853.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-15",
+   "authorized_date": "2026-07-15",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:0673219355 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:0673219355 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_14c209a3271c7300",
+   "amount": -1197.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0217034429 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0217034429 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_32f789beb503c002",
+   "amount": 85.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "H-E-B #757 AUSTIN TX",
+   "original_description": "H-E-B #757 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_43256f63feaf4571",
+   "amount": 139.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-16",
+   "authorized_date": "2026-07-16",
+   "pending": false,
+   "name": "AMAZON MKTPL*6269AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*6269AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_130240d8eef1987d",
+   "amount": 2326.51,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "GUSTO DES:NET 071726 ID:54368157 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 071726 ID:54368157 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_40ba4a2b2f2633f9",
+   "amount": -1159.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-17",
+   "authorized_date": "2026-07-17",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0815738766 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0815738766 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_5c476808aeedf922",
+   "amount": -733.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-18",
+   "authorized_date": "2026-07-18",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:6910779863 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:6910779863 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fd7436e1df37337f",
+   "amount": -812.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-18",
+   "authorized_date": "2026-07-18",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:6394136413 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:6394136413 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_651fc76c492d9eef",
+   "amount": 129.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-19",
+   "authorized_date": "2026-07-19",
+   "pending": false,
+   "name": "H-E-B #126 AUSTIN TX",
+   "original_description": "H-E-B #126 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_9a04b7be63787026",
+   "amount": 791.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W8291",
+   "original_description": "AMEX EPAYMENT ACH PMT W8291",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_ea9262eb019f8597",
+   "amount": -939.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-20",
+   "authorized_date": "2026-07-20",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:2388094625 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:2388094625 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_22217e370e7765c9",
+   "amount": 1357.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #426 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #426 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_292d70ca323b654a",
+   "amount": -879.92,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0241443836 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0241443836 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_47481fd9abed76ab",
+   "amount": -411.26,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:6650677680 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:6650677680 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fa861dddc5ef6e7a",
+   "amount": -641.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-21",
+   "authorized_date": "2026-07-21",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:9440208007 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:9440208007 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_7515be753892d94a",
+   "amount": -1053.22,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-22",
+   "authorized_date": "2026-07-22",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0075930516 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0075930516 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_ed2ec97b1fc62d19",
+   "amount": -652.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-23",
+   "authorized_date": "2026-07-23",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5962458832 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5962458832 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_419c0c35cd0f18e5",
+   "amount": -839.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:0716827188 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:0716827188 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_4ea8f80b0089e955",
+   "amount": 2289.95,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "GUSTO DES:NET 072426 ID:80573800 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 072426 ID:80573800 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8ab68644b07a25d7",
+   "amount": -1170.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5484352005 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5484352005 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_92d11d3789b9fafd",
+   "amount": -783.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-24",
+   "authorized_date": "2026-07-24",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:0665090524 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:0665090524 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_69dad19e32ad0df6",
+   "amount": 143.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-26",
+   "authorized_date": "2026-07-26",
+   "pending": false,
+   "name": "H-E-B #763 AUSTIN TX",
+   "original_description": "H-E-B #763 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_038e510e96ae81b4",
+   "amount": -1220.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:4528874950 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:4528874950 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_30e221261bcf9309",
+   "amount": -1050.48,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:6536134415 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:6536134415 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_60262405923839ca",
+   "amount": -718.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-27",
+   "authorized_date": "2026-07-27",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:3523654063 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:3523654063 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_44d74e007cd5d84a",
+   "amount": -1302.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5610153205 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5610153205 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fe5c5b4daa9ec274",
+   "amount": 1634.2,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-28",
+   "authorized_date": "2026-07-28",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #757 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #757 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_492af26cf18d5b48",
+   "amount": -1059.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-29",
+   "authorized_date": "2026-07-29",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0205863267 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0205863267 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_5a1428b89cd8863b",
+   "amount": 230.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "AMAZON MKTPL*2291AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*2291AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_cc773308ffd0fc65",
+   "amount": -1271.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8891652838 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8891652838 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_ddda96f1c5a1fe7c",
+   "amount": -367.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:9189459683 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:9189459683 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fff2af28bee520bc",
+   "amount": -587.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-30",
+   "authorized_date": "2026-07-30",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:9057780243 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:9057780243 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_001a4bb95e954ada",
+   "amount": 2364.75,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "GUSTO DES:NET 073126 ID:64460284 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 073126 ID:64460284 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8d9929eda09ca203",
+   "amount": -1204.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-07-31",
+   "authorized_date": "2026-07-31",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:4846422305 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:4846422305 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_beee31c014ac01d2",
+   "amount": 900,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-01",
+   "authorized_date": "2026-08-01",
+   "pending": false,
+   "name": "ACH DEBIT 2687 LANDMARK PROPERTIES RENT 0826",
+   "original_description": "ACH DEBIT 2687 LANDMARK PROPERTIES RENT 0826",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_9df550979f2714a6",
+   "amount": -601.74,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-02",
+   "authorized_date": "2026-08-02",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:7448926009 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:7448926009 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b06132a47cb0ee04",
+   "amount": -375.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-02",
+   "authorized_date": "2026-08-02",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:5579403167 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:5579403167 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_770c3f5fd6a4fac7",
+   "amount": -25000.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:WIRE IN ID:6895670016",
+   "original_description": "MULLIGAN FUNDING DES:WIRE IN ID:6895670016",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "TRANSFER_IN",
+    "detailed": "TRANSFER_IN_CASH_ADVANCES_AND_LOANS",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bdfd4b798186adff",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c7e045c3beda3e91",
+   "amount": -1256.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-03",
+   "authorized_date": "2026-08-03",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8733500151 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8733500151 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_241184d654289846",
+   "amount": -1471.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8208180024 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8208180024 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_965acba6ae06ce19",
+   "amount": 1533.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #264 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #264 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fc919bb0bf8baf67",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-04",
+   "authorized_date": "2026-08-04",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:91522202",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:91522202",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_95eac4138ca4fdfb",
+   "amount": -826.64,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:8329371868 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:8329371868 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_98aa91272da9714a",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:83511349",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:83511349",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_9f2a325d28c22e2e",
+   "amount": -648.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6578164552 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6578164552 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f8e311d9c0338285",
+   "amount": -1083.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-05",
+   "authorized_date": "2026-08-05",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:5538709884 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:5538709884 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_2aeac4b888affd7b",
+   "amount": -1306.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6778779922 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6778779922 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_7511e5a78e1d3718",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-06",
+   "authorized_date": "2026-08-06",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:01459041",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:01459041",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_426056585f7d021a",
+   "amount": -951.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5541122355 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5541122355 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_52a5547704032652",
+   "amount": 174.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "AMAZON MKTPL*7957AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*7957AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_beadd3a7c7d172ce",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:42838677",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:42838677",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bf1f99bedb38f3e9",
+   "amount": 2214.57,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-07",
+   "authorized_date": "2026-08-07",
+   "pending": false,
+   "name": "GUSTO DES:NET 080726 ID:15753672 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 080726 ID:15753672 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_4342fa12128440ca",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_76d32897f83c0855",
+   "amount": -763.54,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:3102174843 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:3102174843 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_85940f56c0102e64",
+   "amount": -734.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-08",
+   "authorized_date": "2026-08-08",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:2958308940 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:2958308940 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_4c5502db865cffa8",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:06434238",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:06434238",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_516dd1cfe01ee995",
+   "amount": -790.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-10",
+   "authorized_date": "2026-08-10",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1586560300 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1586560300 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8115e4fea5abc1e6",
+   "amount": -598.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:6164597168 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:6164597168 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_9e2c3b27de02dd7c",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:34634071",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:34634071",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bb227e13f75ba912",
+   "amount": -907.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8998158990 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8998158990 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_ce8fa9c4bb1172b2",
+   "amount": -1030.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:1364511402 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:1364511402 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f9726d04c3bc4506",
+   "amount": 902.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-11",
+   "authorized_date": "2026-08-11",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #396 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #396 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_674ab424a02331df",
+   "amount": -1018.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6316487345 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6316487345 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_6f9f275c09e6aabf",
+   "amount": 193.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AMAZON MKTPL*3827AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3827AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b5e6371c75e0239b",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:87269864",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:87269864",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d3dfbd5ccedceba8",
+   "amount": 895.19,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-12",
+   "authorized_date": "2026-08-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 1793304169",
+   "original_description": "AUSTIN ENERGY WEB PMT 1793304169",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_77c1d54ada83b5a6",
+   "amount": -714.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1190543863 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1190543863 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_96bd7c17e2006d1f",
+   "amount": 306.43,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "AMAZON MKTPL*3336AB2 AMZN.COM/BILL WA",
+   "original_description": "AMAZON MKTPL*3336AB2 AMZN.COM/BILL WA",
+   "merchant_name": "Amazon",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Amazon",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_accbf7135326267c",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-13",
+   "authorized_date": "2026-08-13",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:38287755",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:38287755",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_3ff3f12ac5ef1ba4",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:57956852",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:57956852",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_79af26604a1162f9",
+   "amount": -945.68,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8253147828 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8253147828 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_89b07034eaa8503d",
+   "amount": 2625.25,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "GUSTO DES:NET 081426 ID:09361365 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 081426 ID:09361365 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e50fd19d31d964df",
+   "amount": -825.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:4527971275 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:4527971275 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fc7066e61b28e4b4",
+   "amount": -781.81,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-14",
+   "authorized_date": "2026-08-14",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:6163428220 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:6163428220 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_401af8feab8308f8",
+   "amount": 1789.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-15",
+   "authorized_date": "2026-08-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6450697940 INDN:ROSA ALVAREZ C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6450697940 INDN:ROSA ALVAREZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_1a3b9caf5cfcb0cd",
+   "amount": -778.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:2816486899 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:2816486899 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b931f596167d95f1",
+   "amount": -1425.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:9410698308 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:9410698308 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d0e9e00a6ed9e637",
+   "amount": -500.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:4650821074 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:4650821074 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e8fc6493af22d3e4",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-17",
+   "authorized_date": "2026-08-17",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:38136831",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:38136831",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_28a5096ee2eb9120",
+   "amount": 1458.77,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #649 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #649 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_2d32bcdc05afd203",
+   "amount": -1094.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5630164001 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5630164001 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c24c72dabf25b423",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-18",
+   "authorized_date": "2026-08-18",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:86507565",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:86507565",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_6582017b82ee0256",
+   "amount": -1348.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1848553569 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1848553569 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_acaff75ec1c6af44",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-19",
+   "authorized_date": "2026-08-19",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:41408124",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:41408124",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_757848fbfeaaf066",
+   "amount": -533.83,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:5965087036 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:5965087036 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b843997a7d500202",
+   "amount": -919.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:0666579388 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:0666579388 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c7306756e56fb81a",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:05872075",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:05872075",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d0e9d88c70b65f50",
+   "amount": 408.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W4880",
+   "original_description": "AMEX EPAYMENT ACH PMT W4880",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e6cf12f38c1b77e7",
+   "amount": -646.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-20",
+   "authorized_date": "2026-08-20",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6122036249 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6122036249 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_153d58ed044adc8e",
+   "amount": 2215.34,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "GUSTO DES:NET 082126 ID:00511074 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 082126 ID:00511074 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_40997b727df44588",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:00099473",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:00099473",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b3d3a19ec84b48c4",
+   "amount": -951.56,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-21",
+   "authorized_date": "2026-08-21",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:9099228784 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:9099228784 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_18594a8ed5739f6b",
+   "amount": -657.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-23",
+   "authorized_date": "2026-08-23",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:5939494786 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:5939494786 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_26530df4bf53b8a7",
+   "amount": -469.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-23",
+   "authorized_date": "2026-08-23",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:4581512224 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:4581512224 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_970c45b35219ac91",
+   "amount": 201.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-23",
+   "authorized_date": "2026-08-23",
+   "pending": false,
+   "name": "H-E-B #957 AUSTIN TX",
+   "original_description": "H-E-B #957 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_1bcff1fdb2d96e16",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:20825302",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:20825302",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_330d72d139305a44",
+   "amount": -1062.84,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-24",
+   "authorized_date": "2026-08-24",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0673880421 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0673880421 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8898ba123df219b3",
+   "amount": -1328.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1780510750 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1780510750 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bd1df3780ba5d419",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:25278584",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:25278584",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f0f28293f569f27f",
+   "amount": 1872.42,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-25",
+   "authorized_date": "2026-08-25",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #419 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #419 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_1c7fdb7f0e1e1691",
+   "amount": -477.11,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:0091067757 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:0091067757 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_40a5d39257ea9c77",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:36637927",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:36637927",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d9aa7971ac3b8da3",
+   "amount": -504.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:9605357755 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:9605357755 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e6a157259a0e6e5c",
+   "amount": -787.07,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-26",
+   "authorized_date": "2026-08-26",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:2072146081 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:2072146081 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_1d39b7bdb2efcea1",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:09647782",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:09647782",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b9ba283359ebd425",
+   "amount": -635.02,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-27",
+   "authorized_date": "2026-08-27",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8211749347 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8211749347 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_93b1808bdd3d5d63",
+   "amount": -1482.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:3257125533 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:3257125533 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b291e40ba0ba58ee",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:85116471",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:85116471",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d212f17a8506784f",
+   "amount": 2345.9,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-28",
+   "authorized_date": "2026-08-28",
+   "pending": false,
+   "name": "GUSTO DES:NET 082826 ID:55704426 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 082826 ID:55704426 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_0fa0cc1a51b0328c",
+   "amount": -720.87,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-29",
+   "authorized_date": "2026-08-29",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:7400210095 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:7400210095 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_abcec388ee752124",
+   "amount": -621.62,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-29",
+   "authorized_date": "2026-08-29",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:5298705815 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:5298705815 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_71f8374db1fd8522",
+   "amount": -857.8,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:4963716283 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:4963716283 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e3fe2b4953deef5d",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-08-31",
+   "authorized_date": "2026-08-31",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:65424236",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:65424236",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_17f39c3286d4ef60",
+   "amount": 900,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "ACH DEBIT 0990 LANDMARK PROPERTIES RENT 0926",
+   "original_description": "ACH DEBIT 0990 LANDMARK PROPERTIES RENT 0926",
+   "merchant_name": "Landmark Properties",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_RENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Landmark Properties",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_3e28b7022fcb9dd5",
+   "amount": 1448.45,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #731 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #731 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_6399c7e469a3c3d5",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:46095161",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:46095161",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_76bf1532981a84d8",
+   "amount": -652.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:7501989279 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:7501989279 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_a5aa9400f16424ba",
+   "amount": 192.35,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "H-E-B #308 AUSTIN TX",
+   "original_description": "H-E-B #308 AUSTIN TX",
+   "merchant_name": "H-E-B",
+   "payment_channel": "in store",
+   "personal_finance_category": {
+    "primary": "FOOD_AND_DRINK",
+    "detailed": "FOOD_AND_DRINK_GROCERIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "H-E-B",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d9dcae6b75c81aea",
+   "amount": -999.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:4254087207 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:4254087207 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e667b5d11e5aaf58",
+   "amount": -623.94,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-01",
+   "authorized_date": "2026-09-01",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:6763426724 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:6763426724 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_128a25b14487db5d",
+   "amount": -670.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5791642108 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5791642108 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_dbcbbc01a6b0cd37",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-02",
+   "authorized_date": "2026-09-02",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:45218497",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:45218497",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b02fcc7b19b81cbe",
+   "amount": 29.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MONTHLY MAINTENANCE FEE",
+   "original_description": "MONTHLY MAINTENANCE FEE",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "BANK_FEES",
+    "detailed": "BANK_FEES_OTHER_BANK_FEES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bb179c576221ce3c",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:53469341",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:53469341",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f307afdf467700fe",
+   "amount": -895.76,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-03",
+   "authorized_date": "2026-09-03",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:7534245803 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:7534245803 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_63673be386132f27",
+   "amount": -739.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:2802621758 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:2802621758 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_794e3a675f2123b2",
+   "amount": -579.5,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:0614737020 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:0614737020 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_7dcdb7b9554ac00c",
+   "amount": 2549.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "GUSTO DES:NET 090426 ID:95920184 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 090426 ID:95920184 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_a537b7369f590bd7",
+   "amount": -1230.38,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6593564388 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6593564388 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fb9f0e078b02b1c1",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-04",
+   "authorized_date": "2026-09-04",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:00110655",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:00110655",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_758993bc94733788",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:05485990",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:05485990",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8b9878643f029090",
+   "amount": -474.01,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:7530805898 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:7530805898 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d0c3dbc539ffc2a6",
+   "amount": -899.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:4257037392 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:4257037392 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_ed724683e01ef6c0",
+   "amount": -983.09,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-07",
+   "authorized_date": "2026-09-07",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:1952724505 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:1952724505 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_00312cfc6768e6a4",
+   "amount": 22.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "NETFLIX.COM 866-579-7172 CA",
+   "original_description": "NETFLIX.COM 866-579-7172 CA",
+   "merchant_name": "Netflix",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "ENTERTAINMENT",
+    "detailed": "ENTERTAINMENT_TV_AND_MOVIES",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Netflix",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_5c7cc7a9da00979f",
+   "amount": -1010.27,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:4402522829 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:4402522829 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_76c89fbc8a447533",
+   "amount": 1379.12,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #705 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #705 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8703d04a5bfeec88",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-08",
+   "authorized_date": "2026-09-08",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:15775337",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:15775337",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_0308e4563ee3ddd4",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:11157683",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:11157683",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e574c89f67fc00db",
+   "amount": -1129.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-09",
+   "authorized_date": "2026-09-09",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5769392404 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5769392404 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_4ff330a178fb1a3c",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:96988546",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:96988546",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_5b21ee261131120a",
+   "amount": -630.21,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5526122607 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5526122607 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_86573030ae43c34c",
+   "amount": -842.79,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:1463445094 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:1463445094 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b71e1b0fcc5ae72e",
+   "amount": -771.33,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-10",
+   "authorized_date": "2026-09-10",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:4743492885 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:4743492885 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_264987a76bf01dd7",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:33041263",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:33041263",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_69c01d85613a7d7d",
+   "amount": 2233.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "GUSTO DES:NET 091126 ID:80268725 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 091126 ID:80268725 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_7a6ea948e3cfa037",
+   "amount": -643.7,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-11",
+   "authorized_date": "2026-09-11",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:9568747840 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:9568747840 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_92fbb79779d9bfbd",
+   "amount": 438.82,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-12",
+   "authorized_date": "2026-09-12",
+   "pending": false,
+   "name": "AUSTIN ENERGY WEB PMT 5724270647",
+   "original_description": "AUSTIN ENERGY WEB PMT 5724270647",
+   "merchant_name": "Austin Energy",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "RENT_AND_UTILITIES",
+    "detailed": "RENT_AND_UTILITIES_GAS_AND_ELECTRICITY",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Austin Energy",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_43c02955700e6c3d",
+   "amount": -543.06,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-13",
+   "authorized_date": "2026-09-13",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:2506624488 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:2506624488 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f38f7d2f1f370ef9",
+   "amount": -698.23,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-13",
+   "authorized_date": "2026-09-13",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:1460970018 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:1460970018 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_8748afdef44f256d",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:17059451",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:17059451",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_eed4835af7bf60a4",
+   "amount": -744.99,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-14",
+   "authorized_date": "2026-09-14",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:9210601115 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:9210601115 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_3b5bf23b7bb2dbbf",
+   "amount": 986.37,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #316 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #316 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_44417cadff7bca82",
+   "amount": -1209.15,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8866272396 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8866272396 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_78e806c361d75f82",
+   "amount": 1327.44,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "CAPITAL ONE DES:MOBILE PMT ID:6406463311 INDN:ROSA ALVAREZ C",
+   "original_description": "CAPITAL ONE DES:MOBILE PMT ID:6406463311 INDN:ROSA ALVAREZ CO ID:9279744991 WEB",
+   "merchant_name": "Capital One",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Capital One",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_df8635be3142e893",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-15",
+   "authorized_date": "2026-09-15",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:41818157",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:41818157",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_95334eba4533f2eb",
+   "amount": -815.1,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:0545600435 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:0545600435 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bb6151c6683b54c9",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:83082602",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:83082602",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_cdf0a10a0a0dfe6a",
+   "amount": -738.72,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:3398884082 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:3398884082 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e9222d4d69159224",
+   "amount": -613.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-16",
+   "authorized_date": "2026-09-16",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6970695400 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6970695400 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_38590f8e0fd71d03",
+   "amount": -682.69,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1562521514 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1562521514 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fcaae02c4656a4e8",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-17",
+   "authorized_date": "2026-09-17",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:89599757",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:89599757",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_1895e9d356cca7d4",
+   "amount": 2569.63,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "GUSTO DES:NET 091826 ID:12145368 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 091826 ID:12145368 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_2b4307020d957e45",
+   "amount": -1435.61,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:8056206886 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:8056206886 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b596e686cfaa9725",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-18",
+   "authorized_date": "2026-09-18",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:32575773",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:32575773",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e2b76e4d995990bd",
+   "amount": -543.91,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-19",
+   "authorized_date": "2026-09-19",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:9796737973 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:9796737973 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_f6aff32e4e88f150",
+   "amount": -336.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-19",
+   "authorized_date": "2026-09-19",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:7346354187 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:7346354187 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_30b0dfe3ee4de59b",
+   "amount": 901.89,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-20",
+   "authorized_date": "2026-09-20",
+   "pending": false,
+   "name": "AMEX EPAYMENT ACH PMT W3573",
+   "original_description": "AMEX EPAYMENT ACH PMT W3573",
+   "merchant_name": "American Express",
+   "payment_channel": "online",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_CREDIT_CARD_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "American Express",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_375f95601b677bee",
+   "amount": -646.29,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:0062621979 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:0062621979 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_d87b5e241a3dc38f",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-21",
+   "authorized_date": "2026-09-21",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:93658661",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:93658661",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_05377cd716461acc",
+   "amount": -541.58,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:6334532930 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:6334532930 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_1457dbbc1b61fa04",
+   "amount": -681.18,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:5155462144 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:5155462144 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_719e5be8b10d3663",
+   "amount": -1203.55,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6572294803 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6572294803 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_76c4d3bb1c002c95",
+   "amount": 1423.28,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #571 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #571 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_e231f42be0137059",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-22",
+   "authorized_date": "2026-09-22",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:68824325",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:68824325",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_10948ac209f400ef",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:48614608",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:48614608",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_11bd2099564df3f7",
+   "amount": -1092.59,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-23",
+   "authorized_date": "2026-09-23",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1003653330 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1003653330 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_5ae20327ac4edd6d",
+   "amount": -1106.31,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5048237219 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5048237219 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c64b91a666140910",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-24",
+   "authorized_date": "2026-09-24",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:42526339",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:42526339",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_2dbc196cb3488a83",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:88523526",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:88523526",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_608febdcb5dda8d2",
+   "amount": 2526.36,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "GUSTO DES:NET 092526 ID:39692147 INDN:MAMA ROSA FOOD TRUCK C",
+   "original_description": "GUSTO DES:NET 092526 ID:39692147 INDN:MAMA ROSA FOOD TRUCK CO ID:9138864001 CCD",
+   "merchant_name": "Gusto",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_SERVICES",
+    "detailed": "GENERAL_SERVICES_ACCOUNTING_AND_FINANCIAL_PLANNING",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Gusto",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_89db6990e2ea2c24",
+   "amount": -680.17,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:6853956852 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:6853956852 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_c0785d99afa33f07",
+   "amount": -580.88,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:1405525543 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:1405525543 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fb395f9653c42cac",
+   "amount": -634.04,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-25",
+   "authorized_date": "2026-09-25",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:6770727568 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:6770727568 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_5c7cd1c33fc42125",
+   "amount": -1168.47,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:2468117097 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:2468117097 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b5464c5ba77a2837",
+   "amount": -335.46,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "DOORDASH, INC. DES:XFER ID:2659921286 INDN:MAMA ROSA FOOD TR",
+   "original_description": "DOORDASH, INC. DES:XFER ID:2659921286 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "DoorDash",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "DoorDash",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_b785a74da06b2afb",
+   "amount": -801.14,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "UBER EATS DES:PAYOUT ID:8373502320 INDN:MAMA ROSA FOOD TRUCK",
+   "original_description": "UBER EATS DES:PAYOUT ID:8373502320 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Uber Eats",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Uber Eats",
+     "type": "marketplace",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_beca6557309ad15f",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-28",
+   "authorized_date": "2026-09-28",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:81373571",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:81373571",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_6deea85914ef15bc",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:23323307",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:23323307",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_bd801c90ff2779be",
+   "amount": 1248.32,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "RESTAURANT DEPOT #843 AUSTIN TX",
+   "original_description": "RESTAURANT DEPOT #843 AUSTIN TX",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "GENERAL_MERCHANDISE",
+    "detailed": "GENERAL_MERCHANDISE_OTHER_GENERAL_MERCHANDISE",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Restaurant Depot",
+     "type": "merchant",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_cd3ad647eb52f028",
+   "amount": -842.24,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-29",
+   "authorized_date": "2026-09-29",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:5671546129 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:5671546129 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_4cd80d7d77c3bb8d",
+   "amount": 349.0,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "MULLIGAN FUNDING DES:ACH DEBIT ID:51277083",
+   "original_description": "MULLIGAN FUNDING DES:ACH DEBIT ID:51277083",
+   "merchant_name": null,
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "LOAN_PAYMENTS",
+    "detailed": "LOAN_PAYMENTS_OTHER_PAYMENT",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Mulligan Funding",
+     "type": "financial_institution",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  },
+  {
+   "account_id": "acc_61f2bbe728ab",
+   "transaction_id": "txn_fe78e1df9c4ba405",
+   "amount": -1374.86,
+   "iso_currency_code": "USD",
+   "unofficial_currency_code": null,
+   "date": "2026-09-30",
+   "authorized_date": "2026-09-30",
+   "pending": false,
+   "name": "CLOVER APP DES:SETTLEMENT ID:1733641747 INDN:MAMA ROSA FOOD ",
+   "original_description": "CLOVER APP DES:SETTLEMENT ID:1733641747 INDN:MAMA ROSA FOOD TRUCK",
+   "merchant_name": "Clover",
+   "payment_channel": "other",
+   "personal_finance_category": {
+    "primary": "INCOME",
+    "detailed": "INCOME_OTHER_INCOME",
+    "confidence_level": "MEDIUM"
+   },
+   "counterparties": [
+    {
+     "name": "Clover",
+     "type": "payment_app",
+     "entity_id": null,
+     "confidence_level": "MEDIUM"
+    }
+   ],
+   "transaction_code": null,
+   "check_number": null,
+   "location": {},
+   "payment_meta": {}
+  }
+ ],
+ "total_transactions": 221,
+ "request_id": "synthetic-H01"
+}
