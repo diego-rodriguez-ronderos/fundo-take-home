@@ -1,8 +1,10 @@
 # SOLUTION
 
-A keyword engine labels bank transactions. I built a reviewer that reads those labels, flags the
-ones it doubts, and lets code decide which corrections may change a funding decision. On a
-held-out set of new businesses it found every label error that changes a credit feature (20 of 20
+The goal is to make the numbers behind a funding offer trustworthy when the transaction labels
+that feed them are not. A legacy keyword engine labels each bank transaction; an LLM reviewer
+reads those labels and flags the ones it doubts; code, not the model, decides which corrections
+may change a funding decision and sends the rest to an underwriter. On a held-out set of new
+businesses the reviewer found every label error that changes a credit feature (20 of 20
 patterns), proposed the right label for all of them, and sent 6 patterns and no false alarm to an
 underwriter. Total LLM spend: $0.35. All results come from synthetic data I generated; that is
 the main limitation, and I note where it matters.
@@ -184,7 +186,16 @@ agents (one call per business with a schema is enough); a production guard for s
 
 I worked with Claude (Anthropic) as a coding partner: it proposed most of the code and wrote the
 first draft of every file. I chose the provider and models, ran every model call, reviewed the
-outputs and the code, and drove the design changes after the first draft: quality before cost
-with a hard spend cap, learned rules that cannot memorize answers or grow with volume, checking
-decision impact before routing to a human, and one legacy label per pattern. `AI_USAGE.md` has
-the detail; `python -m unittest discover -s tests` runs 18 offline tests.
+outputs and the code, and drove the design changes after the first draft: quality before cost with
+a hard spend cap, learned rules that cannot memorize answers or grow with volume, checking decision
+impact before routing to a human, and one legacy label per pattern. Everything was checked by
+running it rather than by reading it: 18 offline tests (`python -m unittest discover -s tests`)
+cover the revenue rule, the gate, validation, rules and the pattern invariant; every number in
+this document is traced to a report in `out/` or `out_holdout/`; the token bound was checked
+against all 42 cached calls; the reason-vs-verdict check was run over every cached verdict, which
+exposed two false positives that were fixed. That checking caught several first-draft mistakes: a
+claim that funder errors cost about 50 times more than revenue errors per dollar (measured: $0.32
+vs $0.40), a gate that trusted model confidence, a hard-negative set that left out cash and check
+deposits, a rules learner that turned returned items into a rule about a funder, an injection
+check that ran only when the model doubted a label, and a pattern key that could hide a second
+legacy label.
